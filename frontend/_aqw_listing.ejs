@@ -14,7 +14,7 @@
             <tr>
                 <td><%= item.location %></td>
                 <td>
-                    <% if (item.type==="redirect" ) { %>
+                    <% if (item.type === "redirect" ) { %>
                         <a href="<%= item.path %>" target="_blank" rel="noopener noreferrer">
                             <%= item.title %> <span class="external-link">↗</span>
                         </a>
