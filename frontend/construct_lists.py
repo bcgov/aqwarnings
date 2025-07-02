@@ -123,6 +123,10 @@ def select_recent_warnings(
     2. For wildfire smoke warnings: keep only the most recent
     3. For other warnings: group by community and keep newest per community
     4. For "end" status warnings: only show if less than end_status_threshold_days old
+
+    Normally I don't like to include arguments specifically for testing, but the
+    freezegun testing library doesn't interact with timezones correctly, which
+    introduces false failures.
     """
     recent_warnings = []
     today = today_date or get_today_in_bc_timezone()
