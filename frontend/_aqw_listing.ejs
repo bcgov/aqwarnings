@@ -13,7 +13,17 @@
         <% for (const item of items) { %>
             <tr>
                 <td><%= item.location %></td>
-                <td><a href="<%- item.path %>"><%= item.title %></a></td>
+                <td>
+                    <% if (item.type==="redirect" ) { %>
+                        <a href="<%= item.path %>" target="_blank" rel="noopener noreferrer">
+                            <%= item.title %> <span class="external-link">↗</span>
+                        </a>
+                    <% } else { %>
+                        <a href="<%- item.path %>">
+                            <%= item.title %>
+                        </a>
+                    <% } %>
+                </td>
                 <td><%= item.ice %></td>
                 <td><%= item.date %></td>
             </tr>
