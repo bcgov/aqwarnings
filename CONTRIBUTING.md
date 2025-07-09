@@ -7,3 +7,5 @@ Government employees, public and members of the private sector are encouraged to
 Pull requests will be evaluated by the repository guardians on a schedule and if deemed beneficial will be committed to the main branch.
 
 All contributors retain the original copyright to their stuff, but by contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users **under the terms of the licenses under which this project is distributed**.
+
+All Python code must adhere to the repository style guidelines. Your code editor can perform this for you automatically by using the Ruff extension. Alternatively, the ruff tool is included in the Python environment requirements and formatting can be automatically applied by executing the command `ruff format .`.
