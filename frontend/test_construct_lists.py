@@ -4,7 +4,7 @@ import pytz
 from unittest.mock import patch
 
 import construct_lists
-from construct_lists import select_recent_warnings, extract_header_from_file, get_today_in_bc_timezone
+from construct_lists import select_recent_warnings, get_today_in_bc_timezone
 
 
 class TestWarningSelectionLogic(unittest.TestCase):
