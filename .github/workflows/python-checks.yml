@@ -1,4 +1,4 @@
-name: Python Unit Tests
+name: Python Checks
 permissions:
   contents: read
 
@@ -41,4 +41,36 @@ jobs:
           echo "✅ All tests passed successfully!" >> $GITHUB_STEP_SUMMARY
         else
           echo "❌ Some tests failed. Please check the logs for details." >> $GITHUB_STEP_SUMMARY
+        fi
+  format:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./frontend
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    
+    - name: Run unit tests
+      run: |
+        ruff format --check --diff .
+
+    - name: Report test results
+      if: always()
+      run: |
+        echo "### 🧪 Test Results" >> $GITHUB_STEP_SUMMARY
+        if [ ${{ job.status }} == "success" ]; then
+          echo "✅ All formatting checks passed successfully!" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ Some formatting checks failed. Please check the logs for details." >> $GITHUB_STEP_SUMMARY
         fi
