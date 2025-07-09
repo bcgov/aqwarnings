@@ -23,44 +23,53 @@ This output file is then used in custom listings within the Quarto site.
 
 ```mermaid
 flowchart TD
-    A[Start Processing File] --> B{Has YAML Header?}
-    B -->|No| Z[Skip File]
-    B -->|Yes| C[Extract Header Metadata]
+   START[Start Processing File] --> METRO_VANCOUVER{Filename == '_metro_vancouver.yml'}
+   METRO_VANCOUVER -->|No| HEADER
+   METRO_VANCOUVER -->|Yes| ENDED 
+
+
+   HEADER{Has YAML Header?}
+   HEADER -->|No| SKIP[Skip File]
+   HEADER -->|Yes| EXTRACT[Extract Header Metadata]
     
-    C --> D{Has 'date' Metadata?}
+   EXTRACT --> DATE{Has 'date' Metadata?}
     
-    D -->|No| Z4[Skip Processing]
-    D -->|Yes| E[Calculate Age in Days]
+   DATE -->|No| SKIP[Skip Processing]
+   DATE -->|Yes| CALCULATE_AGE[Calculate Age in Days]
     
-    E --> F{Is type 'wildfire_smoke'?}
+   CALCULATE_AGE --> WILDFIRE{Is type 'wildfire_smoke'?}
     
-    F -->|Yes| G{Has ICE = 'issue'?}
-    F -->|No| J
+   WILDFIRE -->|Yes| KEEP_NEWEST_WILDFIRE[Keep only newest wildfire<br>smoke warning]
+   WILDFIRE -->|No| KEEP_NEWEST_COMMUNITY[Group by community<br>Keep newest per community]
     
-    G -->|Yes| H{Age >= 1 day?}
-    G -->|No| J
+   KEEP_NEWEST_WILDFIRE --> ENDED{"ice = 'End'?"}
+   KEEP_NEWEST_COMMUNITY --> ENDED
     
-    H -->|Yes| O[Skip Recent List]
-    H -->|No| J
+   ENDED -->|Yes| AGE{Age < 3 days?}
+   ENDED -->|No| ADD_RECENT[Add to Recent Warnings]
     
-    J{Age < 5 days?}
+   AGE -->|Yes| ADD_RECENT
+   AGE -->|No| REMOVE_RECENT[Remove from display]
     
-    J -->|Yes| N[Add to RECENT_WARNINGS]
-    J -->|No| O[Skip Recent List]
+   ADD_RECENT --> END[End]
+   REMOVE_RECENT --> END
 ```
 
 ## Selection Logic Details
 
 ### For Any Warning
 
-1. File is processed if it has a valid YAML header.
-2. Essential metadata is extracted (path, title, type, ice, date, location).
-3. The file is considered for the Recent Warnings list if it has a date.
+1. Special handling for Metro Vancouver: if the filename is `_metro_vancouver.yml`, it is directed immediately to the status (ice) check. If ice = "End", it's only shown if less than 3 days old.
+2. All files are processed if they have a valid YAML header.
+3. Essential metadata is extracted (path, title, type, ice, date, location).
+4. Regular warning files are considered for the Recent Warnings list if they have a date.
 
 ### For Recent Warnings
 
-1. All files with a `date` metadata field are considered.
-2. Special handling for wildfire smoke warnings:
-   - If it's a wildfire smoke warning with `ice: issue` and is 1+ days old, it's explicitly excluded
-   - This is done to prevent older "issue" wildfire smoke warnings from appearing in the recent list
-3. Otherwise, any warning less than 5 days old (`RECENT_THRESHOLD_DAYS`) is included in the Recent Warnings list.
+1. Warnings are grouped and filtered:
+   - For wildfire smoke warnings: only the most recent warning is kept
+   - For non-wildfire warnings: warnings are grouped by community and only the most recent warning per community is kept
+2. Special handling for warnings with "End" status:
+   - If a warning has ice = "End", it's only shown if it's less than 3 days old
+   - Otherwise, it's removed from display
+3. All other warnings are added to the Recent Warnings list
