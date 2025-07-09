@@ -51,19 +51,19 @@ class TestWarningSelectionLogic(unittest.TestCase):
                     'location': 'Interior',
                 },
             },
-            # Heat warning for Coast - should be included as newest for this community
+            # PM2.5 warning for Coast - should be included as newest for this community
             {
                 'entry': {
                     'path': '/path/to/warning3.md',
-                    'title': 'Heat Warning',
-                    'type': 'heat',
+                    'title': 'PM2.5 Warning',
+                    'type': 'fine_pm',
                     'ice': 'issue',
                     'date': datetime.date(2025, 6, 10),
                     'location': 'Coast',
                 },
                 'raw_header': {
-                    'title': 'Heat Warning',
-                    'type': 'heat',
+                    'title': 'PM2.5 Warning',
+                    'type': 'fine_pm',
                     'ice': 'issue',
                     'date': datetime.date(2025, 6, 10),
                     'location': 'Coast',
@@ -115,7 +115,7 @@ class TestWarningSelectionLogic(unittest.TestCase):
         # Check that the right warnings were selected
         paths = [warning['path'] for warning in recent_warnings]
         self.assertIn('/path/to/warning1.md', paths)  # Newest wildfire smoke
-        self.assertIn('/path/to/warning3.md', paths)  # Heat warning for Coast
+        self.assertIn('/path/to/warning3.md', paths)  # PM2.5 warning for Coast
         self.assertIn('/path/to/warning4.md', paths)  # Air quality for North
 
         # Check that excluded warnings are not present
@@ -132,15 +132,15 @@ class TestWarningSelectionLogic(unittest.TestCase):
             {
                 'entry': {
                     'path': '/path/to/end_warning1.md',
-                    'title': 'Ending Heat Warning',
-                    'type': 'heat',
+                    'title': 'Ending PM2.5 Warning',
+                    'type': 'fine_pm',
                     'ice': 'End',
                     'date': datetime.date(2025, 6, 12),  # 1 day old
                     'location': 'Interior',
                 },
                 'raw_header': {
-                    'title': 'Ending Heat Warning',
-                    'type': 'heat',
+                    'title': 'Ending PM2.5 Warning',
+                    'type': 'fine_pm',
                     'ice': 'End',
                     'date': datetime.date(2025, 6, 12),
                     'location': 'Interior',
@@ -203,14 +203,14 @@ class TestWarningSelectionLogic(unittest.TestCase):
                 'entry': {
                     'path': '/path/to/regular_warning.md',
                     'title': 'Regular Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'date': datetime.date(2025, 6, 12),
                     'location': 'Interior',
                     'ice': 'Issue',
                 },
                 'raw_header': {
                     'title': 'Regular Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'date': datetime.date(2025, 6, 12),
                     'location': 'Interior',
                     'ice': 'Issue',
@@ -288,14 +288,14 @@ class TestWarningSelectionLogic(unittest.TestCase):
                 'entry': {
                     'path': '/path/to/interior_newest.md',
                     'title': 'Newest Interior Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'date': datetime.date(2025, 6, 12),  # 1 day old
                     'location': 'Interior',
                     'ice': 'Issue',
                 },
                 'raw_header': {
                     'title': 'Newest Interior Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'date': datetime.date(2025, 6, 12),
                     'location': 'Interior',
                     'ice': 'Issue',
@@ -306,14 +306,14 @@ class TestWarningSelectionLogic(unittest.TestCase):
                 'entry': {
                     'path': '/path/to/interior_older.md',
                     'title': 'Older Interior Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'date': datetime.date(2025, 6, 10),  # 3 days old
                     'location': 'Interior',
                     'ice': 'Issue',
                 },
                 'raw_header': {
                     'title': 'Older Interior Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'date': datetime.date(2025, 6, 10),
                     'location': 'Interior',
                     'ice': 'Issue',
@@ -462,14 +462,14 @@ class TestTimezoneHandling(unittest.TestCase):
                 'entry': {
                     'path': '/path/to/expiring_warning.md',
                     'title': 'Expiring Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'ice': 'End',
                     'date': datetime.date(2025, 6, 10),  # 3 days before 2025-06-13
                     'location': 'Interior',
                 },
                 'raw_header': {
                     'title': 'Expiring Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'ice': 'End',
                     'date': datetime.date(2025, 6, 10),
                     'location': 'Interior',
@@ -525,14 +525,14 @@ class TestTimezoneHandling(unittest.TestCase):
                 'entry': {
                     'path': '/path/to/timezone_bug_warning.md',
                     'title': 'Timezone Bug Test Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'ice': 'End',
                     'date': datetime.date(2025, 6, 10),  # 3 days before June 13
                     'location': 'Interior',
                 },
                 'raw_header': {
                     'title': 'Timezone Bug Test Warning',
-                    'type': 'heat',
+                    'type': 'fine_pm',
                     'ice': 'End',
                     'date': datetime.date(2025, 6, 10),
                     'location': 'Interior',
