@@ -3,8 +3,7 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
-date: July 31, 2025
-date-format: long
+date: 2025-07-31
 ice: Issue
 location: Multiple regions in B.C.
 outputFormat: markdown
