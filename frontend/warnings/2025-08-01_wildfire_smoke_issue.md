@@ -3,7 +3,7 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
-date: 2025-07-31
+date: 2025-08-01
 ice: Issue
 location: Multiple regions in B.C.
 outputFormat: markdown
@@ -35,11 +35,15 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- Logo header, the layout-col should be set based on number of logos including FHNA and BCGov -->
 <!-- the trailing slash means the text in square brackets is alt text -->
 
-::: {layout-ncol= 3 layout-valign="bottom"}
+::: {layout-ncol= 5 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
+
+![Interior Health Authority logo](/assets/logo_IH.png)\
+
+![Vancouver Island Health Authority logo](/assets/logo_VIH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -55,7 +59,7 @@ Monitor the situation for any wildfires near your area at
 [EmergencyInfoBC](https://www.emergencyinfobc.gov.bc.ca/). Follow all
 emergency announcements relevant to your location.
 
-The next update will be available on August 01, 2025 and made available
+The next update will be available on August 02, 2025 and made available
 on the Province's [Air Quality Warnings
 webpage](https://aqwarnings.gov.bc.ca/).
 
@@ -63,7 +67,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2025-07-31_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 31, 2025: Bulkley Valley, Lakes District, Prince George, Stuart - Nechako, Williston."
+Vancouver.](2025-08-01_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 01, 2025: 100 Mile, Cariboo (North), Cariboo (South), Inland Vancouver Island, South Thompson."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -191,6 +195,11 @@ Fact sheets on wildfire smoke and its health impacts.
 
 [Wildfire
 smoke](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke)
+{{< card_end >}}{{< card_start title="Interior Health Authority" logo="/assets/logo_IH_horizontal.png" >}}
+Steps to prepare and manage wildfire-related issues.
+
+[Wildfire public
+information](https://www.interiorhealth.ca/health-and-wellness/natural-disasters-and-emergencies/wildfires)
 {{< card_end >}}{{< card_start title="First Nations Health Authority" logo="/assets/logo_FNHA_horizontal.png" >}}
 Information and resources to help you prepare.
 
@@ -229,18 +238,27 @@ FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
 604-831-4898`<br />`{=html}
 
+Interior Health Authority`<br />`{=html}Media line:
+1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}
+
 Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+1-877-961-7724`<br />`{=html}
+
+Vancouver Island Health Authority`<br />`{=html}Dominic Abassi:
+250-755-7966 (Dominic.abassi@viha.ca)`<br />`{=html}Andrew Leyne:
+250-370-8908 (Andrew.leyne@viha.ca)`<br />`{=html}After-hours media
+line: 250-716-7750`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   **Bulkley Valley:** includes Hazelton, Smithers, Telkwa, and
-    Granisle.
--   **Lakes District:** includes Houston, Topley, Burns Lake, and
-    Endako.
--   **Prince George:** includes the City of Prince George, Hwy 16
-    Bednesti to Upper Fraser, and Hwy 97 Hixon to the south end of
-    McLeod Lake.
--   **Stuart - Nechako:** includes Fraser Lake, Fort Fraser, Vanderhoof,
-    Fort St James, and Tachie.
--   **Williston:** includes McLeod Lake, Mackenzie and Williston Lake.
+-   **100 Mile:** includes Hwy 97 from 108 Mile House to Clinton, Bridge
+    Lake and Canim Lake.
+-   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
+-   **Cariboo (South):** includes Williams Lake, Northern and Central
+    sections of Wells Gray Park.
+-   **Inland Vancouver Island:** includes Lake Cowichan, Nahmint, Port
+    Alberni, central portions of Strathcona Park and Schoen Lake
+    Provincial Park.
+-   **South Thompson:** Includes Kamloops, Rayleigh, Monte Creek, Cache
+    Creek, Spences Bridge and Logan Lake.
