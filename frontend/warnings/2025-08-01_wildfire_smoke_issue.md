@@ -1,16 +1,18 @@
 ---
 author:
-- James Hindson
+- Gail Roth
 authors:
-- James Hindson
+- Gail Roth
 date: 2025-08-01
 ice: Issue
-location: Multiple regions in B.C.
+location: Cariboo
+outputFormat: markdown
 params:
   customMessage: "`Custom message.`"
   ice: Issue
   location: Multiple locations in B.C.
   nextUpdate: 2025-02-10
+  outputFormat: markdown
   sel_aqMet: Sakshi Jain
   selRegionsIDs:
   - Watson Lake
@@ -19,7 +21,7 @@ params:
   - South Okanagan
   smokeDuration: "`24-48 hours`"
 smokeDuration: 24-48 hours
-title: Air Quality Warning - Wildfire Smoke
+title: Air Quality Warning
 toc-title: Table of contents
 type: wildfire_smoke
 ---
@@ -30,18 +32,16 @@ Copyright 2025 Province of British Columbia
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 -->
-<!-- Logo header, the layout-col should be set based on number of logos including FHNA and BCGov-->
+<!-- Logo header, the layout-col should be set based on number of logos including FHNA and BCGov -->
 <!-- the trailing slash means the text in square brackets is alt text -->
 
-::: {layout-ncol= 5 layout-valign="bottom"}
+::: {layout-ncol= 4 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
-
-![Fraser Health Authority logo](/assets/logo_FH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -61,11 +61,11 @@ The next update will be available on August 02, 2025 and made available
 on the Province's [Air Quality Warnings
 webpage](https://aqwarnings.gov.bc.ca/).
 
-![A description of Region(s) included in this Air Quality Warning is
-provided at the end of this page. This Air Quality Warning excludes the
-area managed by Metro Vancouver. Refer to the More Information section
-for a link to air quality notifications issued by Metro
-Vancouver.](2025-08-01_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 01, 2025: 100 Mile, Cariboo (South), Fort Nelson, Fraser Canyon (South), South Thompson."
+![Descriptions of affected region(s) are provided at the end of this
+page. This Air Quality Warning excludes the area managed by Metro
+Vancouver. Refer to the More Information section for a link to air
+quality notifications issued by Metro
+Vancouver.](2025-08-01_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 01, 2025: 100 Mile, Cariboo (North), Cariboo (South)."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -169,12 +169,12 @@ data](https://www.env.gov.bc.ca/epd/bcairquality/readings/find-stations-map.html
 {{< card_start title="Environment and Climate Change Canada FireWork" variant="danger" logo="/assets/icon_smoke.svg" >}}
 Air quality maps of next 72 hours.
 
-[Air quality forecast maps](https://weather.gc.ca/firework/index_e.html)
+[Smoke forecast maps](https://weather.gc.ca/firework/index_e.html)
 {{< card_end >}}
 {{< card_start title="FireSmoke Canada" variant="danger" logo="/assets/icon_smoke.svg" >}}
 BlueSky Canada smoke forecasting system.
 
-[Smoke forecasts](https://firesmoke.ca/forecasts/current/)
+[Smoke forecast map](https://firesmoke.ca/forecasts/current/)
 {{< card_end >}}
 {{< card_start title="Metro Vancouver Air Quality" variant="success" logo="/assets/icon_chart.svg" >}}
 Advisories and map of air quality and weather data.
@@ -223,39 +223,30 @@ FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wi
 **Media and public inquiries regarding air quality and the Air Quality
 Warning for wildfire smoke:**
 
-{{< card_start width="wide" >}} James Hindson`<br />`{=html}Air Quality
-Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}604-558-9852 {{< card_end >}}
+{{< card_start width="wide" >}} Gail Roth`<br />`{=html}Senior Air
+Quality Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-645-9358 {{< card_end >}}
 
 **Media questions regarding health implications of wildfires:**
 
-{{< card_start  width="wide" >}} First Nations Health
+{{< card_start  width="wide" >}}First Nations Health
 Authority`<br />`{=html}Environmental Public Health Services or Main
 FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 1-844-666-0711`<br />`{=html}Email:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
 604-831-4898`<br />`{=html}
 
-Fraser Health Authority`<br />`{=html}Media Line:
-604-613-0794`<br />`{=html}Email: media@fraserhealth.ca`<br />`{=html}
-
 Interior Health Authority`<br />`{=html}Media line:
 1-844-469-7077`<br />`{=html}Email:
 media@interiorhealth.ca`<br />`{=html}
 
 Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html} {{< card_end >}}
+1-877-961-7724`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   100 Mile: includes Hwy 97 from 108 Mile House to Clinton, Bridge
+-   **100 Mile:** includes Hwy 97 from 108 Mile House to Clinton, Bridge
     Lake and Canim Lake.
--   Cariboo (South): includes Williams Lake, Northern and Central
+-   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
+-   **Cariboo (South):** includes Williams Lake, Northern and Central
     sections of Wells Gray Park.
--   Fort Nelson: includes Fort Nelson, Muskwa, Prophet River,
-    Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon
-    border.
--   Fraser Canyon (South): Trans Canada Hwy 1 from Lytton to Dogwood
-    Valley.
--   South Thompson: Includes Kamloops, Rayleigh, Monte Creek, Cache
-    Creek, Spences Bridge and Logan Lake.
