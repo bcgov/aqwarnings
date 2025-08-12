@@ -3,8 +3,11 @@ author:
 - Muntaseer Azkar
 authors:
 - Muntaseer Azkar
-customMessage: Areas along the west coast of Vancouver Island (Tofino to
-  Sooke) may also experience periods of smoke.
+customMessage: Smoke from the Mount Underwood fire (approximately 12 km
+  southeast of Port Alberni) is impacting air quality near Port Alberni
+  and areas to the southeast, such as Lake Cowichan. Areas along the
+  west coast of Vancouver Island (Tofino to Sooke) may also experience
+  periods of smoke, but to a lesser degree.
 date: 2025-08-12
 ice: Issue
 location: Inland Vancouver Island
@@ -48,8 +51,11 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-Areas along the west coast of Vancouver Island (Tofino to Sooke) may
-also experience periods of smoke.
+Smoke from the Mount Underwood fire (approximately 12 km southeast of
+Port Alberni) is impacting air quality near Port Alberni and areas to
+the southeast, such as Lake Cowichan. Areas along the west coast of
+Vancouver Island (Tofino to Sooke) may also experience periods of smoke,
+but to a lesser degree.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
