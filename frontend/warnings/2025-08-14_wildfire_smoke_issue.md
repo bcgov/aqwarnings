@@ -12,7 +12,8 @@ customMessage: Over the next 24 hours, smoke may also be visible in
   conditions forecast to improve by midday tomorrow as smoke dissipates.
 date: 2025-08-14
 ice: Issue
-location: Northern Sunshine Coast and portions of Vancouver Island
+location: Northern Sunshine Coast and parts of Vancouver Island (central
+  -east)
 params:
   customMessage: "`Custom message.`"
   ice: Issue
