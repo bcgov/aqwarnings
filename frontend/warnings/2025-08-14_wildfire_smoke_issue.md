@@ -13,7 +13,7 @@ customMessage: Over the next 24 hours, smoke may also be visible in
 date: 2025-08-14
 ice: Issue
 location: Northern Sunshine Coast and parts of Vancouver Island (central
-  -east)
+  - east)
 params:
   customMessage: "`Custom message.`"
   ice: Issue
