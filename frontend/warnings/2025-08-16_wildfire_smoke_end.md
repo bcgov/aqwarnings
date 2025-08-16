@@ -4,7 +4,8 @@ author:
 authors:
 - Gail Roth
 customMessage: Wildfire smoke concentrations have reduced over the past
-  24 hours.
+  24 hours. Smoke may continue to be visible near active fires and in
+  southeastern BC due to smoke from the Sunset fire in northern Idaho.
 date: 2025-08-16
 ice: End
 lastWarning: 20315
@@ -47,7 +48,9 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 This Air Quality Warning for wildfire smoke that was last updated on
 August 15, 2025 has ended.
 
-Wildfire smoke concentrations have reduced over the past 24 hours.
+Wildfire smoke concentrations have reduced over the past 24 hours. Smoke
+may continue to be visible near active fires and in southeastern BC due
+to smoke from the Sunset fire in northern Idaho.
 
 Real-time air quality information is available on the [BC Air Quality
 website](https://gov.bc.ca/airqualityhealthindex).
