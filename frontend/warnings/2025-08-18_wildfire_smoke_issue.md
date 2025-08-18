@@ -48,7 +48,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-Localized smoke from the Mount Underwood fire may Port Alberni.
+Localized smoke from the Mount Underwood fire may periodically impact Port Alberni.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
