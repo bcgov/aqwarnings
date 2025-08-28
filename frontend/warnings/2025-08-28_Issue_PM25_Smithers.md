@@ -1,11 +1,16 @@
 ---
+author:
+- Gail Roth
+authors:
+- Gail Roth
 date: 2025-08-28
+ice: Issue
+location: Smithers
+outputFormat: markdown
 params:
   burnRestrictions: Yes - Ben
-  customMessage: Current conditions are expected to persist until
-    weather conditions change and/or local emissions are reduced.
-  customMessageBanArea: "within 10km of the Burns Lake firehall until
-    August 29, 2025 10:00 AM local time"
+  customMessage: "`Custom message.`"
+  customMessageBanArea: "`Custom message describing area included in burn prohibition.`"
   ice: Continue
   issuedate: 2025-07-20
   location: Prince George
@@ -13,9 +18,9 @@ params:
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
 title: Air quality warning and open burning restrictions issued for
-  Burns Lake
+  Smithers
 toc-title: Table of contents
-type: local_emissions
+type: community_warnings
 ---
 
 <!--
@@ -38,7 +43,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Burns Lake due to
+Health Authority has issued an Air Quality Warning for Smithers due to
 elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
@@ -51,11 +56,11 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
-Open burning restrictions are now in effect within 10km of the Burns
-Lake firehall until August 29, 2025 10:00 AM local time. No new fires
-may be initiated, and no additional material may be added to existing
-fires. For more information on burning restrictions, refer to the
-Mandatory Emission Reduction Actions section below.
+Open burning restrictions are now in effect within 10km of the Smithers
+firehall until August 29, 2025 11:00 AM local time. No new fires may be
+initiated, and no additional material may be added to existing fires.
+For more information on burning restrictions, refer to the Mandatory
+Emission Reduction Actions section below.
 
 Visit the provincial [air quality data
 webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
@@ -142,33 +147,33 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
--   Burns Lake bylaw 871 restricts the use of wood burning appliances
+-   Smithers bylaw 1520 restricts the use of wood burning appliances
     during air quality advisories:
 
-    -   **6a**: No person shall use a Wood Burning Appliance at any time
-        when an air quality advisory is in effect, except to heat the
+    -   **6a**: No person shall use a wood-burning appliance at any time
+        when an air quality advisory is in effect, except to heat
         premises that are equipped with no heating appliance or
-        facilities other than the Wood Burning Appliance.
+        facilities other than the wood burning appliance.
 
-    -   Contact the Burns Lake municipal office at
-        [250-692-7587](tel:2506927587) for more information on woodstove
+    -   Contact the Smithers municipal office at
+        [250-847-1600](tel:2508471600) for more information on woodstove
         restrictions.
 
 -   As pollution is occurring or is likely to occur from open burning,
     pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
     Control Regulation, the Director has prohibited open burning within
-    10km of the Burns Lake firehall until August 29, 2025 10:00 AM local
+    10km of the Smithers firehall until August 29, 2025 11:00 AM local
     time. No vegetative debris may be ignited or added to ignited piles.
     Contravention of these provisions may be subject to a fine under the
     Regulation.
 
 > Date issued: August 28, 2025
 
-> ![](utility/signatures/SignatureAS.png){width="150px"}
+> ![](utility/signatures/SignatureBW.jpg){width="150px"}
 
-> Arvind Saraswat
+> Benjamin Weinstein
 
-> Director, Environmental Management Act
+> For Director, Environmental Management Act
 
 > Environmental Monitoring and Analysis Branch
 
@@ -190,17 +195,17 @@ such as automobiles, trucks and rail traffic.
 
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Burns Lake and
-nearest monitored communities at 21:00 local time today:
+PM$_{2.5}$ concentrations are summarized below for Smithers and nearest
+monitored communities at 21:00 local time today:
 
-  ----------------------------------------------------------------------------------
-  Community                  Burns     Houston   Prince      Smithers   Vanderhoof
-                             Lake                George                 
-  -------------------------- --------- --------- ----------- ---------- ------------
-  24-hr average              10.9      8.4       22.3        8.1        16.6
-  ($\mu$g/m$^{3}$)                                                      
+  ---------------------------------------------------------------------------------------
+  Community               Burns    Houston   Prince     Smithers   Terrace   Vanderhoof
+                          Lake               George                          
+  ----------------------- -------- --------- ---------- ---------- --------- ------------
+  24-hr average           10.9     8.4       22.3       8.1        8.3       16.6
+  ($\mu$g/m$^{3}$)                                                           
 
-  ----------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------
 
 ## For general information about air quality in British Columbia:
 
