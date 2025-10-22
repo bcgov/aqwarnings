@@ -9,7 +9,7 @@ customMessageBanArea: "`<location>`{=html} until \\<mmmm, dd, yyyy
   hh:mm\\> local time."
 date: 2025-10-22
 ice: Issue
-location: Valemount
+location: Burns Lake
 outputFormat: markdown
 params:
   burnRestrictions: Yes - Ben
@@ -19,7 +19,7 @@ params:
   nextUpdate: 2025-09-28
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning issued for Valemount
+title: Air quality warning
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -44,7 +44,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Valemount due to
+Health Authority has issued an Air Quality Warning for Burns Lake due to
 elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
@@ -136,17 +136,17 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
--   Valemount Bylaw No. 838 restricts the use of wood burning appliances
+-   Burns Lake bylaw 871 restricts the use of wood burning appliances
     during air quality advisories:
 
-    -   **5.1**: A person will not use a wood-burning appliance at any
-        time when an air quality advisory is in effect, except to heat
-        premises that are equipped with no heating source other than the
-        wood burning appliance.
+    -   **6a**: No person shall use a Wood Burning Appliance at any time
+        when an air quality advisory is in effect, except to heat the
+        premises that are equipped with no heating appliance or
+        facilities other than the Wood Burning Appliance.
 
-    -   Contact the Valemount municipal office at
-        [250-566-4435](tel:2505664435) or visit <https://valemount.ca>
-        for more information on wood stove restrictions.
+    -   Contact the Burns Lake municipal office at
+        [250-692-7587](tel:2506927587) for more information on woodstove
+        restrictions.
 
 # Voluntary emission reduction actions
 
@@ -169,12 +169,17 @@ trucks and rail traffic.
 
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Valemount and nearest
-monitored communities at 14:00 local time today:
+PM$_{2.5}$ concentrations are summarized below for Burns Lake and
+nearest monitored communities at 15:00 local time today:
 
-  Community                        Prince George   Valemount
-  -------------------------------- --------------- -----------
-  24-hr average ($\mu$g/m$^{3}$)   11.9            NA
+  ----------------------------------------------------------------------------------
+  Community                  Burns     Houston   Prince      Smithers   Vanderhoof
+                             Lake                George                 
+  -------------------------- --------- --------- ----------- ---------- ------------
+  24-hr average              1.6       5.2       12.3        3.0        6.4
+  ($\mu$g/m$^{3}$)                                                      
+
+  ----------------------------------------------------------------------------------
 
 ## For general information about air quality in British Columbia:
 
