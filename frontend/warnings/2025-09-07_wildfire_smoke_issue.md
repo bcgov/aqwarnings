@@ -67,7 +67,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 provided at the end of this page. This Air Quality Warning excludes the
 area managed by Metro Vancouver. Refer to the More Information section
 for a link to air quality notifications issued by Metro
-Vancouver.](2025-09-07_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for September 07, 2025: 100 Mile, Arrow Lakes - Slocan Lake, B.C. North Peace River, B.C. South Peace River, Boundary, Cariboo (North), Cariboo (South), Central Okanagan, Chilcotin, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Fort Nelson, Fraser Canyon (North), Fraser Canyon (South), Kinbasket, Kootenay Lake, Lakes District, McGregor, Nicola, North Columbia, North Okanagan, North Thompson, Prince George, Shuswap, Similkameen, South Okanagan , South Thompson, Stuart - Nechako, West Columbia, West Kootenay, Williston, Yoho - Kootenay Park."
+Vancouver.](2025-09-07_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for September 07, 2025: 100 Mile, Arrow Lakes - Slocan Lake, B.C. North Peace River, B.C. South Peace River, Boundary, Cariboo (North), Cariboo (South), Central Okanagan, Chilcotin, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Fort Nelson, Fraser Canyon (North), Fraser Canyon (South), Kinbasket, Kootenay Lake, Lakes District, McGregor, Nicola, North Columbia, North Okanagan, North Thompson, Prince George, Shuswap, Similkameen, South Okanagan , South Thompson, Stuart - Nechako, West Columbia, West Kootenay, Whistler, Williston, Yoho - Kootenay Park."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -308,5 +308,6 @@ media@vch.ca`<br />`{=html}After-hours media line:
     Fort St James, and Tachie.
 -   West Columbia: includes Revelstoke.
 -   West Kootenay: includes Nelson, Castlegar, Trail, Rossland.
+-   Whistler: includes Whistler and Pemberton.
 -   Williston: includes McLeod Lake, Mackenzie and Williston Lake.
 -   Yoho - Kootenay Park: includes Yoho and Kootenay National Parks.
