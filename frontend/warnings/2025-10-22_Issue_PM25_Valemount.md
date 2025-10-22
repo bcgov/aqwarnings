@@ -1,5 +1,16 @@
 ---
+author:
+- Gail Roth
+authors:
+- Gail Roth
+customMessage: Current conditions are expected to persist until weather
+  conditions change and/or local emissions are reduced.
+customMessageBanArea: "`<location>`{=html} until \\<mmmm, dd, yyyy
+  hh:mm\\> local time."
 date: 2025-10-22
+ice: Issue
+location: Valemount
+outputFormat: markdown
 params:
   burnRestrictions: Yes - Ben
   ice: Continue
@@ -159,11 +170,11 @@ trucks and rail traffic.
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
 PM$_{2.5}$ concentrations are summarized below for Valemount and nearest
-monitored communities at 08:00 local time today:
+monitored communities at 14:00 local time today:
 
   Community                        Prince George   Valemount
   -------------------------------- --------------- -----------
-  24-hr average ($\mu$g/m$^{3}$)   8.0             NA
+  24-hr average ($\mu$g/m$^{3}$)   11.9            NA
 
 ## For general information about air quality in British Columbia:
 
