@@ -5,9 +5,11 @@ authors:
 - Gail Roth
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
+customMessageBanArea: "`<location>`{=html} until \\<mmmm, dd, yyyy
+  hh:mm\\> local time."
 date: 2025-10-23
-ice: Issue
-location: Smithers
+ice: Continue
+location: Prince George
 outputFormat: markdown
 params:
   burnRestrictions: Yes - Ben
@@ -18,7 +20,7 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning in effect for Smithers
+title: Air quality warning in effect for Prince George
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -43,10 +45,11 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Smithers due to
-elevated fine particulate matter.
+Health Authority issued an Air Quality Warning for Prince George on
+October 21, 2025. The warning remains in effect due to elevated coarse
+particulate matter.
 
-Exposure to fine particulate matter is particularly a concern for
+Exposure to coarse particulate matter is particularly a concern for
 infants, older adults, individuals with chronic conditions (such as
 asthma, COPD, heart disease, and diabetes) or respiratory infections,
 and those who are pregnant. Persons with chronic underlying medical
@@ -63,7 +66,7 @@ for real-time observations.
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
 
-The next update will be on October 24, 2025 and posted to the province's
+The next update will be on October 23, 2025 and posted to the province's
 [Air Quality Warnings webpage](https://www.gov.bc.ca/airquality).
 
 # Actions you can take
@@ -126,6 +129,8 @@ people who work outdoors.
     particulate matter. Even though exposure may be reduced, there can
     still be risks to health.
 
+-   Avoid busy roadways.
+
 -   Avoid roads with heavy vehicle traffic and areas with wood smoke.
 
 # Mandatory emission reduction actions
@@ -134,51 +139,44 @@ people who work outdoors.
     Management Act are required to follow trigger actions within their
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
-
--   Smithers bylaw 1520 restricts the use of wood burning appliances
-    during air quality advisories:
-
-    -   **6a**: No person shall use a wood-burning appliance at any time
-        when an air quality advisory is in effect, except to heat
-        premises that are equipped with no heating appliance or
-        facilities other than the wood burning appliance.
-
-    -   Contact the Smithers municipal office at
-        [250-847-1600](tel:2508471600) for more information on woodstove
-        restrictions.
+-   The City of Prince George's Clean Air Bylaw prohibits all open
+    burning, including backyard burning, and land clearing burning.
+    During air quality advisories, this bylaw also prohibits
+    recreational fires, use of wood-burning appliances (except for sole
+    wood-burning heat users), and street sweeping activities (unless
+    approved by an Authorized Person).
 
 # Voluntary emission reduction actions
 
--   Avoid using wood stoves and fireplaces unless it is the sole heating
-    source. If wood burning is the sole heating source, burn dry,
-    seasoned wood and ensure an adequate supply of combustion air.
--   Reduce vehicle use where possible and avoid idling vehicles.
+-   Avoid driving on the road shoulder or other areas where road
+    traction material has accumulated.
+-   When cleaning driveways and parking lots, lightly wet the area
+    before sweeping. Avoid using leaf blowers to clean up dirt during
+    spring clean up.
 
 # More information
 
-Fine particulate matter refers to airborne solid or liquid droplets with
-diameters of 2.5 micrometers ($\mu$m) or less. PM$_{2.5}$ levels tend to
-be highest around busy roads, industrial operations and neighbourhoods
-with residential wood burning. PM$_{2.5}$ can easily penetrate indoors
-because of their small size. Common sources of PM$_{2.5}$ that
-contribute to episodes of poor air quality vary seasonally but can
-include wood smoke (from wood stoves and/or open burning) as well as
-emissions from industry and transportation sources such as automobiles,
-trucks and rail traffic.
+Coarse particulate matter refers to airborne solid or liquid droplets
+with diameters between 2.5 and 10 micrometers ($\mu$m). Together with
+fine particulate matter (airborne solid or liquid droplets with
+diameters of 2.5 $\mu$m or less), these particles are referred to as
+PM$_{10}$. Sources of PM$_{10}$ contributing to this air quality episode
+include road dust from the emission of winter traction material along
+busy and dry road surfaces. PM$_{10}$ can easily penetrate indoors
+because of their small size.
 
-The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
-cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Smithers and nearest
-monitored communities at 08:00 local time today:
+The current dusty conditions are caused by road traffic stirring up
+winter traction materials that have accumulated on roadways over the
+past winter.
 
-  ---------------------------------------------------------------------------------------
-  Community               Burns    Houston   Prince     Smithers   Terrace   Vanderhoof
-                          Lake               George                          
-  ----------------------- -------- --------- ---------- ---------- --------- ------------
-  24-hr average           1.6      3.8       7.6        7.0        5.5       6.7
-  ($\mu$g/m$^{3}$)                                                           
+The provincial air quality objective for PM$_{10}$ is 50 micrograms per
+cubic metre ($\mu$g/m$^{3}$), averaged over 24 hours. 24-hour average
+PM$_{10}$ concentrations are summarized below for Prince George and
+nearest monitored communities at 09:00 PST today:
 
-  ---------------------------------------------------------------------------------------
+  Community                        Burns Lake   Prince George   Vanderhoof
+  -------------------------------- ------------ --------------- ------------
+  24-hr average ($\mu$g/m$^{3}$)   NA           NA              8.7
 
 ## For general information about air quality in British Columbia:
 

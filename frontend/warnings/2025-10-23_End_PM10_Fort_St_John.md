@@ -7,7 +7,7 @@ customMessage: Local air quality has improved due to changing
   meteorological conditions.
 date: 2025-10-23
 ice: End
-location: Prince George
+location: Fort St John
 outputFormat: markdown
 params:
   burnRestrictions: "Yes"
@@ -15,11 +15,10 @@ params:
   ice: End
   issuedate: 2025-07-09
   location: Whistler
+  outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-subtitle: "`r Sys.Date()`"
-title: Air quality warning and open burning restrictions ended for
-  Prince George
+title: Air quality warning ended for Fort St John
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -45,8 +44,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 The Ministry of Environment and Parks in collaboration with the Northern
 Health Authority has ended the air quality warning that was issued
-October 21, 2025 for Prince George due to elevated concentrations of
-fine particulate matter.
+October 21, 2025 for Fort St John due to elevated concentrations of
+coarse particulate matter.
 
 Local air quality has improved due to changing meteorological
 conditions.
@@ -57,14 +56,14 @@ for real-time observations.
 
 # More information
 
-The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
-cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Prince George and
-nearest monitored communities at 08:00 local time today:
+The provincial air quality objective for PM$_{10}$ is 50 micrograms per
+cubic metre ($\mu$g/m$^{3}$), averaged over 24 hours. 24-hour average
+PM$_{10}$ concentrations are summarized below for Fort St John and
+nearest monitored communities at 09:00 PST today:
 
-  Community                        Burns Lake   Prince George   Vanderhoof
-  -------------------------------- ------------ --------------- ------------
-  24-hr average ($\mu$g/m$^{3}$)   1.6          7.6             6.7
+  Community                        Fort St John   Prince George
+  -------------------------------- -------------- ---------------
+  24-hr average ($\mu$g/m$^{3}$)   12.5           NA
 
 # Contact information
 

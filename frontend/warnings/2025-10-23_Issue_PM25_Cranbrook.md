@@ -5,11 +5,11 @@ authors:
 - Gail Roth
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
-customMessageBanArea: "within 20km of Burns Lake City Hall until
-  September 24, 2025 11:00 AM local time."
+customMessageBanArea: "within 20 km of the Cranbrook City Hall until
+  October 23, 2025 9:00 AM local time."
 date: 2025-10-23
 ice: Issue
-location: Burns Lake
+location: Cranbrook
 outputFormat: markdown
 params:
   burnRestrictions: Yes - Ben
@@ -21,7 +21,7 @@ params:
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
 title: Air quality warning and open burning restrictions in effect for
-  Burns Lake
+  Cranbrook
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -41,12 +41,12 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
-The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Burns Lake due to
+The Ministry of Environment and Parks in collaboration with the Interior
+Health Authority has issued an Air Quality Warning for Cranbrook due to
 elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
@@ -59,8 +59,8 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
-Open burning restrictions are now in effect for within 20km of Burns
-Lake City Hall until September 24, 2025 11:00 AM local time. No new
+Open burning restrictions are now in effect for within 20 km of the
+Cranbrook City Hall until October 23, 2025 9:00 AM local time. No new
 fires may be initiated, and no additional material may be added to
 existing fires. For more information on burning restrictions, refer to
 the Mandatory Emission Reduction Actions section below.
@@ -72,7 +72,7 @@ for real-time observations.
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
 
-The next update will be on October 24, 2025 and posted to the province's
+The next update will be on October 23, 2025 and posted to the province's
 [Air Quality Warnings webpage](https://www.gov.bc.ca/airquality).
 
 # Actions you can take
@@ -144,25 +144,13 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
--   Burns Lake bylaw 871 restricts the use of wood burning appliances
-    during air quality advisories:
-
-    -   **6a**: No person shall use a Wood Burning Appliance at any time
-        when an air quality advisory is in effect, except to heat the
-        premises that are equipped with no heating appliance or
-        facilities other than the Wood Burning Appliance.
-
-    -   Contact the Burns Lake municipal office at
-        [250-692-7587](tel:2506927587) for more information on woodstove
-        restrictions.
-
 -   As pollution is occurring or is likely to occur from open burning,
     pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
     Control Regulation, the Director has prohibited open burning within
-    20km of Burns Lake City Hall until September 24, 2025 11:00 AM local
-    time. No vegetative debris may be ignited or added to ignited piles.
-    Contravention of these provisions may be subject to a fine under the
-    Regulation.
+    20 km of the Cranbrook City Hall until October 23, 2025 9:00 AM
+    local time. No vegetative debris may be ignited or added to ignited
+    piles. Contravention of these provisions may be subject to a fine
+    under the Regulation.
 
 > Date issued: October 23, 2025
 
@@ -195,17 +183,16 @@ trucks and rail traffic.
 
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Burns Lake and
-nearest monitored communities at 08:00 local time today:
+PM$_{2.5}$ concentrations are summarized below for Cranbrook and nearest
+monitored communities at 09:00 local time today:
 
-  ----------------------------------------------------------------------------------
-  Community                  Burns     Houston   Prince      Smithers   Vanderhoof
-                             Lake                George                 
-  -------------------------- --------- --------- ----------- ---------- ------------
-  24-hr average              1.6       3.8       7.6         7.0        6.7
-  ($\mu$g/m$^{3}$)                                                      
+  -----------------------------------------------------------------------------------
+  Community                     Castlegar   Cranbrook   Elkford   Golden   Sparwood
+  ----------------------------- ----------- ----------- --------- -------- ----------
+  24-hr average                 8.1         12.1        4.3       9.7      5.9
+  ($\mu$g/m$^{3}$)                                                         
 
-  ----------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------
 
 ## For general information about air quality in British Columbia:
 
@@ -232,6 +219,6 @@ Parks`<br />`{=html}250-645-9358 {{< card_end >}}
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start  width="wide" >}}Northern Health
-Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+{{< card_start  width="wide" >}}Interior Health
+Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
