@@ -21,7 +21,7 @@ params:
   - South Okanagan
   smokeDuration: "`24-48 hours`"
 smokeDuration: 24-48 hours
-title: Air quality warning - wildfire smoke
+title: Air quality warning in effect for wildfire smoke
 toc-title: Table of contents
 type: wildfire_smoke
 ---
