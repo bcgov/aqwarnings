@@ -5,10 +5,10 @@ authors:
 - Gail Roth
 customMessage: Wildfire smoke concentrations have reduced over the past
   24 hours.
-date: 2025-10-24
+date: 2025-10-28
 ice: End
-lastWarning: 20384
-location: Cariboo
+lastWarning: 20388
+location: Northwest B.C.
 outputFormat: markdown
 params:
   customMessage: "`Custom message.`"
@@ -46,7 +46,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 This Air Quality Warning for wildfire smoke that was last updated on
-October 23, 2025 has ended.
+October 27, 2025 has ended.
 
 Wildfire smoke concentrations have reduced over the past 24 hours.
 

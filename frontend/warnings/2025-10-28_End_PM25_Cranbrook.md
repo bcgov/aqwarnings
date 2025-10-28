@@ -1,24 +1,24 @@
 ---
 author:
-- Gail Roth
+- Donna Haga
 authors:
-- Gail Roth
+- Donna Haga
 customMessage: Local air quality has improved due to changing
   meteorological conditions.
-date: 2025-10-23
+date: 2025-10-28
 ice: End
-location: Fort St John
+location: Cranbrook
 outputFormat: markdown
 params:
   burnRestrictions: "Yes"
-  date: 2025-10-23
+  date: 2025-10-28
   ice: End
   issuedate: 2025-07-09
   location: Whistler
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning ended for Fort St John
+title: Air quality warning ended for Cranbrook
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -38,13 +38,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
-The Ministry of Environment and Parks in collaboration with the Northern
+The Ministry of Environment and Parks in collaboration with the Interior
 Health Authority has ended the air quality warning that was issued
-October 22, 2025 for Fort St John due to elevated concentrations of fine
+October 27, 2025 for Cranbrook due to elevated concentrations of fine
 particulate matter.
 
 Local air quality has improved due to changing meteorological
@@ -58,25 +58,29 @@ for real-time observations.
 
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Fort St John and
-nearest monitored communities at 16:00 local time today:
+PM$_{2.5}$ concentrations are summarized below for Cranbrook and nearest
+monitored communities at 08:00 PM local time today:
 
-  Community                        Fort St John   Prince George
-  -------------------------------- -------------- ---------------
-  24-hr average ($\mu$g/m$^{3}$)   6.4            2.9
+  -----------------------------------------------------------------------------------
+  Community                     Castlegar   Cranbrook   Elkford   Golden   Sparwood
+  ----------------------------- ----------- ----------- --------- -------- ----------
+  24-hr average                 4.3         7.8         3.4       11.2     4.8
+  ($\mu$g/m$^{3}$)                                                         
+
+  -----------------------------------------------------------------------------------
 
 # Contact information
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start width="wide" >}} Gail Roth`<br />`{=html}Senior Air
+{{< card_start width="wide" >}} Donna Haga`<br />`{=html}Senior Air
 Quality Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-645-9358 {{< card_end >}}
+Parks`<br />`{=html}250-420-6320 {{< card_end >}}
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start  width="wide" >}}Northern Health
-Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+{{< card_start  width="wide" >}}Interior Health
+Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
