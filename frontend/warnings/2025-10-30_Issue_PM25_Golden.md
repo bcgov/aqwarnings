@@ -46,7 +46,9 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 {{< inline_alert_start>}}
-Please see the [PDF version of this Air Quality Warning](/2025-10-30_Issue_PM25_Golden.pdf) for the statutory decision-maker sign-off.
+
+Please see the [PDF version of this Air Quality Warning](2025-10-30_Issue_PM25_Golden.pdf) for statutory decision-maker sign-off.
+
 {{< inline_alert_end >}}
 
 The Ministry of Environment and Parks in collaboration with the Interior
@@ -156,7 +158,7 @@ people who work outdoors.
     ignited piles. Contravention of these provisions may be subject to a
     fine under the Regulation.
 
--   Please see the [PDF version of this Air Quality Warning](/2025-10-30_Issue_PM25_Golden.pdf) for the statutory decision-maker sign-off.
+-   Please see the [PDF version of this Air Quality Warning](2025-10-30_Issue_PM25_Golden.pdf) for the statutory decision-maker sign-off.
 
 # Voluntary emission reduction actions
 
