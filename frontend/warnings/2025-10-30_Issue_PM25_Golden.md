@@ -154,11 +154,11 @@ people who work outdoors.
 
 > Date issued: October 30, 2025
 
-> ![](/assets/SignatureAS.png)
+> ![](/assets/SignatureBW.jpg){width="150px"}
 
-> Arvind Saraswat
+> Benjamin Weinstein
 
-> Director, Environmental Management Act
+> For Director, Environmental Management Act
 
 > Environmental Monitoring and Analysis Branch
 
