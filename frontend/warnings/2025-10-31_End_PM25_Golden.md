@@ -1,7 +1,7 @@
 ---
 title: "Air quality warning and open burning restrictions ended for Golden"
 author: "Donna Haga"
-date: "2025-10-31"
+date: 2025-10-31
 output: pdf_document
 location: Golden
 outputFormat: markdown
@@ -77,3 +77,4 @@ Warning:**
 {{< card_start  width="wide" >}}Interior Health
 Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
 media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
+
