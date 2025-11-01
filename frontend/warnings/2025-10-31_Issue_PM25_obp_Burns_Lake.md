@@ -5,7 +5,7 @@ authors:
 - Gail Roth
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
-customMessageBanArea: "within 50 km of the Burns Lake Firehall until
+customMessageBanArea: "within 50 km of the Burns Lake firehall until
   November 1, 2025 9:00 AM local time."
 date: 2025-10-31
 ice: Issue
@@ -68,7 +68,7 @@ breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
 Open burning restrictions are now in effect within 50 km of the Burns
-Lake Firehall until November 1, 2025 9:00 AM local time. No new fires
+Lake firehall until November 1, 2025 9:00 AM local time. No new fires
 may be initiated, and no additional material may be added to existing
 fires. For more information on burning restrictions, refer to the
 Mandatory Emission Reduction Actions section below.
@@ -170,7 +170,7 @@ people who work outdoors.
 -   As pollution is occurring or is likely to occur from open burning,
     pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
     Control Regulation, the Director has prohibited open burning within
-    50 km of the Burns Lake Firehall until November 1, 2025 9:00 AM
+    50 km of the Burns Lake firehall until November 1, 2025 9:00 AM
     local time. No vegetative debris may be ignited or added to ignited
     piles. Contravention of these provisions may be subject to a fine
     under the Regulation.
@@ -201,13 +201,13 @@ trucks and rail traffic.
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
 PM$_{2.5}$ concentrations are summarized below for Burns Lake and
-nearest monitored communities at 1:00 PM local time today:
+nearest monitored communities at 6:00 PM local time today:
 
   ----------------------------------------------------------------------------------
   Community                  Burns     Houston   Prince      Smithers   Vanderhoof
                              Lake                George                 
   -------------------------- --------- --------- ----------- ---------- ------------
-  24-hr average              3.3       5.9       9.9         2.7        5.9
+  24-hr average              3.0       5.7       9.9         2.2        5.5
   ($\mu$g/m$^{3}$)                                                      
 
   ----------------------------------------------------------------------------------
