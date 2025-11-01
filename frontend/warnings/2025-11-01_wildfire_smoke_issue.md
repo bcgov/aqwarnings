@@ -3,9 +3,9 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
-date: 2025-10-31
+date: 2025-11-01
 ice: Issue
-location: Central Interior
+location: Cariboo
 outputFormat: markdown
 params:
   customMessage: "`Custom message.`"
@@ -36,11 +36,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- the trailing slash means the text in square brackets is alt text -->
 <!-- note: logos and title for PDF output handled in src/header.txt -->
 
-::: {layout-ncol= 3 layout-valign="bottom"}
+::: {layout-ncol= 4 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
+
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -56,7 +58,7 @@ Monitor the situation for any wildfires near your area at
 [EmergencyInfoBC](https://www.emergencyinfobc.gov.bc.ca/). Follow all
 emergency announcements relevant to your location.
 
-The next update will be available on November 01, 2025 and made
+The next update will be available on November 02, 2025 and made
 available on the Province's [Air Quality Warnings
 webpage](https://aqwarnings.gov.bc.ca/).
 
@@ -64,7 +66,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2025-10-31_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for October 31, 2025: Stuart - Nechako."
+Vancouver.](2025-11-01_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for November 01, 2025: Cariboo (North), Cariboo (South)."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -192,6 +194,11 @@ Fact sheets on wildfire smoke and its health impacts.
 
 [Wildfire
 smoke](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke)
+{{< card_end >}}{{< card_start title="Interior Health Authority" logo="/assets/logo_IH_horizontal.png" >}}
+Steps to prepare and manage wildfire-related issues.
+
+[Wildfire public
+information](https://www.interiorhealth.ca/health-and-wellness/natural-disasters-and-emergencies/wildfires)
 {{< card_end >}}{{< card_start title="First Nations Health Authority" logo="/assets/logo_FNHA_horizontal.png" >}}
 Information and resources to help you prepare.
 
@@ -230,10 +237,15 @@ FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
 604-831-4898`<br />`{=html}
 
+Interior Health Authority`<br />`{=html}Media line:
+1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}
+
 Northern Health Authority`<br />`{=html}Media Line:
 1-877-961-7724`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   **Stuart - Nechako:** includes Fraser Lake, Fort Fraser, Vanderhoof,
-    Fort St James, and Tachie.
+-   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
+-   **Cariboo (South):** includes Williams Lake, Northern and Central
+    sections of Wells Gray Park.

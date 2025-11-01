@@ -7,8 +7,8 @@ customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
 customMessageBanArea: "within 50 km of the Burns Lake firehall until
   November 1, 2025 9:00 AM local time."
-date: 2025-10-31
-ice: Issue
+date: 2025-11-01
+ice: Continue
 location: Burns Lake
 outputFormat: markdown
 params:
@@ -48,14 +48,15 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 {{< inline_alert_start>}}
 
 Please see the [PDF version of this Air Quality
-Warning](/warnings/2025-10-31_Issue_PM25_obp_Burns_Lake.pdf) for the
+Warning](/warnings/2025-11-01_Continue_PM25_obp_Burns_Lake.pdf) for the
 statutory decision-maker sign-off.
 
 {{< inline_alert_end >}}
 
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Burns Lake due to
-elevated fine particulate matter.
+Health Authority issued an Air Quality Warning for Burns Lake on October
+30, 2025. The warning remains in effect due to elevated fine particulate
+matter.
 
 Exposure to fine particulate matter is particularly a concern for
 infants, older adults, individuals with chronic conditions (such as
@@ -80,7 +81,7 @@ for real-time observations.
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
 
-The next update will be on November 01, 2025 and posted to the
+The next update will be on November 02, 2025 and posted to the
 province's [Air Quality Warnings
 webpage](https://www.gov.bc.ca/airquality).
 
@@ -176,8 +177,8 @@ people who work outdoors.
     under the Regulation.
 
 -   Please see the [PDF version of this Air Quality
-    Warning](/warnings/2025-10-31_Issue_PM25_obp_Burns_Lake.pdf) for the
-    statutory decision-maker sign-off.
+    Warning](/warnings/2025-11-01_Continue_PM25_obp_Burns_Lake.pdf) for
+    the statutory decision-maker sign-off.
 
 # Voluntary emission reduction actions
 
@@ -207,7 +208,7 @@ nearest monitored communities at 6:00 PM local time today:
   Community                  Burns     Houston   Prince      Smithers   Vanderhoof
                              Lake                George                 
   -------------------------- --------- --------- ----------- ---------- ------------
-  24-hr average              3.0       5.7       9.9         2.2        5.5
+  24-hr average              3.0       5.3       9.9         2.2        5.5
   ($\mu$g/m$^{3}$)                                                      
 
   ----------------------------------------------------------------------------------

@@ -1,23 +1,23 @@
 ---
 author:
-- James Hindson
+- Gail Roth
 authors:
-- James Hindson
+- Gail Roth
 customMessage: Local air quality has improved due to changing
   meteorological conditions.
-date: 2025-10-30
+date: 2025-11-01
 ice: End
-location: Vernon
+location: Castlegar
 outputFormat: markdown
 params:
   burnRestrictions: "Yes"
-  date: 2025-10-30
+  date: 2025-11-01
   issuedate: 2025-07-09
   location: Whistler
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning ended for Vernon
+title: Air quality warning ended for Castlegar
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -43,7 +43,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 The Ministry of Environment and Parks in collaboration with the Interior
 Health Authority has ended the air quality warning that was issued
-October 29, 2025 for Vernon due to elevated concentrations of coarse
+October 31, 2025 for Castlegar due to elevated concentrations of fine
 particulate matter.
 
 Local air quality has improved due to changing meteorological
@@ -55,23 +55,28 @@ for real-time observations.
 
 # More information
 
-The provincial air quality objective for PM$_{10}$ is 50 micrograms per
-cubic metre ($\mu$g/m$^{3}$), averaged over 24 hours. 24-hour average
-PM$_{10}$ concentrations are summarized below for Vernon and nearest
-monitored communities at 05:00 PM local time today:
+The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
+cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
+PM$_{2.5}$ concentrations are summarized below for Castlegar and nearest
+monitored communities at 02:00 AM local time today:
 
-  Community                        Kelowna   Vernon
-  -------------------------------- --------- --------
-  24-hr average ($\mu$g/m$^{3}$)   10.4      20.0
+  ----------------------------------------------------------------------------------
+  Community                   Castlegar   Cranbrook   Golden   Grand      Sparwood
+                                                               Forks      
+  --------------------------- ----------- ----------- -------- ---------- ----------
+  24-hr average               12.8        16.2        26.1     17.7       9.8
+  ($\mu$g/m$^{3}$)                                                        
+
+  ----------------------------------------------------------------------------------
 
 # Contact information
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start width="wide" >}} James Hindson`<br />`{=html}Air Quality
-Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}604-558-9852 {{< card_end >}}
+{{< card_start width="wide" >}} Gail Roth`<br />`{=html}Senior Air
+Quality Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-645-9358 {{< card_end >}}
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
