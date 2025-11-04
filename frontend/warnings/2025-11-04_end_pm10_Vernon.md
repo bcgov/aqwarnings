@@ -1,23 +1,25 @@
 ---
 author:
-- Gail Roth
+- Gavin King
 authors:
-- Gail Roth
+- Gavin King
 customMessage: Local air quality has improved due to changing
   meteorological conditions.
-date: 2025-11-01
+date: 2025-11-04
 ice: End
-location: Castlegar
+location: Vernon
 outputFormat: markdown
 params:
-  burnRestrictions: "Yes"
-  date: 2025-11-01
+  burnRestrictionEndDate: 2025-09-28
+  burnRestrictionEndTime: "12:00 PM"
+  burnRestrictionSDM: Ben
+  burnRestrictionStatus: 0
   issuedate: 2025-07-09
   location: Whistler
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning ended for Castlegar
+title: Air quality warning ended for Vernon
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -42,41 +44,36 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 The Ministry of Environment and Parks in collaboration with the Interior
-Health Authority has ended the air quality warning that was issued
-October 31, 2025 for Castlegar due to elevated concentrations of fine
+Health Authority has ended the Air Quality Warning that was issued on
+November 03, 2025 for Vernon due to elevated levels of coarse
 particulate matter.
 
 Local air quality has improved due to changing meteorological
 conditions.
 
+# More information
+
+The provincial air quality objective for PM$_{10}$ is 50 micrograms per
+cubic metre ($\mu$g/m$^{3}$), averaged over 24 hours. 24-hour average
+PM$_{10}$ concentrations are summarized below for Vernon and nearest
+monitored communities at 8:00 AM local time today:
+
+  Community                        Vernon   Kelowna
+  -------------------------------- -------- ---------
+  24-hr average ($\mu$g/m$^{3}$)   34.7     17.6
+
 Visit the provincial [air quality data
 webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
 for real-time observations.
-
-# More information
-
-The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
-cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Castlegar and nearest
-monitored communities at 02:00 AM local time today:
-
-  ----------------------------------------------------------------------------------
-  Community                   Castlegar   Cranbrook   Golden   Grand      Sparwood
-                                                               Forks      
-  --------------------------- ----------- ----------- -------- ---------- ----------
-  24-hr average               12.8        16.2        26.1     17.7       9.8
-  ($\mu$g/m$^{3}$)                                                        
-
-  ----------------------------------------------------------------------------------
 
 # Contact information
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start width="wide" >}} Gail Roth`<br />`{=html}Senior Air
+{{< card_start width="wide" >}} Gavin King`<br />`{=html}Senior Air
 Quality Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-645-9358 {{< card_end >}}
+Parks`<br />`{=html}250-312-6798 {{< card_end >}}
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
