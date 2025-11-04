@@ -7,7 +7,7 @@ customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
 date: 2025-11-04
 ice: Issue
-location: Kelowna
+location: Kamloops
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -20,8 +20,7 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning and open burning restrictions in effect for
-  Kelowna
+title: Air quality warning in effect for Kamloops
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -46,12 +45,12 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 {{< inline_alert_start>}} Please see the [PDF version of this Air
-Quality Warning](/warnings/2025-11-04_issue_o3_obr_Kelowna.pdf) for the
+Quality Warning](/warnings/2025-11-04_issue_o3_Kamloops.pdf) for the
 statutory decision-maker sign-off related to open burning restrictions.
 {{< inline_alert_end >}}
 
 The Ministry of Environment and Parks in collaboration with the Interior
-Health Authority has issued an Air Quality Warning for Kelowna due to
+Health Authority has issued an Air Quality Warning for Kamloops due to
 elevated ground level ozone.
 
 Exposure to ground level ozone is particularly a concern for infants,
@@ -63,12 +62,6 @@ warning is ended. Anyone experiencing symptoms such as continuing eye or
 throat irritation, chest discomfort, shortness of breath, cough or
 wheezing, should follow the advice of their health care provider.
 Staying indoors helps to reduce exposure.
-
-Open burning restrictions are now in effect within50 km of the Valemount
-firehall. No new fires may be initiated, and no additional material may
-be added to existing fires. For more information on burning
-restrictions, refer to the Mandatory Emission Reduction Actions section
-below.
 
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
@@ -135,21 +128,6 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
-<!-- -->
-
--   As pollution is occurring or is likely to occur from open burning,
-    pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
-    Control Regulation, the Director has prohibited open burning within
-    50 km of the Valemount firehall until November 06, 2025 12:00 PM
-    local time. No vegetative debris may be ignited or added to ignited
-    piles. Contravention of these provisions may be subject to a fine
-    under the Regulation.
-
--   Please see the [PDF version of this Air Quality
-    Warning](/warnings/2025-11-04_issue_o3_obr_Kelowna.pdf) for the
-    statutory decision-maker sign-off related to open burning
-    restrictions.
-
 # Voluntary emission reduction actions
 
 -   Fuel your vehicle in the cooler evening hours or after dark.
@@ -176,13 +154,13 @@ may be issued when current concentrations exceed or are expected to
 exceed either of these objectives.
 
 The 8-hour average ozone concentration and 1-hour maximum concentration
-(within the past 8 hours) are summarized below for Kelowna and nearest
-monitored communities at 10:00 AM local time today:
+(within the past 8 hours) are summarized below for Kamloops and nearest
+monitored communities at 11:00 AM local time today:
 
-  Community                Kelowna   Kamloops   Vernon
-  ------------------------ --------- ---------- --------
-  8-hr average (ppb)       2.9       0.6        -0.6
-  Max. within 8 hr (ppb)   6.7       2.0        3.4
+  Community                Kamloops   Quesnel   Williams Lake
+  ------------------------ ---------- --------- ---------------
+  8-hr average (ppb)       1.0        1.9       4.4
+  Max. within 8 hr (ppb)   2.9        4.4       12.8
 
 ## For general information about air quality in British Columbia:
 
