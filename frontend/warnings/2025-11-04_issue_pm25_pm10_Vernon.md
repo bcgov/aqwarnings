@@ -1,8 +1,8 @@
 ---
 author:
-- Nick Davey
+- Gavin King
 authors:
-- Nick Davey
+- Gavin King
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
 date: 2025-11-04
@@ -44,13 +44,10 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 :::
 
-{{< inline_alert_start>}}
-
-Please see the [PDF version of this Air Quality
-Warning](/warnings/2025-11-04_issue_pm25_pm10_Vernon.pdf) for the
-statutory decision-maker sign-off.
-
-{{< inline_alert_end >}}
+{{< inline_alert_start>}} Please see the [PDF version of this Air
+Quality Warning](/warnings/2025-11-04_issue_pm25_pm10_Vernon.pdf) for
+the statutory decision-maker sign-off related to open burning
+restrictions. {{< inline_alert_end >}}
 
 The Ministry of Environment and Parks in collaboration with the Interior
 Health Authority has issued an Air Quality Warning for Vernon due to
@@ -67,16 +64,16 @@ discomfort, shortness of breath, cough or wheezing, should follow the
 advice of their health care provider. Staying indoors helps to reduce
 exposure.
 
-Visit the provincial [air quality data
-webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
-for real-time observations.
-
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
 
 The next update will be on November 05, 2025 and posted to the
 province's [Air Quality Warnings
 webpage](https://www.gov.bc.ca/airquality).
+
+Visit the provincial [air quality data
+webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
+for real-time observations.
 
 # Actions you can take
 
@@ -174,12 +171,12 @@ trucks and rail traffic.
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
 PM$_{2.5}$ concentrations are summarized below for Vernon and nearest
-monitored communities at 9:00 AM local time today:
+monitored communities at 10:00 AM local time today:
 
   ---------------------------------------------------------------------------
   Community                        Vernon   Grand Forks  Kamloops   Kelowna
   -------------------------------- -------- ------------ ---------- ---------
-  24-hr average ($\mu$g/m$^{3}$)   13.6     9.2          8.5        10.8
+  24-hr average ($\mu$g/m$^{3}$)   13.7     11.4         8.7        11.0
 
   ---------------------------------------------------------------------------
 
@@ -199,11 +196,11 @@ past winter.
 The provincial air quality objective for PM$_{10}$ is 50 micrograms per
 cubic metre ($\mu$g/m$^{3}$), averaged over 24 hours. 24-hour average
 PM$_{10}$ concentrations are summarized below for Vernon and nearest
-monitored communities at 9:00 AM local time today:
+monitored communities at 10:00 AM local time today:
 
   Community                        Vernon   Kelowna
   -------------------------------- -------- ---------
-  24-hr average ($\mu$g/m$^{3}$)   36.0     17.8
+  24-hr average ($\mu$g/m$^{3}$)   36.2     18.4
 
 ## For general information about air quality in British Columbia:
 
@@ -223,9 +220,9 @@ monitored communities at 9:00 AM local time today:
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start width="wide" >}} Nick Davey`<br />`{=html}Air Quality
-Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}778-362-4477 {{< card_end >}}
+{{< card_start width="wide" >}} Gavin King`<br />`{=html}Senior Air
+Quality Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-312-6798 {{< card_end >}}
 
 **Media questions regarding health implications of this Air Quality
 Warning:**

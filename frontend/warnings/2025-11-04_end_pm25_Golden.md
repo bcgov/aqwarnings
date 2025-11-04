@@ -1,13 +1,13 @@
 ---
 author:
-- Benjamin Weinstein
+- Donna Haga
 authors:
-- Benjamin Weinstein
+- Donna Haga
 customMessage: Local air quality has improved due to changing
   meteorological conditions.
 date: 2025-11-04
 ice: End
-location: Smithers
+location: Golden
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -19,8 +19,7 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning and open burning restrictions ended for
-  Smithers
+title: Air quality warning ended for Golden
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -40,19 +39,19 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
 {{< inline_alert_start>}} Please see the [PDF version of this Air
-Quality Warning](/warnings/2025-11-04_end_pm25_obr_Smithers.pdf) for the
+Quality Warning](/warnings/2025-11-04_end_pm25_Golden.pdf) for the
 statutory decision-maker sign-off related to open burning restrictions.
 {{< inline_alert_end >}}
 
-The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has ended the Air Quality Warning and open burning
-restrictions that were issued on November 03, 2025 for Smithers due to
-elevated levels of fine particulate matter.
+The Ministry of Environment and Parks in collaboration with the Interior
+Health Authority has ended the Air Quality Warning that was issued on
+November 03, 2025 for Golden due to elevated levels of fine particulate
+matter.
 
 Local air quality has improved due to changing meteorological
 conditions.
@@ -61,17 +60,16 @@ conditions.
 
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Smithers and nearest
-monitored communities at 10:00 AM local time today:
+PM$_{2.5}$ concentrations are summarized below for Golden and nearest
+monitored communities at 11:00 AM local time today:
 
-  ---------------------------------------------------------------------------------------
-  Community               Smithers   Burns    Houston   Prince     Terrace   Vanderhoof
-                                     Lake               George               
-  ----------------------- ---------- -------- --------- ---------- --------- ------------
-  24-hr average           7.7        10.2     14.0      14.3       5.1       12.9
-  ($\mu$g/m$^{3}$)                                                           
+  -----------------------------------------------------------------------------------
+  Community                     Golden   Castlegar   Cranbrook   Elkford   Sparwood
+  ----------------------------- -------- ----------- ----------- --------- ----------
+  24-hr average                 7.3      5.6         7.0         3.4       5.5
+  ($\mu$g/m$^{3}$)                                                         
 
-  ---------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------
 
 Visit the provincial [air quality data
 webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
@@ -82,13 +80,13 @@ for real-time observations.
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start width="wide" >}} Benjamin Weinstein`<br />`{=html}Air
-Quality Unit Head (Assessments and Stewardship)`<br />`{=html}Ministry
-of Environment and Parks`<br />`{=html}250-876-6940 {{< card_end >}}
+{{< card_start width="wide" >}} Donna Haga`<br />`{=html}Senior Air
+Quality Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-420-6320 {{< card_end >}}
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start  width="wide" >}}Northern Health
-Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+{{< card_start  width="wide" >}}Interior Health
+Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}{{< card_end >}}

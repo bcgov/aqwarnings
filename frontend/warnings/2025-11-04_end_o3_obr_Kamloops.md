@@ -7,7 +7,7 @@ customMessage: Local air quality has improved due to changing
   meteorological conditions.
 date: 2025-11-04
 ice: End
-location: Vernon
+location: Kamloops
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -19,7 +19,8 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning ended for Vernon
+title: Air quality warning and open burning restrictions ended for
+  Kamloops
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -43,24 +44,35 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 :::
 
+{{< inline_alert_start>}} Please see the [PDF version of this Air
+Quality Warning](/warnings/2025-11-04_end_o3_obr_Kamloops.pdf) for the
+statutory decision-maker sign-off related to open burning restrictions.
+{{< inline_alert_end >}}
+
 The Ministry of Environment and Parks in collaboration with the Interior
-Health Authority has ended the Air Quality Warning that was issued on
-November 03, 2025 for Vernon due to elevated levels of coarse
-particulate matter.
+Health Authority has ended the Air Quality Warning and open burning
+restrictions that were issued on November 03, 2025 for Kamloops due to
+elevated levels of ground level ozone.
 
 Local air quality has improved due to changing meteorological
 conditions.
 
 # More information
 
-The provincial air quality objective for PM$_{10}$ is 50 micrograms per
-cubic metre ($\mu$g/m$^{3}$), averaged over 24 hours. 24-hour average
-PM$_{10}$ concentrations are summarized below for Vernon and nearest
-monitored communities at 8:00 AM local time today:
+-   The provincial air quality objectives for ozone is an eight-hour
+    objective of 62 parts per billion (ppb) and a one-hour average of 82
+    ppb for air quality advisories. Air quality advisories for
+    ground-level ozone may be issued when current concentrations exceed
+    or are expected to exceed either of these objectives.
+-   The 8-hour average ozone concentration and 1-hour maximum
+    concentration (within the past 8 hours) are summarized below for
+    Kamloops and nearest monitored communities at 10:00 AM local time
+    today:
 
-  Community                        Vernon   Kelowna
-  -------------------------------- -------- ---------
-  24-hr average ($\mu$g/m$^{3}$)   34.7     17.6
+  Community                Kamloops   Quesnel   Williams Lake
+  ------------------------ ---------- --------- ---------------
+  8-hr average (ppb)       0.6        1.6       3.5
+  Max. within 8 hr (ppb)   2.0        3.1       6.2
 
 Visit the provincial [air quality data
 webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)

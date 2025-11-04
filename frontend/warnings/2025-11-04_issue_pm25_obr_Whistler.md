@@ -1,13 +1,13 @@
 ---
 author:
-- Gail Roth
+- Muntaseer Azkar
 authors:
-- Gail Roth
+- Muntaseer Azkar
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
 date: 2025-11-04
-ice: Continue
-location: Burns Lake
+ice: Issue
+location: Whistler
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -21,7 +21,7 @@ params:
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
 title: Air quality warning and open burning restrictions in effect for
-  Burns Lake
+  Whistler
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -41,22 +41,18 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
 
 :::
 
-{{< inline_alert_start>}}
+{{< inline_alert_start>}} Please see the [PDF version of this Air
+Quality Warning](/warnings/2025-11-04_issue_pm25_obr_Whistler.pdf) for
+the statutory decision-maker sign-off related to open burning
+restrictions. {{< inline_alert_end >}}
 
-Please see the [PDF version of this Air Quality
-Warning](/warnings/2025-11-04_continue_pm25_obp_Burns_Lake.pdf) for the
-statutory decision-maker sign-off.
-
-{{< inline_alert_end >}}
-
-The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority issued an Air Quality Warning for Burns Lake on
-November 03, 2025. The warning remains in effect due to elevated fine
-particulate matter.
+The Ministry of Environment and Parks in collaboration with the
+Vancouver Coastal Health Authority has issued an Air Quality Warning for
+Whistler due to elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
 infants, older adults, individuals with chronic conditions (such as
@@ -68,15 +64,11 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
-Open burning restrictions are now in effect 50 km of the Burns Lake
-firehall No new fires may be initiated, and no additional material may
+Open burning restrictions are now in effect within50 km of the Whistler
+city hall. No new fires may be initiated, and no additional material may
 be added to existing fires. For more information on burning
 restrictions, refer to the Mandatory Emission Reduction Actions section
 below.
-
-Visit the provincial [air quality data
-webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
-for real-time observations.
 
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
@@ -84,6 +76,10 @@ change and/or local emissions are reduced.
 The next update will be on November 05, 2025 and posted to the
 province's [Air Quality Warnings
 webpage](https://www.gov.bc.ca/airquality).
+
+Visit the provincial [air quality data
+webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
+for real-time observations.
 
 # Actions you can take
 
@@ -156,29 +152,18 @@ people who work outdoors.
 
 <!-- -->
 
--   Burns Lake bylaw 871 restricts the use of wood burning appliances
-    during air quality advisories:
-
-    -   **6a**: No person shall use a Wood Burning Appliance at any time
-        when an air quality advisory is in effect, except to heat the
-        premises that are equipped with no heating appliance or
-        facilities other than the Wood Burning Appliance.
-
-    -   Contact the Burns Lake municipal office at
-        [250-692-7587](tel:2506927587) for more information on woodstove
-        restrictions.
-
 -   As pollution is occurring or is likely to occur from open burning,
     pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
     Control Regulation, the Director has prohibited open burning within
-    50 km of the Burns Lake firehall until November 05, 2025 9:00 AM
+    50 km of the Whistler city hall until November 06, 2025 12:00 PM
     local time. No vegetative debris may be ignited or added to ignited
     piles. Contravention of these provisions may be subject to a fine
     under the Regulation.
 
 -   Please see the [PDF version of this Air Quality
-    Warning](/warnings/2025-11-04_continue_pm25_obp_Burns_Lake.pdf) for
-    the statutory decision-maker sign-off.
+    Warning](/warnings/2025-11-04_issue_pm25_obr_Whistler.pdf) for the
+    statutory decision-maker sign-off related to open burning
+    restrictions.
 
 # Voluntary emission reduction actions
 
@@ -201,17 +186,17 @@ trucks and rail traffic.
 
 The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
 cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Burns Lake and
-nearest monitored communities at 8:00 AM local time today:
+PM$_{2.5}$ concentrations are summarized below for Whistler and nearest
+monitored communities at 10:00 AM local time today:
 
-  ----------------------------------------------------------------------------------
-  Community                  Burns     Houston   Prince      Smithers   Vanderhoof
-                             Lake                George                 
-  -------------------------- --------- --------- ----------- ---------- ------------
-  24-hr average              10.4      15.6      13.4        7.6        12.6
-  ($\mu$g/m$^{3}$)                                                      
+  ------------------------------------------------------------------------------------
+  Community                  Whistler   West         Vancouver   Langdale   Squamish
+                                        Vancouver                           
+  -------------------------- ---------- ------------ ----------- ---------- ----------
+  24-hr average              1.9        2.7          2.7         3.7        5.2
+  ($\mu$g/m$^{3}$)                                                          
 
-  ----------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------
 
 ## For general information about air quality in British Columbia:
 
@@ -231,13 +216,13 @@ nearest monitored communities at 8:00 AM local time today:
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start width="wide" >}} Gail Roth`<br />`{=html}Senior Air
+{{< card_start width="wide" >}} Muntaseer Azkar`<br />`{=html}Air
 Quality Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-645-9358 {{< card_end >}}
+Parks`<br />`{=html}604-558-9508 {{< card_end >}}
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start  width="wide" >}}Northern Health
-Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+{{< card_start  width="wide" >}}Vancouver Coastal Health
+Authority`<br />`{=html}Email: media@vch.ca`<br />`{=html}After-hours
+media line: 604-202-2012`<br />`{=html}{{< card_end >}}

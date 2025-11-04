@@ -1,13 +1,13 @@
 ---
 author:
-- Muntaseer Azkar
+- Gavin King
 authors:
-- Muntaseer Azkar
+- Gavin King
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
 date: 2025-11-04
-ice: Continue
-location: Whistler
+ice: Issue
+location: Kelowna
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -20,7 +20,8 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning in effect for Whistler
+title: Air quality warning and open burning restrictions in effect for
+  Kelowna
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -40,36 +41,34 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
-{{< inline_alert_start>}}
-
-Please see the [PDF version of this Air Quality
-Warning](/warnings/2025-11-04_continue_pm25_Whistler.pdf) for the
-statutory decision-maker sign-off.
-
+{{< inline_alert_start>}} Please see the [PDF version of this Air
+Quality Warning](/warnings/2025-11-04_issue_o3_obr_Kelowna.pdf) for the
+statutory decision-maker sign-off related to open burning restrictions.
 {{< inline_alert_end >}}
 
-The Ministry of Environment and Parks in collaboration with the
-Vancouver Coastal Health Authority issued an Air Quality Warning for
-Whistler on November 01, 2025. The warning remains in effect due to
-elevated fine particulate matter.
+The Ministry of Environment and Parks in collaboration with the Interior
+Health Authority has issued an Air Quality Warning for Kelowna due to
+elevated ground level ozone.
 
-Exposure to fine particulate matter is particularly a concern for
-infants, older adults, individuals with chronic conditions (such as
-asthma, COPD, heart disease, and diabetes) or respiratory infections,
-and those who are pregnant. Persons with chronic underlying medical
-conditions or acute infections should postpone or reduce strenuous
-exercise until the warning is ended. Anyone experiencing symptoms such
-as continuing eye or throat irritation, chest discomfort, shortness of
-breath, cough or wheezing, should follow the advice of their health care
-provider. Staying indoors helps to reduce exposure.
+Exposure to ground level ozone is particularly a concern for infants,
+older adults, individuals with chronic conditions (such as asthma, COPD,
+heart disease, and diabetes) or respiratory infections, and those who
+are pregnant. Persons with chronic underlying medical conditions or
+acute infections should postpone or reduce strenuous exercise until the
+warning is ended. Anyone experiencing symptoms such as continuing eye or
+throat irritation, chest discomfort, shortness of breath, cough or
+wheezing, should follow the advice of their health care provider.
+Staying indoors helps to reduce exposure.
 
-Visit the provincial [air quality data
-webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
-for real-time observations.
+Open burning restrictions are now in effect within50 km of the Valemount
+firehall. No new fires may be initiated, and no additional material may
+be added to existing fires. For more information on burning
+restrictions, refer to the Mandatory Emission Reduction Actions section
+below.
 
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
@@ -77,6 +76,10 @@ change and/or local emissions are reduced.
 The next update will be on November 05, 2025 and posted to the
 province's [Air Quality Warnings
 webpage](https://www.gov.bc.ca/airquality).
+
+Visit the provincial [air quality data
+webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
+for real-time observations.
 
 # Actions you can take
 
@@ -123,22 +126,7 @@ people who work outdoors.
 
 -   Air contaminant levels may be lower indoors but will still be
     elevated, so stay aware of your symptoms even when you are indoors.
-
 -   When indoors, keep windows and doors closed as much as possible.
-
--   Protect your indoor air from outdoor air pollution. Actions can
-    include using a clean, good quality air filter in your ventilation
-    system and/or a certified portable air cleaner that can filter fine
-    particles. Do-it-yourself air cleaners may also be used if other
-    options are not available. For details, visit: https://rb.gy/epi7qv.
-
--   If you must spend time outdoors, a well-constructed, well-fitting
-    and properly worn respirator type mask (such as a NIOSH-certified
-    N95 or equivalent respirator) can reduce your exposure to
-    particulate matter. Even though exposure may be reduced, there can
-    still be risks to health.
-
--   Avoid roads with heavy vehicle traffic and areas with wood smoke.
 
 # Mandatory emission reduction actions
 
@@ -147,38 +135,54 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
+<!-- -->
+
+-   As pollution is occurring or is likely to occur from open burning,
+    pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
+    Control Regulation, the Director has prohibited open burning within
+    50 km of the Valemount firehall until November 06, 2025 12:00 PM
+    local time. No vegetative debris may be ignited or added to ignited
+    piles. Contravention of these provisions may be subject to a fine
+    under the Regulation.
+
+-   Please see the [PDF version of this Air Quality
+    Warning](/warnings/2025-11-04_issue_o3_obr_Kelowna.pdf) for the
+    statutory decision-maker sign-off related to open burning
+    restrictions.
+
 # Voluntary emission reduction actions
 
--   Avoid using wood stoves and fireplaces unless it is the sole heating
-    source. If wood burning is the sole heating source, burn dry,
-    seasoned wood and ensure an adequate supply of combustion air.
--   Reduce vehicle use where possible and avoid idling vehicles.
+-   Fuel your vehicle in the cooler evening hours or after dark.
+-   Reduce or reschedule using other gasoline and diesel equipment, such
+    as lawn mowers, trimmers and leaf blowers.
 
 # More information
 
-Fine particulate matter refers to airborne solid or liquid droplets with
-diameters of 2.5 micrometers ($\mu$m) or less. PM$_{2.5}$ levels tend to
-be highest around busy roads, industrial operations and neighbourhoods
-with residential wood burning. PM$_{2.5}$ can easily penetrate indoors
-because of their small size. Common sources of PM$_{2.5}$ that
-contribute to episodes of poor air quality vary seasonally but can
-include wood smoke (from wood stoves and/or open burning) as well as
-emissions from industry and transportation sources such as automobiles,
-trucks and rail traffic.
+Ground-level ozone is formed when chemicals (such as nitrogen oxides and
+volatile organic compounds) react in the air when there is sunlight.
+Nitrogen oxides are emitted from vehicles, boilers, building heating,
+and other combustion processes. VOCs are emitted from burning fossil
+fuels, evaporation of solvents (including paint, varnishes and
+thinners), refining and storing fuel and agricultural activities. VOCs
+also come from natural sources such as vegetation.
 
-The provincial air quality objective for PM$_{2.5}$ is 25 micrograms per
-cubic metre ($\mu$g/m$^{3}$) averaged over 24 hours. 24-hour average
-PM$_{2.5}$ concentrations are summarized below for Whistler and nearest
-monitored communities at 8:00 AM local time today:
+The highest concentrations of ground-level ozone usually happen between
+mid-afternoon and early evening on summer days.
 
-  ------------------------------------------------------------------------------------
-  Community                  Whistler   West         Vancouver   Langdale   Squamish
-                                        Vancouver                           
-  -------------------------- ---------- ------------ ----------- ---------- ----------
-  24-hr average              2.0        2.6          2.6         3.6        4.6
-  ($\mu$g/m$^{3}$)                                                          
+The provincial air quality objectives for ozone is an eight-hour
+objective of 62 parts per billion (ppb) and a one-hour average of 82 ppb
+for air quality warnings. Air quality warnings for ground-level ozone
+may be issued when current concentrations exceed or are expected to
+exceed either of these objectives.
 
-  ------------------------------------------------------------------------------------
+The 8-hour average ozone concentration and 1-hour maximum concentration
+(within the past 8 hours) are summarized below for Kelowna and nearest
+monitored communities at 10:00 AM local time today:
+
+  Community                Kelowna   Kamloops   Vernon
+  ------------------------ --------- ---------- --------
+  8-hr average (ppb)       2.9       0.6        -0.6
+  Max. within 8 hr (ppb)   6.7       2.0        3.4
 
 ## For general information about air quality in British Columbia:
 
@@ -198,13 +202,13 @@ monitored communities at 8:00 AM local time today:
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start width="wide" >}} Muntaseer Azkar`<br />`{=html}Air
+{{< card_start width="wide" >}} Gavin King`<br />`{=html}Senior Air
 Quality Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}604-558-9508 {{< card_end >}}
+Parks`<br />`{=html}250-312-6798 {{< card_end >}}
 
 **Media questions regarding health implications of this Air Quality
 Warning:**
 
-{{< card_start  width="wide" >}}Vancouver Coastal Health
-Authority`<br />`{=html}Email: media@vch.ca`<br />`{=html}After-hours
-media line: 604-202-2012`<br />`{=html}{{< card_end >}}
+{{< card_start  width="wide" >}}Interior Health
+Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
