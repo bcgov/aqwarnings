@@ -6,8 +6,8 @@ authors:
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
 date: 2025-11-05
-ice: Continue
-location: Fort St John
+ice: Issue
+location: Burns Lake
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -21,7 +21,7 @@ params:
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
 title: Air quality warning and open burning restrictions in effect for
-  Fort St John
+  Burns Lake
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -48,17 +48,15 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- Start: Temporary - until SDM signature is sorted -->
 
 {{< inline_alert_start>}} Please see the [PDF version of this Air
-Quality
-Warning](/warnings/2025-11-05_continue_pm25_obr_Fort_St_John.pdf) for
+Quality Warning](/warnings/2025-11-05_issue_pm25_obr_Burns_Lake.pdf) for
 the statutory decision-maker sign-off related to open burning
 restrictions. {{< inline_alert_end >}}
 
 <!-- End: Temporary - until SDM signature is sorted -->
 
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority issued an Air Quality Warning for Fort St John on
-November 04, 2025. The warning remains in effect due to elevated fine
-particulate matter.
+Health Authority has issued an Air Quality Warning for Burns Lake due to
+elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
 infants, older adults, individuals with chronic conditions (such as
@@ -70,9 +68,9 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
-Open burning restrictions are now in effect within 50 km of Fort St John
-city hall. No new fires may be initiated, and no additional material may
-be added to existing fires. For more information on burning
+Open burning restrictions are now in effect within 50 km from the Burns
+Lake firehall. No new fires may be initiated, and no additional material
+may be added to existing fires. For more information on burning
 restrictions, refer to the Mandatory Emission Reduction Actions section
 below.
 
@@ -112,7 +110,6 @@ people who work outdoors.
     follow the same advice.
 
 {{< accordion_end >}}
-{{< accordion_controls >}}
 {{< accordion_start title="Monitor your symptoms" initiallyOpen="true" >}}
 
 -   Different people have different responses to elevated levels of air
@@ -132,11 +129,7 @@ people who work outdoors.
     emergency, call 9-1-1.
 
 {{< accordion_end >}}
-{{< accordion_controls >}}
 {{< accordion_start title="Tips to reduce your exposure to air pollution" initiallyOpen="true" >}}
-
-\[## Tips to reduce your exposure to air pollution\].{content-visible
-when-format="pdf"}
 
 -   Air contaminant levels may be lower indoors but will still be
     elevated, so stay aware of your symptoms even when you are indoors.
@@ -160,31 +153,41 @@ when-format="pdf"}
 ## Emission reduction actions
 
 {{< accordion_end >}}
-{{< accordion_controls >}}
-{{< accordion_start title="Mandatory reduction actions" initiallyOpen="true" >}}
+{{< accordion_start title="Mandatory actions" initiallyOpen="true" >}}
 
 -   Facilities with air discharge authorizations under the Environmental
     Management Act are required to follow trigger actions within their
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
+-   Burns Lake bylaw 871 restricts the use of wood burning appliances
+    during air quality advisories:
+
+    -   **6a**: No person shall use a Wood Burning Appliance at any time
+        when an air quality advisory is in effect, except to heat the
+        premises that are equipped with no heating appliance or
+        facilities other than the Wood Burning Appliance.
+
+    -   Contact the Burns Lake municipal office at
+        [250-692-7587](tel:2506927587) for more information on woodstove
+        restrictions.
+
 -   As pollution is occurring or is likely to occur from open burning,
     pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
     Control Regulation, the Director has prohibited open burning within
-    50 km of Fort St John city hall until November 06, 2025 2:00 PM
+    50 km from the Burns Lake firehall until November 06, 2025 3:00 PM
     local time. No vegetative debris may be ignited or added to ignited
     piles. Contravention of these provisions may be subject to a fine
     under the Regulation.
 
 -   Please see the [PDF version of this Air Quality
-    Warning](/warnings/2025-11-05_continue_pm25_obr_Fort_St_John.pdf)
-    for the statutory decision-maker sign-off related to open burning
+    Warning](/warnings/2025-11-05_issue_pm25_obr_Burns_Lake.pdf) for the
+    statutory decision-maker sign-off related to open burning
     restrictions.
 
 {{< accordion_end >}}
 {{< accordion_end >}}
-{{< accordion_controls >}}
-{{< accordion_start title="Voluntary reduction actions" initiallyOpen="true" >}}
+{{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
 -   Avoid using wood stoves and fireplaces unless it is the sole heating
     source. If wood burning is the sole heating source, burn dry,
@@ -196,7 +199,6 @@ when-format="pdf"}
 ## More information
 
 {{< accordion_end >}}
-{{< accordion_controls >}}
 {{< accordion_start title="Current conditions" initiallyOpen="true" >}}
 
 Fine particulate matter refers to airborne solid or liquid droplets with
@@ -211,12 +213,17 @@ traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Fort St John and nearest
-monitored communities at 3:00 PM local time today:
+concentrations are summarized below for Burns Lake and nearest monitored
+communities at 3:00 PM local time today:
 
-  Community                 Fort St John   Prince George
-  ------------------------- -------------- ---------------
-  24-hr average (μg/m^3^)   9.6            9.8
+  --------------------------------------------------------------------------------
+  Community              Burns Lake Houston   Prince       Smithers   Vanderhoof
+                                              George                  
+  ---------------------- ---------- --------- ------------ ---------- ------------
+  24-hr average          11.2       5.1       9.5          3.3        6.2
+  (μg/m^3^)                                                           
+
+  --------------------------------------------------------------------------------
 
 {{< accordion_end >}}
 
@@ -248,13 +255,20 @@ warnings](https://metrovancouver.org/services/air-quality-climate-action/air-qua
 **Media questions regarding air quality conditions related to this Air
 Quality Warning:**
 
-{{< card_start width="wide" >}} Donna Haga`<br />`{=html}Senior Air
-Quality Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-420-6320 {{< card_end >}}
+{{< card_start width="wide" >}}
+
+Donna Haga`<br />`{=html}Senior Air Quality
+Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-420-6320
+
+{{< card_end >}}
 
 **Media questions regarding health implications related to impaired air
 quality:**
 
-{{< card_start  width="wide" >}}Northern Health
-Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+{{< card_start  width="wide" >}}
+
+Northern Health Authority`<br />`{=html}Media Line:
+1-877-961-7724`<br />`{=html}
+
+{{< card_end >}}
