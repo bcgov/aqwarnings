@@ -86,12 +86,12 @@ to the Mandatory Emission Reduction Actions section below.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for Golden and nearest monitored
-communities at 2:00 PM local time today:
+communities at 3:00 PM local time today:
 
   -------------------------------------------------------------------------------
   Community                 Golden   Castlegar   Cranbrook   Elkford   Sparwood
   ------------------------- -------- ----------- ----------- --------- ----------
-  24-hr average (μg/m^3^)   16.2     10.6        10.8        4.3       6.0
+  24-hr average (μg/m^3^)   16.3     10.8        11.0        4.4       6.0
 
   -------------------------------------------------------------------------------
 
