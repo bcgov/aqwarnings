@@ -60,8 +60,8 @@ matter.
 
 This is a TEST - not an actual warning
 
-Open burning restrictions remain in effect within This is a TEST - not
-an actual warning. No new fires may be initiated, and no additional
+Open burning restrictions remain in effect within within 50 km of the
+Golden Hospital. No new fires may be initiated, and no additional
 material may be added to existing fires. For more information on burning
 restrictions, refer to the Mandatory Emission Reduction Actions section
 below.
@@ -71,7 +71,7 @@ below.
 -   As pollution is occurring or is likely to occur from open burning,
     pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
     Control Regulation, the Director has prohibited open burning within
-    This is a TEST - not an actual warning until November 08, 2025 local
+    within 50 km of the Golden Hospital until November 08, 2025 local
     time. No vegetative debris may be ignited or added to ignited piles.
     Contravention of these provisions may be subject to a fine under the
     Regulation.
