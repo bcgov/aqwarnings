@@ -176,7 +176,6 @@ people who work outdoors.
     restrictions.
 
 {{< accordion_end >}}
-{{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
 -   Avoid using wood stoves and fireplaces unless it is the sole heating
@@ -203,11 +202,11 @@ traffic.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for Kamloops and nearest monitored
-communities at 5:00 PM local time today:
+communities at 8:00 PM local time today:
 
   Community                 Kamloops   Quesnel   Williams Lake
   ------------------------- ---------- --------- ---------------
-  24-hr average (μg/m^3^)   12.7       9.0       5.0
+  24-hr average (μg/m^3^)   10.0       7.8       3.4
 
 {{< accordion_end >}}
 
@@ -245,8 +244,8 @@ Parks`<br />`{=html}250-312-6798
 
 {{< card_end >}}
 
-**Media questions regarding health implications related to impaired air
-quality:**
+**Media questions regarding health implications when air quality is
+degraded:**
 
 {{< card_start  width="wide" >}}
 

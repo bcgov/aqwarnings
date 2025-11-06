@@ -19,7 +19,8 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning ended for Quesnel
+title: Air quality warning ended for Quesnel - open burning restrictions
+  remain in effect
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -44,6 +45,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 <!-- Start: Temporary - until SDM signature is sorted -->
+{{< inline_alert_start>}}
+
+Please see the [PDF version of this Air Quality
+Warning](/warnings/2025-11-05_end_pm25_obr_continue_Quesnel.pdf) for the
+statutory decision-maker sign-off related to open burning restrictions.
+
+{{< inline_alert_end >}}
 <!-- End: Temporary - until SDM signature is sorted -->
 
 The Ministry of Environment and Parks in collaboration with the Northern
@@ -54,6 +62,29 @@ matter.
 Local air quality has improved due to changing meteorological
 conditions.
 
+Open burning restrictions remain in effect within 50 km of the Quesnel
+city hall. No new fires may be initiated, and no additional material may
+be added to existing fires. For more information on burning
+restrictions, refer to the Mandatory Emission Reduction Actions section
+below.
+
+{{< accordion_controls >}}
+
+## Mandatory emission reduction actions {#mandatory-emission-reduction-actions-1}
+
+-   As pollution is occurring or is likely to occur from open burning,
+    pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
+    Control Regulation, the Director has prohibited open burning within
+    50 km of the Quesnel city hall until November 06, 2025 local time.
+    No vegetative debris may be ignited or added to ignited piles.
+    Contravention of these provisions may be subject to a fine under the
+    Regulation.
+
+-   Please see the [PDF version of this Air Quality
+    Warning](/warnings/2025-11-05_end_pm25_obr_continue_Quesnel.pdf) for
+    the statutory decision-maker sign-off related to open burning
+    restrictions.
+
 ## More information
 
 {{< accordion_start title="Current conditions" initiallyOpen="true" >}}
@@ -61,11 +92,11 @@ conditions.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for Quesnel and nearest monitored
-communities at 5:00 PM local time today:
+communities at 8:00 PM local time today:
 
   Community                 Quesnel   Prince George   Williams Lake
   ------------------------- --------- --------------- ---------------
-  24-hr average (μg/m^3^)   9.0       9.2             5.0
+  24-hr average (μg/m^3^)   7.8       7.8             3.4
 
 Visit the provincial [air quality data
 webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
@@ -85,8 +116,8 @@ Parks`<br />`{=html}778-362-4477
 
 {{< card_end >}}
 
-**Media questions regarding health implications related to impaired air
-quality:**
+**Media questions regarding health implications when air quality is
+degraded:**
 
 {{< card_start  width="wide" >}}
 
