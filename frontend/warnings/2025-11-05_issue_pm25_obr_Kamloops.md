@@ -1,13 +1,13 @@
 ---
 author:
-- Donna Haga
+- Gavin King
 authors:
-- Donna Haga
+- Gavin King
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
 date: 2025-11-05
 ice: Issue
-location: Houston
+location: Kamloops
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -21,7 +21,7 @@ params:
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
 title: Air quality warning and open burning restrictions in effect for
-  Houston
+  Kamloops
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -41,7 +41,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
@@ -49,14 +49,14 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 {{< inline_alert_start>}}
 
 Please see the [PDF version of this Air Quality
-Warning](/warnings/2025-11-05_issue_pm25_obr_Houston.pdf) for the
+Warning](/warnings/2025-11-05_issue_pm25_obr_Kamloops.pdf) for the
 statutory decision-maker sign-off related to open burning restrictions.
 
 {{< inline_alert_end >}}
 <!-- End: Temporary - until SDM signature is sorted -->
 
-The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Houston due to
+The Ministry of Environment and Parks in collaboration with the Interior
+Health Authority has issued an Air Quality Warning for Kamloops due to
 elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
@@ -69,9 +69,9 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
-Open burning restrictions are now in effect within 50 km from the
-Houston firehall. No new fires may be initiated, and no additional
-material may be added to existing fires. For more information on burning
+Open burning restrictions are now in effect within 50 km of Kamloops
+city hall. No new fires may be initiated, and no additional material may
+be added to existing fires. For more information on burning
 restrictions, refer to the Mandatory Emission Reduction Actions section
 below.
 
@@ -151,9 +151,10 @@ people who work outdoors.
 
 -   Avoid roads with heavy vehicle traffic and areas with wood smoke.
 
+{{< accordion_end >}}
+
 ## Emission reduction actions
 
-{{< accordion_end >}}
 {{< accordion_start title="Mandatory actions" initiallyOpen="true" >}}
 
 -   Facilities with air discharge authorizations under the Environmental
@@ -161,28 +162,16 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
--   Houston bylaw 947 restricts the use of wood burning appliances
-    during air quality advisories:
-
-    -   **2.1.1**: No person shall use a wood burning appliance at any
-        time when an air quality advisory is in effect, except to heat
-        premises that are equipped with no heating appliance or
-        facilities other than the wood burning appliance.
-
-    -   Contact the Houston municipal office at
-        [250-845-2238](tel:2508452238) for more information on woodstove
-        restrictions.
-
 -   As pollution is occurring or is likely to occur from open burning,
     pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
     Control Regulation, the Director has prohibited open burning within
-    50 km from the Houston firehall until November 06, 2025 3:00 PM
-    local time. No vegetative debris may be ignited or added to ignited
-    piles. Contravention of these provisions may be subject to a fine
-    under the Regulation.
+    50 km of Kamloops city hall until November 06, 2025 5:00 PM local
+    time. No vegetative debris may be ignited or added to ignited piles.
+    Contravention of these provisions may be subject to a fine under the
+    Regulation.
 
 -   Please see the [PDF version of this Air Quality
-    Warning](/warnings/2025-11-05_issue_pm25_obr_Houston.pdf) for the
+    Warning](/warnings/2025-11-05_issue_pm25_obr_Kamloops.pdf) for the
     statutory decision-maker sign-off related to open burning
     restrictions.
 
@@ -199,7 +188,6 @@ people who work outdoors.
 
 ## More information
 
-{{< accordion_end >}}
 {{< accordion_start title="Current conditions" initiallyOpen="true" >}}
 
 Fine particulate matter refers to airborne solid or liquid droplets with
@@ -214,17 +202,12 @@ traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Houston and nearest monitored
-communities at 3:00 PM local time today:
+concentrations are summarized below for Kamloops and nearest monitored
+communities at 5:00 PM local time today:
 
-  --------------------------------------------------------------------------------
-  Community              Houston   Burns Lake Prince       Smithers   Vanderhoof
-                                              George                  
-  ---------------------- --------- ---------- ------------ ---------- ------------
-  24-hr average          5.1       11.1       9.5          3.4        6.2
-  (μg/m^3^)                                                           
-
-  --------------------------------------------------------------------------------
+  Community                 Kamloops   Quesnel   Williams Lake
+  ------------------------- ---------- --------- ---------------
+  24-hr average (μg/m^3^)   12.7       9.0       5.0
 
 {{< accordion_end >}}
 
@@ -256,9 +239,9 @@ warnings](https://metrovancouver.org/services/air-quality-climate-action/air-qua
 
 {{< card_start width="wide" >}}
 
-Donna Haga`<br />`{=html}Senior Air Quality
+Gavin King`<br />`{=html}Senior Air Quality
 Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-420-6320
+Parks`<br />`{=html}250-312-6798
 
 {{< card_end >}}
 
@@ -267,7 +250,8 @@ quality:**
 
 {{< card_start  width="wide" >}}
 
-Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}
+Interior Health Authority`<br />`{=html}Media line:
+1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}
 
 {{< card_end >}}
