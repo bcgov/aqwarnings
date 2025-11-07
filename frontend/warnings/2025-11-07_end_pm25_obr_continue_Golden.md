@@ -1,10 +1,11 @@
 ---
 author:
-- Donna Haga
+- Gail Roth
 authors:
-- Donna Haga
-customMessage: This is a TEST - not an actual warning
-date: 2025-11-06
+- Gail Roth
+customMessage: Local air quality has improved due to changing
+  meteorological conditions.
+date: 2025-11-07
 ice: End
 location: Golden
 outputFormat: markdown
@@ -47,7 +48,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 {{< inline_alert_start>}}
 
 Please see the [PDF version of this Air Quality
-Warning](/warnings/2025-11-06_end_pm25_obr_continue_Golden.pdf) for the
+Warning](/warnings/2025-11-07_end_pm25_obr_continue_Golden.pdf) for the
 statutory decision-maker sign-off related to open burning restrictions.
 
 {{< inline_alert_end >}}
@@ -55,14 +56,15 @@ statutory decision-maker sign-off related to open burning restrictions.
 
 The Ministry of Environment and Parks in collaboration with the Interior
 Health Authority has ended the Air Quality Warning that was issued on
-November 05, 2025 for Golden due to elevated levels of fine particulate
+November 06, 2025 for Golden due to elevated levels of fine particulate
 matter.
 
-This is a TEST - not an actual warning
+Local air quality has improved due to changing meteorological
+conditions.
 
-Open burning restrictions remain in effect within within 50 km of the
-Golden Hospital. No new fires may be initiated, and no additional
-material may be added to existing fires. For more information on burning
+Open burning restrictions remain in effect within 50 km of the Golden
+hospital. No new fires may be initiated, and no additional material may
+be added to existing fires. For more information on burning
 restrictions, refer to the Mandatory Emission Reduction Actions section
 below.
 
@@ -71,13 +73,13 @@ below.
 -   As pollution is occurring or is likely to occur from open burning,
     pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke
     Control Regulation, the Director has prohibited open burning within
-    within 50 km of the Golden Hospital until November 08, 2025 local
+    50 km of the Golden hospital until November 08, 2025 11:00 AM local
     time. No vegetative debris may be ignited or added to ignited piles.
     Contravention of these provisions may be subject to a fine under the
     Regulation.
 
 -   Please see the [PDF version of this Air Quality
-    Warning](/warnings/2025-11-06_end_pm25_obr_continue_Golden.pdf) for
+    Warning](/warnings/2025-11-07_end_pm25_obr_continue_Golden.pdf) for
     the statutory decision-maker sign-off related to open burning
     restrictions.
 
@@ -88,12 +90,12 @@ below.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for Golden and nearest monitored
-communities at 3:00 PM local time today:
+communities at 11:00 AM local time today:
 
   -------------------------------------------------------------------------------
   Community                 Golden   Castlegar   Cranbrook   Elkford   Sparwood
   ------------------------- -------- ----------- ----------- --------- ----------
-  24-hr average (μg/m^3^)   10.3     11.7        10.0        4.2       2.9
+  24-hr average (μg/m^3^)   12.5     5.1         2.7         3.8       2.3
 
   -------------------------------------------------------------------------------
 
@@ -108,9 +110,9 @@ for real-time observations.
 **Media questions regarding this Air Quality Warning:**
 {{< card_start width="wide" >}}
 
-Donna Haga`<br />`{=html}Senior Air Quality
+Gail Roth`<br />`{=html}Senior Air Quality
 Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-420-6320
+Parks`<br />`{=html}250-645-9358
 
 {{< card_end >}}
 
