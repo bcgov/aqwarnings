@@ -22,6 +22,7 @@ params:
 title: Air quality warning in effect for Vanderhoof
 toc-title: Table of contents
 type: local_emissions
+bylaw: false
 ---
 
 <!--
