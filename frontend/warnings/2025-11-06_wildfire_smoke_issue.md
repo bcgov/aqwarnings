@@ -25,6 +25,7 @@ smokeDuration: 24-48 hours
 title: Air quality warning in effect for wildfire smoke
 toc-title: Table of contents
 type: wildfire_smoke
+bylaw: false
 ---
 
 <!--
