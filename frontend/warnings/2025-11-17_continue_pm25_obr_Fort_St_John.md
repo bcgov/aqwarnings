@@ -24,6 +24,7 @@ title: Air quality warning and open burning restrictions in effect for
   Fort St John
 toc-title: Table of contents
 type: local_emissions
+bylaw: false
 ---
 
 <!--
