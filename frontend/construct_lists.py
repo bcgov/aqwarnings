@@ -45,6 +45,7 @@ def extract_header_from_file(file_path: str) -> Optional[Dict[str, Any]]:
     Returns:
         Dictionary with metadata or None if no header found
     """
+    parsed_header = None
     try:
         # Check if file exists
         if not os.path.exists(file_path):
@@ -61,58 +62,46 @@ def extract_header_from_file(file_path: str) -> Optional[Dict[str, Any]]:
             if match:
                 doc_preamble = match.group(1)
                 parsed_header = yaml.safe_load(doc_preamble)
-                # Prepare entry from header
-                # For redirect types, use the path from the YAML file if available
-                path_to_use = parsed_header.get('path') if parsed_header.get('type') == 'redirect' else file_path
-
-                entry_from_header = {
-                    'path': path_to_use,
-                    'title': parsed_header.get('title', 'No Title'),
-                    'type': parsed_header.get('type', 'N/A'),
-                    'ice': parsed_header.get('ice', 'N/A'),
-                    'date': parsed_header.get('date'),
-                    'location': parsed_header.get('location'),
-                }
-
-                return {'entry': entry_from_header, 'raw_header': parsed_header}
             else:
                 # For YML files, try loading directly with yaml
-                if file_path.endswith('.yml'):
+                if file_path.endswith('.yml') or file_path.endswith('.yaml'):
                     try:
                         parsed_header = yaml.safe_load(contents)
-                        if isinstance(parsed_header, dict):
-                            # For redirect types, use the path from the YAML file if available
-                            path_to_use = (
-                                parsed_header.get('path') if parsed_header.get('type') == 'redirect' else file_path
-                            )
-
-                            entry_from_header = {
-                                'path': path_to_use,
-                                'title': parsed_header.get('title', 'No Title'),
-                                'type': parsed_header.get('type', 'N/A'),
-                                'ice': parsed_header.get('ice', 'N/A'),
-                                'date': parsed_header.get('date'),
-                                'location': parsed_header.get('location'),
-                            }
-
-                            return {'entry': entry_from_header, 'raw_header': parsed_header}
                     except Exception as e:
                         print(f'Error loading YAML directly: {e}')
     except Exception as e:
         print(f'Error processing file {file_path}: {e}')
 
-    return None
+    if parsed_header is not None:
+        # Prepare entry from header
+        # For redirect types, use the path from the YAML file if available
+        path_to_use = parsed_header.get('path') if parsed_header.get('type') == 'redirect' else file_path
+
+        entry_from_header = {
+            'path': path_to_use,
+            'title': parsed_header.get('title', 'No Title'),
+            'type': parsed_header.get('type', 'N/A'),
+            'ice': parsed_header.get('ice', 'N/A'),
+            'date': parsed_header.get('date'),
+            'location': parsed_header.get('location'),
+        }
+
+        return {'entry': entry_from_header, 'raw_header': parsed_header}
+    else:
+        return None
 
 
 def select_recent_warnings(
-    header_entries: List[Dict[str, Any]], today_date=None, end_status_threshold_days: int = END_STATUS_THRESHOLD_DAYS
+    header_entries: List[Dict[str, Any]],
+    today: datetime.date,
+    end_status_threshold_days: int = END_STATUS_THRESHOLD_DAYS,
 ) -> List[Dict[str, Any]]:
     """
     Select recent warnings based on type, community, and status.
 
     Args:
         header_entries: List of dictionaries containing header metadata
-        today_date: Optional date to use for comparison (for testing)
+        today: Date to use for comparison
         end_status_threshold_days: Number of days to consider "end" status warnings as recent
 
     Returns:
@@ -124,19 +113,16 @@ def select_recent_warnings(
     3. For other warnings: group by community and keep newest per community
     4. For "end" status warnings: only show if less than end_status_threshold_days old
 
-    Normally I don't like to include arguments specifically for testing, but the
-    freezegun testing library doesn't interact with timezones correctly, which
-    introduces false failures.
+    The date parameter is included the date as a parameter to keep this as a pure function, making it easier to test.
     """
     recent_warnings = []
-    today = today_date or get_today_in_bc_timezone()
 
     # Special handling for Metro Vancouver
     metro_vancouver_entry = None
 
     # Group warnings by type and community
     wildfire_warnings = []
-    community_warnings = {}  # {community: [warnings]}
+    community_warnings = {}  # { name_of_community: [warnings] }
     for header_data in header_entries:
         if not header_data:
             continue
@@ -246,7 +232,7 @@ def main():
     header_entries = process_input_files()
 
     # Select recent warnings
-    recent_warnings = select_recent_warnings(header_entries)
+    recent_warnings = select_recent_warnings(header_entries, get_today_in_bc_timezone())
 
     # Write output to file
     with open(RECENTS_FILE_NAME, 'w') as output_file:
