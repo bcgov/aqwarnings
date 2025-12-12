@@ -13,12 +13,54 @@ RECENTS_FILE_NAME will contain a yaml list of files with a date attribute newer 
 Special handling is applied based on warning type and status.
 
 This is then used in custom listings within the qmd markup
+
+The necessary format of the YAML header in the markdown file, or the YAML file is as follows:
+
+---
+date: REQUIRED ISO8601 date
+ice: REQUIRED string - "Issue" or "Continue" or "End"
+location: REQUIRED string
+type: REQUIRED - "redirect" or "wildfire_smoke" or "local_emissions"
+path: OPTIONAL - the URL for the redirect link. Only used if type is "redirect"
+title: OPTIONAL string
+overrideTitle: OPTIONAL boolean - This will force the rendered Title to be the provided title
+bylaw: OPTIONAL boolean - if present, this will override other mandatory action logic, *except* burn restrictions.
+params:
+    burnRestrictions: OPTIONAL integer
+    pollutant: REQUIRED if type is local_emissions, string - "PM10" or "PM25" or "O3" or "PM25 & PM10"
+---
+
+Other parameters and values will be ignored by this script.
+
 """
 
 # editable -- consider "end" status warnings less than END_STATUS_THRESHOLD_DAYS days old to be "recent"
 END_STATUS_THRESHOLD_DAYS = 3
 RECENTS_FILE_NAME = '_recent_warnings.yaml'
 METRO_VANCOUVER_FILENAME = '_metro_vancouver.yml'
+
+# Editable - Input Values to match within the YAML for determining the warning title. Useful if you want to change the
+# capitalization or spelling in the yaml header.
+REDIRECT_TYPE = 'redirect'
+WILDFIRE_SMOKE_TYPE = 'wildfire_smoke'
+LOCAL_EMISSIONS_TYPE = 'local_emissions'
+PM25_POLLUTANT = 'PM25'
+O3_POLLUTANT = 'O3'
+PM10_POLLUTANT = 'PM10'
+PM25_AND_PM10_POLLUTANT = 'PM25 & PM10'
+# Locations where local bylaws affect Mandatory Action. This can be overridden with the 'blylaw' key.
+MANDATORY_ACTION_LOCATIONS = ['Burns Lake', 'Duncan', 'Houston', 'Prince George', 'Smithers', 'Valemount']
+
+# Editable - Display strings for easy modification without developer involvement
+METRO_VAN_LINK_TITLE = 'Air Quality Warning'
+WILDFIRE_SMOKE_TITLE = 'Wildfire Smoke'
+PM_25_TITLE = 'Fine particulate matter'
+O3_TITLE = 'Ground level ozone'
+PM10_TITLE = 'Dust'
+PM25_AND_PM10_TITLE = 'Fine particulate matter and Dust'
+DEFAULT_TITLE = 'N/A'  # When the title cannot be derived from the provided values.
+MANDATORY_ACTION_YES = 'Yes'
+MANDATORY_ACTION_NO = 'No'
 
 # globals. do not modify.
 _quarto_input_files = os.getenv('QUARTO_PROJECT_INPUT_FILES')
@@ -84,6 +126,10 @@ def extract_header_from_file(file_path: str) -> Optional[Dict[str, Any]]:
             'ice': parsed_header.get('ice', 'N/A'),
             'date': parsed_header.get('date'),
             'location': parsed_header.get('location'),
+            'pollutant': parsed_header.get('params', {}).get('pollutant', 'N/A'),
+            'burn_restrictions': parsed_header.get('params', {}).get('burnRestrictions', 0),
+            'bylaw': parsed_header.get('bylaw', None),
+            'override_title': parsed_header.get('overrideTitle', False),
         }
 
         return {'entry': entry_from_header, 'raw_header': parsed_header}
@@ -226,17 +272,88 @@ def process_input_files():
     return header_entries
 
 
+def process_warning_entries(warnings: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Derive the final values to be displayed for the recent warnings list.
+
+    Args:
+        warnings: a list of the warnings to process.
+
+    Returns:
+        List of warnings with their final display values.
+    """
+    processed_warnings = []
+
+    for warning in warnings:
+        processed_warning = {}
+
+        # Values that get passed through:
+        processed_warning['type'] = warning['type']
+        processed_warning['path'] = warning['path']
+        processed_warning['location'] = warning['location']
+        processed_warning['status'] = warning['ice']  # ICE - Issue, Continue, End.
+        processed_warning['date'] = warning['date']
+
+        # Determine the display title based on the warning type.
+        if 'override_title' in warning and warning['override_title']:
+            # Allow the user to override automatic titling.
+            processed_warning['title'] = warning['title']
+        elif warning['type'] == REDIRECT_TYPE:
+            # This will render a link to the given path. It's only used for Metro Vancouver presently.
+            processed_warning['title'] = METRO_VAN_LINK_TITLE
+        elif warning['type'] == WILDFIRE_SMOKE_TYPE:
+            processed_warning['title'] = WILDFIRE_SMOKE_TITLE
+        elif warning['type'] == LOCAL_EMISSIONS_TYPE:
+            if 'pollutant' in warning:
+                if warning['pollutant'] == PM25_POLLUTANT:
+                    processed_warning['title'] = PM_25_TITLE
+                elif warning['pollutant'] == O3_POLLUTANT:
+                    processed_warning['title'] = O3_TITLE
+                elif warning['pollutant'] == PM10_POLLUTANT:
+                    processed_warning['title'] = PM10_TITLE
+                elif warning['pollutant'] == PM25_AND_PM10_POLLUTANT:
+                    processed_warning['title'] = PM25_AND_PM10_TITLE
+                else:
+                    processed_warning['title'] = DEFAULT_TITLE
+            else:
+                processed_warning['title'] = DEFAULT_TITLE
+        else:
+            processed_warning['title'] = DEFAULT_TITLE
+
+        # Determine the display value for the Mandatory Action column
+        if warning['burn_restrictions'] > 0:
+            # Any burn restrictions will override local bylaws.
+            processed_warning['mandatoryAction'] = MANDATORY_ACTION_YES
+        elif 'bylaw' in warning:
+            # If the bylaw key is present, allow it to override the automatic location list.
+            if warning['bylaw']:
+                processed_warning['mandatoryAction'] = MANDATORY_ACTION_YES
+            else:
+                processed_warning['mandatoryAction'] = MANDATORY_ACTION_NO
+        elif warning['location'] in MANDATORY_ACTION_LOCATIONS:
+            processed_warning['mandatoryAction'] = MANDATORY_ACTION_YES
+        else:
+            processed_warning['mandatoryAction'] = MANDATORY_ACTION_NO
+
+        processed_warnings.append(processed_warning)
+
+    return processed_warnings
+
+
 def main():
     """Main function to run the script"""
     # Extract headers from all input files
     header_entries = process_input_files()
 
     # Select recent warnings
-    recent_warnings = select_recent_warnings(header_entries, get_today_in_bc_timezone())
+    unprocessed_recent_warnings = select_recent_warnings(header_entries, get_today_in_bc_timezone())
+
+    # Process the warnings into their final form for display.
+    processed_recent_warnings = process_warning_entries(unprocessed_recent_warnings)
 
     # Write output to file
     with open(RECENTS_FILE_NAME, 'w') as output_file:
-        yaml.safe_dump(recent_warnings, output_file)
+        yaml.safe_dump(processed_recent_warnings, output_file)
 
 
 if __name__ == '__main__':
