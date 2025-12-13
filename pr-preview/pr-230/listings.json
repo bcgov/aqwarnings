@@ -1,0 +1,29 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/warnings/2025-11-17_continue_pm25_obr_Fort_St_John.html",
+      "/warnings/2025-11-14_issue_pollution_prevention.html",
+      "/warnings/2025-11-06_wildfire_smoke_issue.html",
+      "/warnings/2025-11-06_issue_o3_Kelowna.html",
+      "/warnings/2025-11-06_issue_pm25_pm10_Vanderhoof.html"
+    ]
+  },
+  {
+    "listing": "/warnings.html",
+    "items": [
+      "/warnings/2025-11-17_continue_pm25_obr_Fort_St_John.html",
+      "/warnings/2025-11-14_issue_pollution_prevention.html",
+      "/warnings/2025-11-07_end_pm25_obr_continue_Golden.html",
+      "/warnings/2025-11-07_issue_pm25_obr_Burns_Lake.html",
+      "/warnings/2025-11-06_end_o3_Kamloops.html",
+      "/warnings/2025-11-06_end_pm10_Quesnel.html",
+      "/warnings/2025-11-06_end_pm25_obr_Smithers.html",
+      "/warnings/2025-11-06_issue_o3_Kelowna.html",
+      "/warnings/2025-11-06_issue_pm25_pm10_Vanderhoof.html",
+      "/warnings/2025-11-06_wildfire_smoke_issue.html",
+      "/warnings/2025-10-31_End_PM25_Golden.html",
+      "/warnings/2025-10-30_Issue_PM25_Golden.html"
+    ]
+  }
+]
