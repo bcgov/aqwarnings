@@ -1,8 +1,10 @@
 name: Download File from S3 Bucket and Commit to Repo
 
 on:
-  workflow_dispatch:  # Allow manual trigger of the workflow
-
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch: #Auto trigger after 10 mins
+  
 jobs:
   download_file:
     runs-on: ubuntu-latest
@@ -40,5 +42,7 @@ jobs:
         git config --global user.name "AmanBhathal"
         git config --global user.email "amandeep.bhathal@gov.bc.ca"
         git add . # Add the downloaded file (path relative to the repo root)
-        git commit -m "Add downloaded file from Dell ECS" || echo "No changes to commit"
-        git push origin main || echo "No changes to push" # Push to the main branch
+        git commit -m "Add downloaded file from BCBOX" || echo "No changes to commit"
+        
+        # Push back to the same branch that triggered the workflow
+        git push origin HEAD:${{ github.ref_name }} || echo "No changes to push"
