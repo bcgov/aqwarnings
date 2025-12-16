@@ -29,10 +29,10 @@ jobs:
       run: |
         python script/import.py
       env:
-        S3_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID }}
-        S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+        S3_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID_DEV }}
+        S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY_DEV }}
         S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
-        S3_BUCKET: ${{ secrets.S3_BUCKET }}
+        S3_BUCKET: ${{ secrets.S3_BUCKET_DEV }}
 
     # Step 5: Add, commit, and push the downloaded file to the repository
     - name: Commit and push downloaded file to repository
