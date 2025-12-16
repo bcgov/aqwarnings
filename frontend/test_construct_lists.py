@@ -3,7 +3,7 @@ import unittest
 import pytz
 from unittest.mock import patch
 
-from construct_lists import select_recent_warnings, get_today_in_bc_timezone
+from construct_lists import select_recent_warnings, get_today_in_bc_timezone, process_warning_entries
 
 
 class TestWarningSelectionLogic(unittest.TestCase):
@@ -487,6 +487,290 @@ class TestTimezoneHandling(unittest.TestCase):
             # So the date should be 2025-06-13
             expected_date = datetime.date(2025, 6, 13)
             self.assertEqual(bc_today, expected_date)
+
+
+class TestProcessWarningEntries(unittest.TestCase):
+    """Tests the value selection logic for final rendering."""
+
+    def test_type_passthrough(self):
+        """Test output values that are passed through from the original warning entry."""
+        test_date = datetime.date(2025, 12, 11)
+        input_warnings = [
+            {
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            }
+        ]
+        expected_processed_warnings = [
+            {'type': 'wildfire_smoke', 'path': 'N/A', 'location': 'My City', 'status': 'ISSUE', 'date': test_date}
+        ]
+
+        actual_processed_warnings = process_warning_entries(input_warnings)
+
+        self.assertEqual(expected_processed_warnings[0]['type'], actual_processed_warnings[0]['type'])
+        self.assertEqual(expected_processed_warnings[0]['path'], actual_processed_warnings[0]['path'])
+        self.assertEqual(expected_processed_warnings[0]['location'], actual_processed_warnings[0]['location'])
+        self.assertEqual(expected_processed_warnings[0]['status'], actual_processed_warnings[0]['status'])
+        self.assertEqual(expected_processed_warnings[0]['date'], actual_processed_warnings[0]['date'])
+
+    def test_derived_title(self):
+        """Tests that the title responds correctly to the various inputs."""
+        test_date = datetime.date(2025, 12, 11)
+        input_warnings = [
+            {
+                # Overridden title
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'overridden title',
+                'override_title': True,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Not overridden title
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'overridden title',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Metro Vancouver case
+                'type': 'redirect',
+                'path': 'vancouver dot ca',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Wildfire smoke case
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # PM25 case
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'PM25',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # O3 case
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'O3',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # PM10 case
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'PM10',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # PM25 & PM10 case
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'PM25 & PM10',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Invalid Type
+                'type': 'invalid',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'override_title': False,
+                'pollutant': 'PM25 & PM10',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Invalid Pollutant
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'invalid',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+        ]
+        expected_titles = [
+            'overridden title',  # Overridden title
+            'Wildfire Smoke',  # Not overridden title
+            'Air Quality Warning',  # Metro Vancouver case
+            'Wildfire Smoke',  # Wildfire smoke case
+            'Fine particulate matter',  # PM25 case
+            'Ground level ozone',  # O3 case
+            'Dust',  # PM10 case
+            'Fine particulate matter and Dust',  # PM25 & PM10 case
+            'N/A',  # Invalid Type
+            'N/A',  # Invalid Pollutant
+        ]
+
+        actual_processed_warnings = process_warning_entries(input_warnings)
+
+        self.assertEqual(expected_titles[0], actual_processed_warnings[0]['title'])  # Overridden title
+        self.assertEqual(expected_titles[1], actual_processed_warnings[1]['title'])  # Not overridden title
+        self.assertEqual(expected_titles[2], actual_processed_warnings[2]['title'])  # Metro Vancouver case
+        self.assertEqual(expected_titles[3], actual_processed_warnings[3]['title'])  # PM25 case
+        self.assertEqual(expected_titles[4], actual_processed_warnings[4]['title'])  # O3 case
+        self.assertEqual(expected_titles[5], actual_processed_warnings[5]['title'])  # PM10 case
+        self.assertEqual(expected_titles[6], actual_processed_warnings[6]['title'])  # PM25 & PM10 case
+        self.assertEqual(expected_titles[7], actual_processed_warnings[7]['title'])  # Invalid Type
+        self.assertEqual(expected_titles[8], actual_processed_warnings[8]['title'])  # Invalid Pollutant
+
+    def test_mandatory_action(self):
+        test_date = datetime.date(2025, 12, 11)
+        input_warnings = [
+            {
+                # Burn restrictions overrides bylaw
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Burnaby',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 1,
+                'bylaw': False,
+            },
+            {
+                # Bylaw overrides location negatively
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Duncan',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Bylaw overrides location postively
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Vernon',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': True,
+            },
+            {
+                # Location has bylaw, and it is not overridden
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Duncan',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                # 'bylaw': True,  I left this here for illustrative purposes.
+            },
+            {
+                # Location does not have bylaw, and it is not overridden
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Vernon',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                # 'bylaw': False,  I left this here for illustrative purposes.
+            },
+        ]
+        expected_mandatory_actions = [
+            'Yes',  # Burn restrictions overrides bylaw
+            'No',  # Bylaw overrides location negatively
+            'Yes',  # Bylaw overrides location postively
+            'Yes',  # Location has bylaw, and it is not overridden
+            'No',  # Location does not have bylaw, and it is not overridden
+        ]
+
+        actual_processed_warnings = process_warning_entries(input_warnings)
+
+        # Burn restrictions overrides bylaw
+        self.assertEqual(expected_mandatory_actions[0], actual_processed_warnings[0]['mandatoryAction'])
+        # Bylaw overrides location negatively
+        self.assertEqual(expected_mandatory_actions[1], actual_processed_warnings[1]['mandatoryAction'])
+        # Bylaw overrides location postively
+        self.assertEqual(expected_mandatory_actions[2], actual_processed_warnings[2]['mandatoryAction'])
+        # Location has bylaw, and it is not overridden
+        self.assertEqual(expected_mandatory_actions[3], actual_processed_warnings[3]['mandatoryAction'])
+        # Location does not have bylaw, and it is not overridden
+        self.assertEqual(expected_mandatory_actions[4], actual_processed_warnings[4]['mandatoryAction'])
+
+    def test_empty_collection(self):
+        input_warnings = []
+
+        actual_processed_warning = process_warning_entries(input_warnings)
+
+        self.assertIsInstance(actual_processed_warning, list)
+        self.assertEqual(len(actual_processed_warning), 0)
 
 
 if __name__ == '__main__':
