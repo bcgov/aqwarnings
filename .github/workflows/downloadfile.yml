@@ -1,0 +1,44 @@
+name: Download File from S3 Bucket and Commit to Repo
+
+on:
+  workflow_dispatch:  # Allow manual trigger of the workflow
+
+jobs:
+  download_file:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Step 1: Checkout the code from the repository
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # Step 2: Set up Python
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # You can specify the Python version here
+
+    # Step 3: Install the dependencies (e.g., boto3)
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install boto3
+
+    # Step 4: Run the Python script to download the file from Dell ECS
+    - name: Download file from Dell ECS
+      run: |
+        python script/import.py
+      env:
+        S3_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID }}
+        S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+        S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+        S3_BUCKET: ${{ secrets.S3_BUCKET }}
+
+    # Step 5: Add, commit, and push the downloaded file to the repository
+    - name: Commit and push downloaded file to repository
+      run: |
+        git config --global user.name "AmanBhathal"
+        git config --global user.email "amandeep.bhathal@gov.bc.ca"
+        git add . # Add the downloaded file (path relative to the repo root)
+        git commit -m "Add downloaded file from Dell ECS" || echo "No changes to commit"
+        git push origin main || echo "No changes to push" # Push to the main branch
