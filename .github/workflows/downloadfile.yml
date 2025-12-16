@@ -2,7 +2,7 @@ name: Download File from S3 Bucket and Commit to Repo
 
 on:
   #schedule:
-  # - cron: '*/10 * * * *'  Auto trigger after 10 mins
+  # - cron: '*/10 * * * *' Auto trigger after 10 mins
   workflow_dispatch: 
   
 jobs:
