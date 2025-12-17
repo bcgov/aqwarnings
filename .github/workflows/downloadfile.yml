@@ -1,4 +1,4 @@
-name: Download File from S3 Bucket and Commit to Repo
+name: Download File from DEV S3 Bucket and Commit to Repo
 
 on:
   workflow_dispatch:  # Allow manual trigger of the workflow
