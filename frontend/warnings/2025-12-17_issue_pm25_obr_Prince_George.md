@@ -204,11 +204,11 @@ traffic.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for Prince George and nearest
-monitored communities at 2:00 PM local time today:
+monitored communities at 3:00 PM local time today:
 
   Community                 Prince George   Burns Lake   Vanderhoof
   ------------------------- --------------- ------------ ------------
-  24-hr average (μg/m^3^)   6.9             5.8          10.1
+  24-hr average (μg/m^3^)   7.2             5.6          10.0
 
 {{< accordion_end >}}
 
