@@ -27,7 +27,7 @@ jobs:
     # Step 4: Run the Python script to download the file from Dell ECS
     - name: Download file from Dell ECS
       run: |
-        python frontend/import.py
+        python frontend/import_dev.py
       env:
         S3_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID_DEV }}
         S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY_DEV }}
