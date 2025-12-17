@@ -3,10 +3,13 @@ import os
 from datetime import datetime, timedelta, timezone
 
 # Dell ECS credentials and endpoint from environment variables
-DELL_ECS_ACCESS_KEY = os.getenv('S3_ACCESS_KEY_ID_DEV')
-DELL_ECS_SECRET_KEY = os.getenv('S3_SECRET_ACCESS_KEY_DEV')
+
+
+
+DELL_ECS_ACCESS_KEY = os.getenv('S3_ACCESS_KEY_ID')
+DELL_ECS_SECRET_KEY = os.getenv('S3_SECRET_ACCESS_KEY')
 DELL_ECS_ENDPOINT = os.getenv('S3_ENDPOINT')
-BUCKET_NAME = os.getenv('S3_BUCKET_DEV')
+BUCKET_NAME = os.getenv('S3_BUCKET')
 
 # Optional: restrict to a folder/prefix
 PREFIX = ''
