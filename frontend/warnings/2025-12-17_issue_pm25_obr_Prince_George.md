@@ -157,23 +157,25 @@ people who work outdoors.
     During air quality advisories, this bylaw also prohibits
     recreational fires, use of wood-burning appliances (except for sole
     wood-burning heat users), and street sweeping activities (unless
-    approved by an Authorized Person). {r, if(params\$burnRestrictions
-    \> 0) { ::: {.callout-note, icon = FALSE}
+    approved by an Authorized Person).
 
-## NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation
+-   NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
 
-As pollution is occurring or is likely to occur from open burning,
-pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
-Regulation, the Director has prohibited open burning within within 50 km
-of the Prince George hospital until December 18, 2025 12:00 PM local
-time. No vegetative debris may be ignited or added to ignited piles.
-Contravention of these provisions may be subject to a fine under the
-Regulation.
+> As pollution is occurring or is likely to occur from open burning,
+> pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
+> Regulation, the Director has prohibited open burning within within 50
+> km of the Prince George hospital until December 18, 2025 12:00 PM
+> local time. No vegetative debris may be ignited or added to ignited
+> piles. Contravention of these provisions may be subject to a fine
+> under the Regulation.
 
-Date issued: December 17, 2025 Benjamin Weinstein For Director,
-Environmental Management Act Environmental Monitoring and Analysis
-Branch ::: }\
-}
+    Date issued: December 17, 2025
+
+    Benjamin Weinstein
+
+    For Director, Environmental Management Act
+
+    Environmental Monitoring and Analysis Branch
 
 {{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
