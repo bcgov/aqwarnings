@@ -7,7 +7,7 @@ customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
 date: 2025-12-17
 ice: Issue
-location: Prince George
+location: Fort St John
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -21,7 +21,7 @@ params:
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
 title: Air quality warning and open burning restrictions in effect for
-  Prince George
+  Fort St John
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -46,7 +46,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Prince George due
+Health Authority has issued an Air Quality Warning for Fort St John due
 to elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
@@ -60,7 +60,7 @@ breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
 Open burning restrictions are now in effect within within 50 km of the
-Prince George hospital. No new fires may be initiated, and no additional
+Fort St John hospital. No new fires may be initiated, and no additional
 material may be added to existing fires. For more information on burning
 restrictions, refer to the Mandatory Emission Reduction Actions section
 below.
@@ -152,30 +152,23 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
--   The City of Prince George's Clean Air Bylaw prohibits all open
-    burning, including backyard burning, and land clearing burning.
-    During air quality advisories, this bylaw also prohibits
-    recreational fires, use of wood-burning appliances (except for sole
-    wood-burning heat users), and street sweeping activities (unless
-    approved by an Authorized Person).
-
 -   NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
 
 > As pollution is occurring or is likely to occur from open burning,
 > pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
 > Regulation, the Director has prohibited open burning within within 50
-> km of the Prince George hospital until December 18, 2025 12:00 PM
-> local time. No vegetative debris may be ignited or added to ignited
-> piles. Contravention of these provisions may be subject to a fine
-> under the Regulation.
+> km of the Fort St John hospital until December 18, 2025 12:00 PM local
+> time. No vegetative debris may be ignited or added to ignited piles.
+> Contravention of these provisions may be subject to a fine under the
+> Regulation.
 
-    Date issued: December 17, 2025
+   Date issued: December 17, 2025
 
-    Benjamin Weinstein
+   Benjamin Weinstein
 
-    For Director, Environmental Management Act
+   For Director, Environmental Management Act
 
-    Environmental Monitoring and Analysis Branch
+   Environmental Monitoring and Analysis Branch
 
 {{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
@@ -203,12 +196,12 @@ traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Prince George and nearest
-monitored communities at 3:00 PM local time today:
+concentrations are summarized below for Fort St John and nearest
+monitored communities at 4:00 PM local time today:
 
-  Community                 Prince George   Burns Lake   Vanderhoof
-  ------------------------- --------------- ------------ ------------
-  24-hr average (μg/m^3^)   7.2             5.6          10.0
+  Community                 Fort St John   Prince George
+  ------------------------- -------------- ---------------
+  24-hr average (μg/m^3^)   3.3            7.2
 
 {{< accordion_end >}}
 
