@@ -2,11 +2,14 @@ name: Download File from DEV S3 Bucket and Commit to Repo
 
 on:
   workflow_dispatch:  # Allow manual trigger of the workflow
-  
+  push:
+    branches:
+      - feat/53_auto_postwarnings
+
 jobs:
   download_file:
     runs-on: ubuntu-latest
-    
+
     steps:
     # Step 1: Checkout the code from the repository
     - name: Checkout repository
@@ -41,6 +44,6 @@ jobs:
         git config --global user.email "amandeep.bhathal@gov.bc.ca"
         git add . # Add the downloaded file (path relative to the repo root)
         git commit -m "Add downloaded file from BCBOX" || echo "No changes to commit"
-        
+
         # Push back to the same branch that triggered the workflow
         git push origin HEAD:${{ github.ref_name }} || echo "No changes to push"
