@@ -2,9 +2,9 @@ name: Download File from Test S3 Bucket and Commit to Repo
 
 on:
   workflow_dispatch:  # Allow manual trigger of the workflow remove the push comment to test
- # push:
- #   branches:
- #     - feat/53_auto_postwarnings
+  push:
+    branches:
+      - feat/53_auto_postwarnings
 
 jobs:
   download_file:
