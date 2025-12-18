@@ -14,7 +14,7 @@ BUCKET_NAME = os.getenv('S3_BUCKET')
 # Optional: restrict to a folder/prefix
 PREFIX = ''
 
-LOCAL_FILE_PATH = './frontend/warnings_dev'
+LOCAL_FILE_PATH = './frontend/warnings'
 LOOKBACK_MINUTES = 10
 
 # Ensure local directory exists

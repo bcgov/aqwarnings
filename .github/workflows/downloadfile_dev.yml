@@ -1,8 +1,8 @@
 name: Download File from DEV S3 Bucket and Commit to Repo
 
 on:
-  schedule:
-   - cron: '*/10 * * * *'
+ # schedule:
+  # - cron: '*/10 * * * *'
 
   workflow_dispatch:  # Allow manual trigger of the workflow
   push:
