@@ -5,9 +5,9 @@ authors:
 - Gail Roth
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced.
-date: 2025-12-17
+date: 2025-12-18
 ice: Issue
-location: Fort St John
+location: Burns Lake
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -21,7 +21,7 @@ params:
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
 title: Air quality warning and open burning restrictions in effect for
-  Fort St John
+  Burns Lake
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -46,8 +46,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Fort St John due
-to elevated fine particulate matter.
+Health Authority has issued an Air Quality Warning for Burns Lake due to
+elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
 infants, older adults, individuals with chronic conditions (such as
@@ -60,7 +60,7 @@ breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
 Open burning restrictions are now in effect within within 50 km of the
-Fort St John hospital. No new fires may be initiated, and no additional
+Burns Lake firehall. No new fires may be initiated, and no additional
 material may be added to existing fires. For more information on burning
 restrictions, refer to the Mandatory Emission Reduction Actions section
 below.
@@ -68,7 +68,7 @@ below.
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
 
-The next update will be on December 18, 2025 and posted to the
+The next update will be on December 19, 2025 and posted to the
 province's [Air Quality Warnings
 webpage](https://www.gov.bc.ca/airquality).
 
@@ -152,17 +152,29 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
+-   Burns Lake bylaw 871 restricts the use of wood burning appliances
+    during air quality advisories:
+
+    -   **6a**: No person shall use a Wood Burning Appliance at any time
+        when an air quality advisory is in effect, except to heat the
+        premises that are equipped with no heating appliance or
+        facilities other than the Wood Burning Appliance.
+
+    -   Contact the Burns Lake municipal office at
+        [250-692-7587](tel:2506927587) for more information on woodstove
+        restrictions.
+
 -   NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
 
 > As pollution is occurring or is likely to occur from open burning,
 > pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
 > Regulation, the Director has prohibited open burning within within 50
-> km of the Fort St John hospital until December 18, 2025 12:00 PM local
+> km of the Burns Lake firehall until December 19, 2025 12:00 PM local
 > time. No vegetative debris may be ignited or added to ignited piles.
 > Contravention of these provisions may be subject to a fine under the
 > Regulation.
 
-   Date issued: December 17, 2025
+   Date issued: December 18, 2025
 
    Benjamin Weinstein
 
@@ -196,12 +208,17 @@ traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Fort St John and nearest
-monitored communities at 4:00 PM local time today:
+concentrations are summarized below for Burns Lake and nearest monitored
+communities at 9:00 AM local time today:
 
-  Community                 Fort St John   Prince George
-  ------------------------- -------------- ---------------
-  24-hr average (μg/m^3^)   3.3            7.2
+  --------------------------------------------------------------------------------
+  Community              Burns Lake Houston   Prince       Smithers   Vanderhoof
+                                              George                  
+  ---------------------- ---------- --------- ------------ ---------- ------------
+  24-hr average          1.9        5.5       9.3          6.5        11.5
+  (μg/m^3^)                                                           
+
+  --------------------------------------------------------------------------------
 
 {{< accordion_end >}}
 
