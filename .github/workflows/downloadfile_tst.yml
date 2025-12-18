@@ -60,3 +60,43 @@ jobs:
         branch: auto/test-bcbox-import
         base: feat/53_auto_postwarnings
         delete-branch: true 
+
+      # Step 6: Commit and push changes to SAME branch
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions@users.noreply.github.com"
+
+        git add frontend/warnings_dev
+        git commit -m "Auto-sync warnings from BCBOX (DEV)"
+        git push origin HEAD
+
+      # Step 7: Generate PR title with current date
+    - name: Generate PR title
+      if: steps.git-check.outputs.changes == 'true'
+      id: pr-title
+      run: |
+          DATE=$(date +'%Y-%m-%d')
+          echo "PR_TITLE=aqwarning-issue- $DATE" >> $GITHUB_ENV
+
+      # Step 8: Create or update PR with dynamic title
+    - name: Create or update PR
+      if: steps.git-check.outputs.changes == 'true'
+      uses: peter-evans/create-pull-request@v6
+      with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: feat/53_auto_postwarnings
+          base: main
+          title: ${{ env.PR_TITLE }}
+          body: |
+            This PR is automatically maintained by GitHub Actions.
+
+            **Changes**
+            - Downloaded new/updated warning files from Dell ECS (DEV)
+            - Committed directly to `feat/53_auto_postwarnings`
+
+            The PR will be updated automatically on subsequent runs.
+          labels: |
+            automated
+            s3-sync        
