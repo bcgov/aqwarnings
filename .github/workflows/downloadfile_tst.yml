@@ -80,7 +80,7 @@ jobs:
           DATE=$(date +'%Y-%m-%d')
           echo "PR_TITLE=aqwarning-issue- $DATE" >> $GITHUB_ENV
 
-      # Step 8: Create or update PR with dynamic title
+    # Step 8: Create or update PR with dynamic title
     - name: Create or update PR
       if: steps.git-check.outputs.changes == 'true'
       uses: peter-evans/create-pull-request@v6
