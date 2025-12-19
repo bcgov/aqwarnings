@@ -1,14 +1,15 @@
 ---
 author:
-- Gail Roth
+- Gavin King
 authors:
-- Gail Roth
+- Gavin King
+burnRestrictions: 0
 customMessage: Current conditions are expected to persist until weather
   conditions change and/or local emissions are reduced. This is a TEST,
-  not an actual warning
+  not an actual warning.
 date: 2025-12-19
 ice: Issue
-location: Burns Lake
+location: Kamloops
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -21,8 +22,8 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   sel_aqMet: Sakshi Jain
-title: Air quality warning and open burning restrictions in effect for
-  Burns Lake
+pollutant: PM25
+title: Air quality warning in effect for Kamloops
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -42,12 +43,12 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
-The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Burns Lake due to
+The Ministry of Environment and Parks in collaboration with the Interior
+Health Authority has issued an Air Quality Warning for Kamloops due to
 elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
@@ -60,15 +61,9 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
-Open burning restrictions are now in effect within within 50 km of the
-Burns Lake firehall (THIS IS A TEST). No new fires may be initiated, and
-no additional material may be added to existing fires. For more
-information on burning restrictions, refer to the Mandatory Emission
-Reduction Actions section below.
-
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced. This is a TEST, not an actual
-warning
+warning.
 
 The next update will be on December 20, 2025 and posted to the
 province's [Air Quality Warnings
@@ -156,32 +151,6 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
--   Burns Lake bylaw 871 restricts the use of wood burning appliances
-    during air quality advisories:
-
-    -   **6a**: No person shall use a Wood Burning Appliance at any time
-        when an air quality advisory is in effect, except to heat the
-        premises that are equipped with no heating appliance or
-        facilities other than the Wood Burning Appliance.
-
-    -   Contact the Burns Lake municipal office at
-        [250-692-7587](tel:2506927587) for more information on woodstove
-        restrictions.
-
--   NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
-
-> As pollution is occurring or is likely to occur from open burning,
-> pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
-> Regulation, the Director has prohibited open burning within within 50
-> km of the Burns Lake firehall (THIS IS A TEST) until December 20, 2025
-> HH:00 PM local time. No vegetative debris may be ignited or added to
-> ignited piles. Contravention of these provisions may be subject to a
-> fine under the Regulation.
-
-   Date issued: December 19, 2025`<br />`{=html}   Benjamin
-Weinstein`<br />`{=html}   For Director, Environmental Management
-Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
-
 {{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
@@ -208,17 +177,12 @@ traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Burns Lake and nearest monitored
-communities at 9:00 AM local time today:
+concentrations are summarized below for Kamloops and nearest monitored
+communities at 10:00 AM local time today:
 
-  --------------------------------------------------------------------------------
-  Community              Burns Lake Houston   Prince       Smithers   Vanderhoof
-                                              George                  
-  ---------------------- ---------- --------- ------------ ---------- ------------
-  24-hr average          2.5        3.4       5.3          1.9        11.7
-  (μg/m^3^)                                                           
-
-  --------------------------------------------------------------------------------
+  Community                 Kamloops   Quesnel   Williams Lake
+  ------------------------- ---------- --------- ---------------
+  24-hr average (μg/m^3^)   3.3        4.1       2.9
 
 {{< accordion_end >}}
 
@@ -250,16 +214,17 @@ warnings](https://metrovancouver.org/services/air-quality-climate-action/air-qua
 **Media questions regarding this Air Quality Warning:**
 {{< card_start width="wide" >}}
 
-Gail Roth`<br />`{=html}Senior Air Quality
+Gavin King`<br />`{=html}Senior Air Quality
 Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-645-9358
+Parks`<br />`{=html}250-312-6798
 
 {{< card_end >}}
 
 **Media questions regarding health implications when air quality is
 degraded:** {{< card_start width="wide" >}}
 
-Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}
+Interior Health Authority`<br />`{=html}Media line:
+1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}
 
 {{< card_end >}}

@@ -1,13 +1,15 @@
 ---
 author:
-- Gavin King
+- Muntaseer Azkar
 authors:
-- Gavin King
+- Muntaseer Azkar
+burnRestrictions: 1
 customMessage: Current conditions are expected to persist until weather
-  conditions change and/or local emissions are reduced.
+  conditions change and/or local emissions are reduced. This is a TEST,
+  not an actual warning.
 date: 2025-12-19
 ice: Issue
-location: Kamloops
+location: Penticton
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -20,7 +22,7 @@ params:
   outputFormat: markdown
   sel_aqMet: Sakshi Jain
 title: Pollution Prevention Notice and open burning restrictions are in
-  effect within 50 km of the Kamloops hospital
+  effect within 50 km of the Penticton hospital (this is a TEST)
 toc-title: Table of contents
 type: pollution_prevention
 ---
@@ -46,13 +48,14 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 The Ministry of Environment and Parks in collaboration with the Interior
 Health Authority has issued a Pollution Prevention Notice within 50 km
-of the Kamloops hospital due to elevated fine particulate matter.
+of the Penticton hospital (this is a TEST) due to elevated fine
+particulate matter.
 
-Open burning restrictions are now in effect within 50 km of the Kamloops
-hospital. No new fires may be initiated, and no additional material may
-be added to existing fires. For more information on burning
-restrictions, refer to the Mandatory Emission Reduction Actions section
-below.
+Open burning restrictions are now in effect within 50 km of the
+Penticton hospital (this is a TEST). No new fires may be initiated, and
+no additional material may be added to existing fires. For more
+information on burning restrictions, refer to the Mandatory Emission
+Reduction Actions section below.
 
 Exposure to fine particulate matter is particularly a concern for
 infants, older adults, individuals with chronic conditions (such as
@@ -65,7 +68,8 @@ breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
 Current conditions are expected to persist until weather conditions
-change and/or local emissions are reduced.
+change and/or local emissions are reduced. This is a TEST, not an actual
+warning.
 
 The next update will be on December 20, 2025 and posted to the
 province's [Air Quality Warnings
@@ -144,22 +148,23 @@ people who work outdoors.
 
 ## Emission reduction actions
 
-{{< accordion_start title="Mandatory actions" initiallyOpen="true" >}} -
-NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
+{{< accordion_start title="Mandatory actions" initiallyOpen="true" >}}
+
+-   NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
 
 > As pollution is occurring or is likely to occur from open burning,
 > pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
 > Regulation, the Director has prohibited open burning within 50 km of
-> the Kamloops hospital until December 20, 2025 11:00 AM local time. No
-> vegetative debris may be ignited or added to ignited piles.
-> Contravention of these provisions may be subject to a fine under the
-> Regulation.
+> the Penticton hospital (this is a TEST) until December 20, 2025 11:00
+> AM local time. No vegetative debris may be ignited or added to ignited
+> piles. Contravention of these provisions may be subject to a fine
+> under the Regulation.
 
    Date issued: December 19, 2025`<br />`{=html}   Benjamin
 Weinstein`<br />`{=html}   For Director, Environmental Management
 Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
-{{< accordion_end >}}
 
+{{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
 -   Avoid using wood stoves and fireplaces unless it is the sole heating
@@ -187,12 +192,12 @@ traffic.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for and nearest monitored
-communities at 9:00 AM local time today:
+communities at local time today:
 
-  Community                     Kamloops   Quesnel   Williams Lake
-  ----------------------------- ---------- --------- ---------------
-  24-hr average (μg/m^3^)       3.1        4.1       2.7
-  Max. within 24 hr (μg/m^3^)   9.4        8.8       6.5
+  Community                     Grand Forks   Kelowna   Vernon
+  ----------------------------- ------------- --------- --------
+  24-hr average (μg/m^3^)       2.3           0.3       0.8
+  Max. within 24 hr (μg/m^3^)   7.1           2.0       2.9
 
 {{< accordion_end >}}
 
@@ -221,16 +226,19 @@ warnings](https://metrovancouver.org/services/air-quality-climate-action/air-qua
 ## Contact
 
 **Media questions regarding this Pollution Prevention Notice:**
+
 {{< card_start width="wide" >}}
 
-Gavin King`<br />`{=html}Senior Air Quality
+Muntaseer Azkar`<br />`{=html}Air Quality
 Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-312-6798
+Parks`<br />`{=html}604-558-9508
 
 {{< card_end >}}
 
 **Media questions regarding health implications when air quality is
-degraded:** {{< card_start  width="wide" >}}
+degraded:**
+
+{{< card_start  width="wide" >}}
 
 Interior Health Authority`<br />`{=html}Media line:
 1-844-469-7077`<br />`{=html}Email:
