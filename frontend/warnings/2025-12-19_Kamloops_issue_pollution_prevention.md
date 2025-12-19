@@ -1,14 +1,13 @@
 ---
 author:
-- Gail Roth
+- Gavin King
 authors:
-- Gail Roth
+- Gavin King
 customMessage: Current conditions are expected to persist until weather
-  conditions change and/or local emissions are reduced. This is a TEST,
-  not an actual warning.
-date: 2025-12-18
+  conditions change and/or local emissions are reduced.
+date: 2025-12-19
 ice: Issue
-location: Cranbrook
+location: Kamloops
 outputFormat: markdown
 params:
   burnRestrictionEndDate: 2025-09-28
@@ -21,7 +20,7 @@ params:
   outputFormat: markdown
   sel_aqMet: Sakshi Jain
 title: Pollution Prevention Notice and open burning restrictions are in
-  effect within within 50 km of the Cranbrook hospital
+  effect within 50 km of the Kamloops hospital
 toc-title: Table of contents
 type: pollution_prevention
 ---
@@ -46,12 +45,12 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 :::
 
 The Ministry of Environment and Parks in collaboration with the Interior
-Health Authority has issued a Pollution Prevention Notice within within
-50 km of the Cranbrook hospital due to elevated fine particulate matter.
+Health Authority has issued a Pollution Prevention Notice within 50 km
+of the Kamloops hospital due to elevated fine particulate matter.
 
-Open burning restrictions are now in effect within within 50 km of the
-Cranbrook hospital. No new fires may be initiated, and no additional
-material may be added to existing fires. For more information on burning
+Open burning restrictions are now in effect within 50 km of the Kamloops
+hospital. No new fires may be initiated, and no additional material may
+be added to existing fires. For more information on burning
 restrictions, refer to the Mandatory Emission Reduction Actions section
 below.
 
@@ -66,10 +65,9 @@ breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
 Current conditions are expected to persist until weather conditions
-change and/or local emissions are reduced. This is a TEST, not an actual
-warning.
+change and/or local emissions are reduced.
 
-The next update will be on December 19, 2025 and posted to the
+The next update will be on December 20, 2025 and posted to the
 province's [Air Quality Warnings
 webpage](https://www.gov.bc.ca/airquality).
 
@@ -132,7 +130,9 @@ people who work outdoors.
     include using a clean, good quality air filter in your ventilation
     system and/or a certified portable air cleaner that can filter fine
     particles. Do-it-yourself air cleaners may also be used if other
-    options are not available. For details, visit: https://rb.gy/epi7qv.
+    options are unavailable. For more details, see the BC Centre of
+    Control [fact
+    sheet](https://www.bccdc.ca/resource-gallery/Documents/Guidelines%20and%20Forms/Guidelines%20and%20Manuals/Health-Environment/BCCDC_WildFire_FactSheet_BoxFanAirFilters.pdf).
 
 -   If you must spend time outdoors, a well-constructed, well-fitting
     and properly worn respirator type mask (such as a NIOSH-certified
@@ -149,19 +149,16 @@ NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
 
 > As pollution is occurring or is likely to occur from open burning,
 > pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
-> Regulation, the Director has prohibited open burning within within 50
-> km of the Cranbrook hospital until December 19, 2025 11:00 AM local
-> time. No vegetative debris may be ignited or added to ignited piles.
+> Regulation, the Director has prohibited open burning within 50 km of
+> the Kamloops hospital until December 20, 2025 11:00 AM local time. No
+> vegetative debris may be ignited or added to ignited piles.
 > Contravention of these provisions may be subject to a fine under the
 > Regulation.
 
-   Date issued: December 18, 2025
-
-   Benjamin Weinstein
-
-   For Director, Environmental Management Act
-
-   Environmental Monitoring and Analysis Branch {{< accordion_end >}}
+   Date issued: December 19, 2025`<br />`{=html}   Benjamin
+Weinstein`<br />`{=html}   For Director, Environmental Management
+Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
+{{< accordion_end >}}
 
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
@@ -190,15 +187,12 @@ traffic.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for and nearest monitored
-communities at 10:00 AM local time today:
+communities at 9:00 AM local time today:
 
-  ---------------------------------------------------------------------------------
-  Community                   Cranbrook   Castlegar   Elkford   Golden   Sparwood
-  --------------------------- ----------- ----------- --------- -------- ----------
-  24-hr average (μg/m^3^)     1.9         3.5         1.4       11.7     1.4
-
-  Max. within 24 hr (μg/m^3^) 7.3         10.4        5.5       35.1     4.4
-  ---------------------------------------------------------------------------------
+  Community                     Kamloops   Quesnel   Williams Lake
+  ----------------------------- ---------- --------- ---------------
+  24-hr average (μg/m^3^)       3.1        4.1       2.7
+  Max. within 24 hr (μg/m^3^)   9.4        8.8       6.5
 
 {{< accordion_end >}}
 
@@ -229,9 +223,9 @@ warnings](https://metrovancouver.org/services/air-quality-climate-action/air-qua
 **Media questions regarding this Pollution Prevention Notice:**
 {{< card_start width="wide" >}}
 
-Gail Roth`<br />`{=html}Senior Air Quality
+Gavin King`<br />`{=html}Senior Air Quality
 Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-645-9358
+Parks`<br />`{=html}250-312-6798
 
 {{< card_end >}}
 

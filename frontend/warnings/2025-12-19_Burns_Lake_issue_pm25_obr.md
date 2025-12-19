@@ -4,8 +4,9 @@ author:
 authors:
 - Gail Roth
 customMessage: Current conditions are expected to persist until weather
-  conditions change and/or local emissions are reduced.
-date: 2025-12-18
+  conditions change and/or local emissions are reduced. This is a TEST,
+  not an actual warning
+date: 2025-12-19
 ice: Issue
 location: Burns Lake
 outputFormat: markdown
@@ -60,15 +61,16 @@ breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
 Open burning restrictions are now in effect within within 50 km of the
-Burns Lake firehall. No new fires may be initiated, and no additional
-material may be added to existing fires. For more information on burning
-restrictions, refer to the Mandatory Emission Reduction Actions section
-below.
+Burns Lake firehall (THIS IS A TEST). No new fires may be initiated, and
+no additional material may be added to existing fires. For more
+information on burning restrictions, refer to the Mandatory Emission
+Reduction Actions section below.
 
 Current conditions are expected to persist until weather conditions
-change and/or local emissions are reduced.
+change and/or local emissions are reduced. This is a TEST, not an actual
+warning
 
-The next update will be on December 19, 2025 and posted to the
+The next update will be on December 20, 2025 and posted to the
 province's [Air Quality Warnings
 webpage](https://www.gov.bc.ca/airquality).
 
@@ -131,7 +133,9 @@ people who work outdoors.
     include using a clean, good quality air filter in your ventilation
     system and/or a certified portable air cleaner that can filter fine
     particles. Do-it-yourself air cleaners may also be used if other
-    options are not available. For details, visit: https://rb.gy/epi7qv.
+    options are unavailable. For more details, see the BC Centre of
+    Control [fact
+    sheet](https://www.bccdc.ca/resource-gallery/Documents/Guidelines%20and%20Forms/Guidelines%20and%20Manuals/Health-Environment/BCCDC_WildFire_FactSheet_BoxFanAirFilters.pdf).
 
 -   If you must spend time outdoors, a well-constructed, well-fitting
     and properly worn respirator type mask (such as a NIOSH-certified
@@ -169,18 +173,14 @@ people who work outdoors.
 > As pollution is occurring or is likely to occur from open burning,
 > pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
 > Regulation, the Director has prohibited open burning within within 50
-> km of the Burns Lake firehall until December 19, 2025 12:00 PM local
-> time. No vegetative debris may be ignited or added to ignited piles.
-> Contravention of these provisions may be subject to a fine under the
-> Regulation.
+> km of the Burns Lake firehall (THIS IS A TEST) until December 20, 2025
+> HH:00 PM local time. No vegetative debris may be ignited or added to
+> ignited piles. Contravention of these provisions may be subject to a
+> fine under the Regulation.
 
-   Date issued: December 18, 2025
-
-   Benjamin Weinstein
-
-   For Director, Environmental Management Act
-
-   Environmental Monitoring and Analysis Branch
+   Date issued: December 19, 2025`<br />`{=html}   Benjamin
+Weinstein`<br />`{=html}   For Director, Environmental Management
+Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
 
 {{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
@@ -215,7 +215,7 @@ communities at 9:00 AM local time today:
   Community              Burns Lake Houston   Prince       Smithers   Vanderhoof
                                               George                  
   ---------------------- ---------- --------- ------------ ---------- ------------
-  24-hr average          1.9        5.5       9.3          6.5        11.5
+  24-hr average          2.5        3.4       5.3          1.9        11.7
   (μg/m^3^)                                                           
 
   --------------------------------------------------------------------------------
@@ -236,9 +236,9 @@ Provincial air quality data refreshed every hour.
 
 [Latest air quality
 data](https://www.env.gov.bc.ca/epd/bcairquality/readings/find-stations-map.html)
-{{< card_end >}}{{\< card_start title="Metro Vancouver Air Quality"
-variant="success" logo="/assets/icon_chart.svg" \>}} Warnings and a map
-of air quality and weather data.
+{{< card_end >}}
+{{< card_start title="Metro Vancouver Air Quality" variant="success" logo="/assets/icon_chart.svg" >}}
+Warnings and a map of air quality and weather data.
 
 [Air quality data and
 warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories)
