@@ -576,6 +576,18 @@ class TestProcessWarningEntries(unittest.TestCase):
                 'bylaw': False,
             },
             {
+                # Pollution prevention case
+                'type': 'pollution_prevention',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
                 # PM25 case
                 'type': 'local_emissions',
                 'path': 'N/A',
@@ -654,6 +666,7 @@ class TestProcessWarningEntries(unittest.TestCase):
             'Wildfire Smoke',  # Not overridden title
             'Air Quality Warning',  # Metro Vancouver case
             'Wildfire Smoke',  # Wildfire smoke case
+            'Pollution Prevention Notice',  # Pollution prevention case
             'Fine particulate matter',  # PM25 case
             'Ground level ozone',  # O3 case
             'Dust',  # PM10 case
@@ -668,11 +681,12 @@ class TestProcessWarningEntries(unittest.TestCase):
         self.assertEqual(expected_titles[1], actual_processed_warnings[1]['title'])  # Not overridden title
         self.assertEqual(expected_titles[2], actual_processed_warnings[2]['title'])  # Metro Vancouver case
         self.assertEqual(expected_titles[3], actual_processed_warnings[3]['title'])  # PM25 case
-        self.assertEqual(expected_titles[4], actual_processed_warnings[4]['title'])  # O3 case
-        self.assertEqual(expected_titles[5], actual_processed_warnings[5]['title'])  # PM10 case
-        self.assertEqual(expected_titles[6], actual_processed_warnings[6]['title'])  # PM25 & PM10 case
-        self.assertEqual(expected_titles[7], actual_processed_warnings[7]['title'])  # Invalid Type
-        self.assertEqual(expected_titles[8], actual_processed_warnings[8]['title'])  # Invalid Pollutant
+        self.assertEqual(expected_titles[4], actual_processed_warnings[4]['title'])  # Pollution prevention case
+        self.assertEqual(expected_titles[5], actual_processed_warnings[5]['title'])  # O3 case
+        self.assertEqual(expected_titles[6], actual_processed_warnings[6]['title'])  # PM10 case
+        self.assertEqual(expected_titles[7], actual_processed_warnings[7]['title'])  # PM25 & PM10 case
+        self.assertEqual(expected_titles[8], actual_processed_warnings[8]['title'])  # Invalid Type
+        self.assertEqual(expected_titles[9], actual_processed_warnings[9]['title'])  # Invalid Pollutant
 
     def test_mandatory_action(self):
         test_date = datetime.date(2025, 12, 11)

@@ -44,6 +44,7 @@ METRO_VANCOUVER_FILENAME = '_metro_vancouver.yml'
 REDIRECT_TYPE = 'redirect'
 WILDFIRE_SMOKE_TYPE = 'wildfire_smoke'
 LOCAL_EMISSIONS_TYPE = 'local_emissions'
+POLLUTION_PREVENTION_TYPE = 'pollution_prevention'
 PM25_POLLUTANT = 'PM25'
 O3_POLLUTANT = 'O3'
 PM10_POLLUTANT = 'PM10'
@@ -54,6 +55,7 @@ MANDATORY_ACTION_LOCATIONS = ['Burns Lake', 'Duncan', 'Houston', 'Prince George'
 # Editable - Display strings for easy modification without developer involvement
 METRO_VAN_LINK_TITLE = 'Air Quality Warning'
 WILDFIRE_SMOKE_TITLE = 'Wildfire Smoke'
+POLLUTION_PREVENTION_TITLE = 'Pollution Prevention Notice'
 PM_25_TITLE = 'Fine particulate matter'
 O3_TITLE = 'Ground level ozone'
 PM10_TITLE = 'Dust'
@@ -303,6 +305,8 @@ def process_warning_entries(warnings: List[Dict[str, Any]]) -> List[Dict[str, An
             processed_warning['title'] = METRO_VAN_LINK_TITLE
         elif warning['type'] == WILDFIRE_SMOKE_TYPE:
             processed_warning['title'] = WILDFIRE_SMOKE_TITLE
+        elif warning['type'] == POLLUTION_PREVENTION_TYPE:
+            processed_warning['title'] = POLLUTION_PREVENTION_TITLE
         elif warning['type'] == LOCAL_EMISSIONS_TYPE:
             if 'pollutant' in warning:
                 if warning['pollutant'] == PM25_POLLUTANT:
