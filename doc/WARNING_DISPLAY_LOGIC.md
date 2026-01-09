@@ -18,9 +18,8 @@ path: string - Required only if the type is "redirect".
 overrideTitle: - boolean - If true, use the provided title property
 title: string - Required only if overrideTitle is present and set to true.
 bylaw: boolean - If present and true, Mandatory action will be "Yes". If present and false Mandatory Action will be "No"
-params:
-    burnRestrictions: integer - if present and greater than 0, Mandatory Action will be "Yes". Takes precedence over bylaw property.
-    pollutant: string - Required only if the type is "local_emissions". "PM25", "O3", "PM10", or "PM25 & PM10"
+burnRestrictions: integer - if present and greater than 0, Mandatory Action will be "Yes". Takes precedence over bylaw property.
+pollutant: string - Required only if the type is "local_emissions". "PM25", "O3", "PM10", or "PM25 & PM10"
 ```
 
 The following locations will have "Mandatory Action" set to "Yes" unless
