@@ -25,9 +25,8 @@ path: OPTIONAL - the URL for the redirect link. Only used if type is "redirect"
 title: OPTIONAL string
 overrideTitle: OPTIONAL boolean - This will force the rendered Title to be the provided title
 bylaw: OPTIONAL boolean - if present, this will override other mandatory action logic, *except* burn restrictions.
-params:
-    burnRestrictions: OPTIONAL integer
-    pollutant: REQUIRED if type is local_emissions, string - "PM10" or "PM25" or "O3" or "PM25 & PM10"
+burnRestrictions: OPTIONAL integer
+pollutant: REQUIRED if type is local_emissions, string - "PM10" or "PM25" or "O3" or "PM25 & PM10"
 ---
 
 Other parameters and values will be ignored by this script.
@@ -128,8 +127,8 @@ def extract_header_from_file(file_path: str) -> Optional[Dict[str, Any]]:
             'ice': parsed_header.get('ice', 'N/A'),
             'date': parsed_header.get('date'),
             'location': parsed_header.get('location'),
-            'pollutant': parsed_header.get('params', {}).get('pollutant', 'N/A'),
-            'burn_restrictions': parsed_header.get('params', {}).get('burnRestrictions', 0),
+            'pollutant': parsed_header.get('pollutant', 'N/A'),
+            'burn_restrictions': parsed_header.get('burnRestrictions', 0),
             'bylaw': parsed_header.get('bylaw', None),
             'override_title': parsed_header.get('overrideTitle', False),
         }
