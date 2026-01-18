@@ -4,7 +4,7 @@ author:
 authors:
 - Gail Roth
 burnRestrictions: 0
-customMessage: Local air quality conditions have improved overnight
+customMessage: Local air quality conditions have improved overnight.
 date: 2026-01-17
 ice: End
 location: Valemount
@@ -49,7 +49,7 @@ Health Authority has ended the Air Quality Warning that was issued on
 January 16, 2026 for Valemount due to elevated levels of fine
 particulate matter.
 
-Local air quality conditions have improved overnight
+Local air quality conditions have improved overnight.
 
 ## More information
 
