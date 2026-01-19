@@ -25,9 +25,8 @@ path: OPTIONAL - the URL for the redirect link. Only used if type is "redirect"
 title: OPTIONAL string
 overrideTitle: OPTIONAL boolean - This will force the rendered Title to be the provided title
 bylaw: OPTIONAL boolean - if present, this will override other mandatory action logic, *except* burn restrictions.
-params:
-    burnRestrictions: OPTIONAL integer
-    pollutant: REQUIRED if type is local_emissions, string - "PM10" or "PM25" or "O3" or "PM25 & PM10"
+burnRestrictions: OPTIONAL integer
+pollutant: REQUIRED if type is local_emissions, string - "PM10" or "PM25" or "O3" or "PM25 & PM10"
 ---
 
 Other parameters and values will be ignored by this script.
@@ -44,6 +43,7 @@ METRO_VANCOUVER_FILENAME = '_metro_vancouver.yml'
 REDIRECT_TYPE = 'redirect'
 WILDFIRE_SMOKE_TYPE = 'wildfire_smoke'
 LOCAL_EMISSIONS_TYPE = 'local_emissions'
+POLLUTION_PREVENTION_TYPE = 'pollution_prevention'
 PM25_POLLUTANT = 'PM25'
 O3_POLLUTANT = 'O3'
 PM10_POLLUTANT = 'PM10'
@@ -54,6 +54,7 @@ MANDATORY_ACTION_LOCATIONS = ['Burns Lake', 'Duncan', 'Houston', 'Prince George'
 # Editable - Display strings for easy modification without developer involvement
 METRO_VAN_LINK_TITLE = 'Air Quality Warning'
 WILDFIRE_SMOKE_TITLE = 'Wildfire Smoke'
+POLLUTION_PREVENTION_TITLE = 'Pollution Prevention Notice'
 PM_25_TITLE = 'Fine particulate matter'
 O3_TITLE = 'Ground level ozone'
 PM10_TITLE = 'Dust'
@@ -126,8 +127,8 @@ def extract_header_from_file(file_path: str) -> Optional[Dict[str, Any]]:
             'ice': parsed_header.get('ice', 'N/A'),
             'date': parsed_header.get('date'),
             'location': parsed_header.get('location'),
-            'pollutant': parsed_header.get('params', {}).get('pollutant', 'N/A'),
-            'burn_restrictions': parsed_header.get('params', {}).get('burnRestrictions', 0),
+            'pollutant': parsed_header.get('pollutant', 'N/A'),
+            'burn_restrictions': parsed_header.get('burnRestrictions', 0),
             'bylaw': parsed_header.get('bylaw', None),
             'override_title': parsed_header.get('overrideTitle', False),
         }
@@ -303,6 +304,8 @@ def process_warning_entries(warnings: List[Dict[str, Any]]) -> List[Dict[str, An
             processed_warning['title'] = METRO_VAN_LINK_TITLE
         elif warning['type'] == WILDFIRE_SMOKE_TYPE:
             processed_warning['title'] = WILDFIRE_SMOKE_TITLE
+        elif warning['type'] == POLLUTION_PREVENTION_TYPE:
+            processed_warning['title'] = POLLUTION_PREVENTION_TITLE
         elif warning['type'] == LOCAL_EMISSIONS_TYPE:
             if 'pollutant' in warning:
                 if warning['pollutant'] == PM25_POLLUTANT:
