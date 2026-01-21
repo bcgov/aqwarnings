@@ -236,6 +236,27 @@ hr {
   }
 }
 
+/* Styling table to match Figma specs */
+
+.quarto-listing-table {
+    border: 1px solid $surface-color-border-default;
+    border-radius: $layout-border-radius-medium;
+    border-spacing: 0;
+    border-collapse: separate;
+  }
+
+  .quarto-listing-table>tr {
+    border-bottom: 1pt solid black;
+  }
+  
+  .quarto-listing-table>tr:last-child {
+    border-bottom: none;
+  }
+
+  .quarto-listing-table>:not(caption)>*>* {
+    border-bottom-width: 0px;
+  }
+
 /*
  Allow these elements to scroll horizontally on smaller screens
  */
