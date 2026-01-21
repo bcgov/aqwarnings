@@ -3,8 +3,7 @@ import unittest
 import pytz
 from unittest.mock import patch
 
-import construct_lists
-from construct_lists import select_recent_warnings, get_today_in_bc_timezone
+from construct_lists import select_recent_warnings, get_today_in_bc_timezone, process_warning_entries
 
 
 class TestWarningSelectionLogic(unittest.TestCase):
@@ -107,7 +106,7 @@ class TestWarningSelectionLogic(unittest.TestCase):
         ]
 
         # Test with default settings
-        recent_warnings = select_recent_warnings(mock_headers, today_date=mock_today)
+        recent_warnings = select_recent_warnings(mock_headers, mock_today)
 
         # We should have 3 warnings (newest wildfire + one for each community)
         self.assertEqual(len(recent_warnings), 3)
@@ -166,14 +165,14 @@ class TestWarningSelectionLogic(unittest.TestCase):
             },
         ]
 
-        recent_warnings = select_recent_warnings(mock_headers, today_date=mock_today)
+        recent_warnings = select_recent_warnings(mock_headers, mock_today)
 
         # Only the 1-day old "end" status warning should be included
         self.assertEqual(len(recent_warnings), 1)
         self.assertEqual(recent_warnings[0]['path'], '/path/to/end_warning1.md')
 
         # Test with custom threshold (0 days) - no "end" status warnings should be included
-        recent_warnings = select_recent_warnings(mock_headers, today_date=mock_today, end_status_threshold_days=0)
+        recent_warnings = select_recent_warnings(mock_headers, mock_today, end_status_threshold_days=0)
         self.assertEqual(len(recent_warnings), 0)
 
     def test_metro_vancouver_handling(self):
@@ -218,7 +217,7 @@ class TestWarningSelectionLogic(unittest.TestCase):
             },
         ]
 
-        recent_warnings = select_recent_warnings(mock_headers, today_date=mock_today)
+        recent_warnings = select_recent_warnings(mock_headers, mock_today)
 
         # Both warnings should be included
         self.assertEqual(len(recent_warnings), 2)
@@ -246,7 +245,7 @@ class TestWarningSelectionLogic(unittest.TestCase):
             }
         ]
 
-        recent_warnings = select_recent_warnings(mock_headers, today_date=mock_today)
+        recent_warnings = select_recent_warnings(mock_headers, mock_today)
 
         # Metro Vancouver warning should be included (only 1 day old)
         self.assertEqual(len(recent_warnings), 1)
@@ -272,7 +271,7 @@ class TestWarningSelectionLogic(unittest.TestCase):
             }
         ]
 
-        recent_warnings = select_recent_warnings(mock_headers, today_date=mock_today)
+        recent_warnings = select_recent_warnings(mock_headers, mock_today)
 
         # Metro Vancouver warning should be excluded (4 days old with End status)
         self.assertEqual(len(recent_warnings), 0)
@@ -357,7 +356,7 @@ class TestWarningSelectionLogic(unittest.TestCase):
             },
         ]
 
-        recent_warnings = select_recent_warnings(mock_headers, today_date=mock_today)
+        recent_warnings = select_recent_warnings(mock_headers, mock_today)
 
         # We should have exactly 2 warnings - the newest for each community
         self.assertEqual(len(recent_warnings), 2)
@@ -426,33 +425,11 @@ class TestWarningSelectionLogic(unittest.TestCase):
             },
         ]
 
-        recent_warnings = select_recent_warnings(mock_headers, today_date=mock_today)
+        recent_warnings = select_recent_warnings(mock_headers, mock_today)
 
         # We should have exactly 1 warning - only the newest wildfire warning
         self.assertEqual(len(recent_warnings), 1)
         self.assertEqual(recent_warnings[0]['path'], '/path/to/wildfire_newest.md')
-
-
-class TestTimezoneHandling(unittest.TestCase):
-    """Test class for timezone handling in warning selection"""
-
-    def test_get_today_in_bc_timezone(self):
-        """Test that get_today_in_bc_timezone returns the correct date in BC timezone"""
-        # Mock the datetime to return a fixed UTC time
-        mock_utc_datetime = datetime.datetime(2025, 6, 14, 5, 30, 0, tzinfo=pytz.UTC)  # 5:30 AM UTC
-
-        with patch('datetime.datetime') as mock_datetime:
-            # Configure the mock to return our fixed UTC time
-            mock_datetime.now.return_value = mock_utc_datetime
-            mock_datetime.side_effect = lambda *args, **kw: datetime.datetime(*args, **kw)
-
-            # Get the BC date
-            bc_today = get_today_in_bc_timezone()
-
-            # The time in BC should be 10:30 PM on June 13, 2025 (PST = UTC-7 during summer)
-            # So the date should be 2025-06-13
-            expected_date = datetime.date(2025, 6, 13)
-            self.assertEqual(bc_today, expected_date)
 
     def test_warning_expiry_at_bc_midnight(self):
         """Test that end status warnings expire at the right time"""
@@ -480,88 +457,334 @@ class TestTimezoneHandling(unittest.TestCase):
         # Scenario 1: Test with BC time on June 13 (3 days since June 10)
         # The warning should be excluded as age = threshold
         bc_time_day3 = datetime.date(2025, 6, 13)
-        warnings = select_recent_warnings(mock_headers, today_date=bc_time_day3)
+        warnings = select_recent_warnings(mock_headers, bc_time_day3)
         self.assertEqual(len(warnings), 0, 'Warning should be excluded when age = threshold')
 
         # Scenario 2: Test with BC time on June 12 (2 days since June 10)
         # The warning should be included as age < threshold
         bc_time_day2 = datetime.date(2025, 6, 12)
-        warnings = select_recent_warnings(mock_headers, today_date=bc_time_day2)
+        warnings = select_recent_warnings(mock_headers, bc_time_day2)
         self.assertEqual(len(warnings), 1, 'Warning should be included when age < threshold')
 
-    def test_timezone_edge_case(self):
-        """Test warning selection using real timezone handling with mocked time"""
-        # Create a warning that's the newest for its community
-        mock_headers = [
-            {
-                'entry': {
-                    'path': '/path/to/edge_case_warning.md',
-                    'title': 'Edge Case Warning',
-                    'type': 'air_quality',
-                    'date': datetime.date(2025, 6, 9),  # From Coast community
-                    'location': 'Coast',
-                    'ice': 'Issue',
-                },
-                'raw_header': {
-                    'title': 'Edge Case Warning',
-                    'type': 'air_quality',
-                    'date': datetime.date(2025, 6, 9),
-                    'location': 'Coast',
-                    'ice': 'Issue',
-                },
-            }
-        ]
 
-        # Test with BC date - warning should be included as it's the newest for its community
-        with patch.object(construct_lists, 'get_today_in_bc_timezone', return_value=datetime.date(2025, 6, 13)):
-            warnings = select_recent_warnings(mock_headers)  # No today_date, will use mocked function
-            self.assertEqual(len(warnings), 1, 'Warning should be included as newest for community')
+class TestTimezoneHandling(unittest.TestCase):
+    """Test class for timezone handling in warning selection"""
 
-    def test_utc_vs_bc_timezone_bug(self):
-        """Test specifically for the timezone bug scenario - warnings using correct timezone"""
-        # Create a warning with status=end that's 3 days old
-        mock_headers = [
-            {
-                'entry': {
-                    'path': '/path/to/timezone_bug_warning.md',
-                    'title': 'Timezone Bug Test Warning',
-                    'type': 'fine_pm',
-                    'ice': 'End',
-                    'date': datetime.date(2025, 6, 10),  # 3 days before June 13
-                    'location': 'Interior',
-                },
-                'raw_header': {
-                    'title': 'Timezone Bug Test Warning',
-                    'type': 'fine_pm',
-                    'ice': 'End',
-                    'date': datetime.date(2025, 6, 10),
-                    'location': 'Interior',
-                },
-            }
-        ]
+    def test_get_today_in_bc_timezone(self):
+        """Test that get_today_in_bc_timezone returns the correct date in BC timezone"""
+        # Mock the datetime to return a fixed UTC time
+        mock_utc_datetime = datetime.datetime(2025, 6, 14, 5, 30, 0, tzinfo=pytz.UTC)  # 5:30 AM UTC
 
-        # Scenario: It's still June 12 in BC (late evening), but already June 13 in UTC
-        # We want to ensure that we're using BC timezone for date calculations
-
-        # Mock the datetime to return a fixed UTC time (June 13, 2025 05:00 AM UTC)
-        # This corresponds to June 12, 2025 10:00 PM in BC (UTC-7)
-        mock_utc_datetime = datetime.datetime(2025, 6, 13, 5, 0, 0, tzinfo=pytz.UTC)
-
-        # Step 1: Using BC timezone via get_today_in_bc_timezone
         with patch('datetime.datetime') as mock_datetime:
+            # Configure the mock to return our fixed UTC time
             mock_datetime.now.return_value = mock_utc_datetime
             mock_datetime.side_effect = lambda *args, **kw: datetime.datetime(*args, **kw)
 
-            # Call the actual function we're testing
+            # Get the BC date
             bc_today = get_today_in_bc_timezone()
-            warnings = select_recent_warnings(mock_headers, today_date=bc_today)
 
-            self.assertEqual(bc_today, datetime.date(2025, 6, 12), 'BC date should be June 12 even when UTC is June 13')
+            # The time in BC should be 10:30 PM on June 13, 2025 (PST = UTC-7 during summer)
+            # So the date should be 2025-06-13
+            expected_date = datetime.date(2025, 6, 13)
+            self.assertEqual(bc_today, expected_date)
 
-            # With BC date of June 12, the warning is 2 days old and should be included (age < threshold)
-            self.assertEqual(
-                len(warnings), 1, 'End status warning should be included when age < threshold in BC timezone'
-            )
+
+class TestProcessWarningEntries(unittest.TestCase):
+    """Tests the value selection logic for final rendering."""
+
+    def test_type_passthrough(self):
+        """Test output values that are passed through from the original warning entry."""
+        test_date = datetime.date(2025, 12, 11)
+        input_warnings = [
+            {
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            }
+        ]
+        expected_processed_warnings = [
+            {'type': 'wildfire_smoke', 'path': 'N/A', 'location': 'My City', 'status': 'ISSUE', 'date': test_date}
+        ]
+
+        actual_processed_warnings = process_warning_entries(input_warnings)
+
+        self.assertEqual(expected_processed_warnings[0]['type'], actual_processed_warnings[0]['type'])
+        self.assertEqual(expected_processed_warnings[0]['path'], actual_processed_warnings[0]['path'])
+        self.assertEqual(expected_processed_warnings[0]['location'], actual_processed_warnings[0]['location'])
+        self.assertEqual(expected_processed_warnings[0]['status'], actual_processed_warnings[0]['status'])
+        self.assertEqual(expected_processed_warnings[0]['date'], actual_processed_warnings[0]['date'])
+
+    def test_derived_title(self):
+        """Tests that the title responds correctly to the various inputs."""
+        test_date = datetime.date(2025, 12, 11)
+        input_warnings = [
+            {
+                # Overridden title
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'overridden title',
+                'override_title': True,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Not overridden title
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'overridden title',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Metro Vancouver case
+                'type': 'redirect',
+                'path': 'vancouver dot ca',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Wildfire smoke case
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Pollution prevention case
+                'type': 'pollution_prevention',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # PM25 case
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'PM25',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # O3 case
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'O3',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # PM10 case
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'PM10',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # PM25 & PM10 case
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'PM25 & PM10',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Invalid Type
+                'type': 'invalid',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'override_title': False,
+                'pollutant': 'PM25 & PM10',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Invalid Pollutant
+                'type': 'local_emissions',
+                'path': 'N/A',
+                'location': 'My City',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'An air quality warning',
+                'pollutant': 'invalid',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+        ]
+        expected_titles = [
+            'overridden title',  # Overridden title
+            'Wildfire Smoke',  # Not overridden title
+            'Air Quality Warning',  # Metro Vancouver case
+            'Wildfire Smoke',  # Wildfire smoke case
+            'Pollution Prevention Notice',  # Pollution prevention case
+            'Fine particulate matter',  # PM25 case
+            'Ground level ozone',  # O3 case
+            'Dust',  # PM10 case
+            'Fine particulate matter and Dust',  # PM25 & PM10 case
+            'N/A',  # Invalid Type
+            'N/A',  # Invalid Pollutant
+        ]
+
+        actual_processed_warnings = process_warning_entries(input_warnings)
+
+        self.assertEqual(expected_titles[0], actual_processed_warnings[0]['title'])  # Overridden title
+        self.assertEqual(expected_titles[1], actual_processed_warnings[1]['title'])  # Not overridden title
+        self.assertEqual(expected_titles[2], actual_processed_warnings[2]['title'])  # Metro Vancouver case
+        self.assertEqual(expected_titles[3], actual_processed_warnings[3]['title'])  # PM25 case
+        self.assertEqual(expected_titles[4], actual_processed_warnings[4]['title'])  # Pollution prevention case
+        self.assertEqual(expected_titles[5], actual_processed_warnings[5]['title'])  # O3 case
+        self.assertEqual(expected_titles[6], actual_processed_warnings[6]['title'])  # PM10 case
+        self.assertEqual(expected_titles[7], actual_processed_warnings[7]['title'])  # PM25 & PM10 case
+        self.assertEqual(expected_titles[8], actual_processed_warnings[8]['title'])  # Invalid Type
+        self.assertEqual(expected_titles[9], actual_processed_warnings[9]['title'])  # Invalid Pollutant
+
+    def test_mandatory_action(self):
+        test_date = datetime.date(2025, 12, 11)
+        input_warnings = [
+            {
+                # Burn restrictions overrides bylaw
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Burnaby',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 1,
+                'bylaw': False,
+            },
+            {
+                # Bylaw overrides location negatively
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Duncan',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': False,
+            },
+            {
+                # Bylaw overrides location postively
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Vernon',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                'bylaw': True,
+            },
+            {
+                # Location has bylaw, and it is not overridden
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Duncan',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                # 'bylaw': True,  I left this here for illustrative purposes.
+            },
+            {
+                # Location does not have bylaw, and it is not overridden
+                'type': 'wildfire_smoke',
+                'path': 'N/A',
+                'location': 'Vernon',
+                'ice': 'ISSUE',
+                'date': test_date,
+                'title': 'burn restrictions',
+                'override_title': False,
+                'pollutant': 'N/A',
+                'burn_restrictions': 0,
+                # 'bylaw': False,  I left this here for illustrative purposes.
+            },
+        ]
+        expected_mandatory_actions = [
+            'Yes',  # Burn restrictions overrides bylaw
+            'No',  # Bylaw overrides location negatively
+            'Yes',  # Bylaw overrides location postively
+            'Yes',  # Location has bylaw, and it is not overridden
+            'No',  # Location does not have bylaw, and it is not overridden
+        ]
+
+        actual_processed_warnings = process_warning_entries(input_warnings)
+
+        # Burn restrictions overrides bylaw
+        self.assertEqual(expected_mandatory_actions[0], actual_processed_warnings[0]['mandatoryAction'])
+        # Bylaw overrides location negatively
+        self.assertEqual(expected_mandatory_actions[1], actual_processed_warnings[1]['mandatoryAction'])
+        # Bylaw overrides location postively
+        self.assertEqual(expected_mandatory_actions[2], actual_processed_warnings[2]['mandatoryAction'])
+        # Location has bylaw, and it is not overridden
+        self.assertEqual(expected_mandatory_actions[3], actual_processed_warnings[3]['mandatoryAction'])
+        # Location does not have bylaw, and it is not overridden
+        self.assertEqual(expected_mandatory_actions[4], actual_processed_warnings[4]['mandatoryAction'])
+
+    def test_empty_collection(self):
+        input_warnings = []
+
+        actual_processed_warning = process_warning_entries(input_warnings)
+
+        self.assertIsInstance(actual_processed_warning, list)
+        self.assertEqual(len(actual_processed_warning), 0)
 
 
 if __name__ == '__main__':

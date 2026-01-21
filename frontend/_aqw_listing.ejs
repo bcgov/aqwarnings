@@ -5,6 +5,7 @@
         <tr>
             <td>Location</td>
             <td>Warning Type</td>
+            <td>Mandatory Action</td>
             <td>Status</td>
             <td>Date</td>
         </tr>
@@ -16,7 +17,7 @@
                 <td>
                     <% if (item.type === "redirect" ) { %>
                         <a href="<%= item.path %>" target="_blank" rel="noopener noreferrer">
-                            <%= item.title %> <span class="external-link">↗</span>
+                            <%= item.title %><span class="external-link">&nbsp;&nbsp;&nbsp;↗</span>
                         </a>
                     <% } else { %>
                         <a href="<%- item.path %>">
@@ -24,7 +25,8 @@
                         </a>
                     <% } %>
                 </td>
-                <td><%= item.ice %></td>
+                <td><%= item.mandatoryAction %></td>
+                <td><%= item.status %></td>
                 <td><%= item.date %></td>
             </tr>
         <% } %>

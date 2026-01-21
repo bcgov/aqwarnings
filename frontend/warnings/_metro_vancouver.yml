@@ -1,6 +1,6 @@
-title: Test Air Quality Advisory
+title: Air Quality Warning
 type: redirect
-date: 2025-01-01
-ice: "End"
-location: "Metro Vancouver"
+date: 2025-09-07
+ice: "End" #"Issue", "Continue", or "End"
+location: "Eastern Fraser Valley"
 path: "https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories"
