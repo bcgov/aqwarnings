@@ -189,12 +189,12 @@ cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for Valemount and nearest monitored
 communities at 9:00 AM local time today:
 
-  ---------------------------------------------------------------------------
-  Community                  Burns Lake   Houston  Prince George   Vanderhoof
-  ------------------------- ----------- --------- -------------- ------------
-  24-hr average (μg/m^3^)          13.3        13             20         47.6
+  --------------------------------------------------------------------------
+  Community                  Burns Lake   Houston  Prince George   Valemount
+  ------------------------- ----------- --------- -------------- -----------
+  24-hr average (μg/m^3^)          13.3        13             20        47.6
 
-  ---------------------------------------------------------------------------
+  --------------------------------------------------------------------------
 
 {{< accordion_end >}}
 
