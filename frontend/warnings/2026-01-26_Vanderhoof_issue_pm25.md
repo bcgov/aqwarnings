@@ -5,7 +5,7 @@ authors:
 - Gail Roth
 burnRestrictions: 0
 customMessage: Fine particulate matter concentrations have remained
-  elevated despite the recent snowfall.
+  elevated over the past 24-hours despite local snowfall.
 date: 2026-01-26
 ice: Issue
 location: Vanderhoof
@@ -60,8 +60,8 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
-Fine particulate matter concentrations have remained elevated despite
-the recent snowfall.
+Fine particulate matter concentrations have remained elevated over the
+past 24-hours despite local snowfall.
 
 The next update will be on January 27, 2026 and posted to the province's
 [Air Quality Warnings webpage](https://www.gov.bc.ca/airquality).
@@ -175,11 +175,11 @@ traffic.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for Vanderhoof and nearest monitored
-communities at 9:00 AM local time today:
+communities at 1:00 PM local time today:
 
-  Community                   Vanderhoof   Quesnel   Valemount ...6
-  ------------------------- ------------ --------- ----------- ------
-  24-hr average (μg/m^3^)           26.9       9.7         3.5 NA
+  Community                   Vanderhoof   Quesnel   Valemount
+  ------------------------- ------------ --------- -----------
+  24-hr average (μg/m^3^)           26.9       9.7         3.5
 
 {{< accordion_end >}}
 
