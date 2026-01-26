@@ -8,7 +8,7 @@ YAML header or YAML file for the warning:
 date: ISO8601 date
 ice: string - "ISSUE", "CONTINUE", or "END"
 location: string
-type: string - "redirect", "wildfire_smoke", or "local_emissions"
+type: string - "redirect", "wildfire_smoke", "pollution_prevention", or "local_emissions"
 ```
 
 In addition, the following properties are optional:
@@ -42,7 +42,9 @@ flowchart TD;
     D -- Yes --> E[Set title to &quot;Air Quality Warning&quot;];
     D -- NO --> F{Is the type &quot;wildfire_smoke&quot;?};
     F -- YES --> G[Set title to &quot;Wildfire Smoke&quot;];
-    F -- NO --> H{Is the type &quot;local_emissions&quot;?};
+    F -- NO --> S{Is the type &quot;pollution_prevention&quot;?}
+    S -- YES --> T[Set title to &quot;Pollution Prevention Notice&quot;]
+    S -- NO --> H{Is the type &quot;local_emissions&quot;?};
     H -- NO --> I[Set title to &quot;N/A&quot;];
     H -- YES --> J{Is the &quot;pollutant&quot; property present?};
     J -- NO --> I;
