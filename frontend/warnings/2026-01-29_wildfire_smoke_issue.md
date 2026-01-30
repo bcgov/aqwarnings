@@ -4,11 +4,11 @@ author:
 authors:
 - Donna Haga
 date: 2026-01-29
-location: Cariboo
+ice: Issue
+location: Central Interior
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
-  ice: Issue
   location: Multiple locations in B.C.
   nextUpdate: 2025-02-10
   outputFormat: markdown
@@ -33,13 +33,15 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- the trailing slash means the text in square brackets is alt text -->
 <!-- note: logos and title for PDF output handled in src/header.txt -->
 
-::: {layout-ncol= 4 layout-valign="bottom"}
+::: {layout-ncol= 5 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
+
+![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -65,7 +67,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-01-29_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for January 29, 2026: Cariboo (North), Cariboo (South)."
+Vancouver.](2026-01-29_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for January 29, 2026: 100 Mile, Cariboo (North), Cariboo (South), Chilcotin, North Thompson."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -246,10 +248,20 @@ Interior Health Authority`<br />`{=html}Media line:
 media@interiorhealth.ca`<br />`{=html}
 
 Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+1-877-961-7724`<br />`{=html}
+
+Vancouver Coastal Health Authority`<br />`{=html}Email:
+media@vch.ca`<br />`{=html}After-hours media line:
+604-202-2012`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
+-   **100 Mile:** includes Hwy 97 from 108 Mile House to Clinton, Bridge
+    Lake and Canim Lake.
 -   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
 -   **Cariboo (South):** includes Williams Lake, Northern and Central
     sections of Wells Gray Park.
+-   **Chilcotin:** includes Hansville, Alexis Creek, Chilanko Forks,
+    Tatla Lake, Nimpo Lake, Anahim Lake, and the southern half of
+    Tweedsmuir Park.
+-   **North Thompson:** includes Barriere, Clearwater and Vavenby.
