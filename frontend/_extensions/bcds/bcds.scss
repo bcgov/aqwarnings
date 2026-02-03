@@ -245,17 +245,24 @@ hr {
     border-collapse: separate;
   }
 
-  .quarto-listing-table>tr {
-    border-bottom: 1pt solid black;
-  }
-  
-  .quarto-listing-table>tr:last-child {
-    border-bottom: none;
-  }
+.quarto-listing-table>tr {
+  border-bottom: 1pt solid black;
+}
 
-  .quarto-listing-table>:not(caption)>*>* {
-    border-bottom-width: 0px;
-  }
+.quarto-listing-table>tr:last-child td {
+  border-bottom: none;
+  border-bottom-width: 0px;
+}
+
+/* Styling listing form controls to match Figma specs */
+
+.input-group>.form-control, .input-group>.form-select, .input-group>.form-floating {
+  border-radius: 0 $layout-border-radius-medium $layout-border-radius-medium 0;
+}
+
+.input-group-text {
+  border-radius: $layout-border-radius-medium 0 0 $layout-border-radius-medium;
+}
 
 /*
  Allow these elements to scroll horizontally on smaller screens
