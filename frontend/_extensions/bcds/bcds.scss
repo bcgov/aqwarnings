@@ -123,12 +123,14 @@ hr {
   width: 3rem;
 }
 
+/* BCDS Header */
 
 #quarto-header {
   .navbar {
     margin-left: auto;
     margin-right: auto;
     padding: 0 0 0 0;
+    border-bottom: 1px solid $theme-gray-50;
 
     width: 100%;
 
@@ -195,6 +197,12 @@ hr {
     }
 
   }
+}
+
+/* BCDS Sidebar */
+
+#quarto-sidebar {
+  border-right: 1px solid $theme-gray-50;
 }
 
 /* The BCDS footer component is pre-styled. Resetting the default Quarto CSS to give it space to apply its styles */
