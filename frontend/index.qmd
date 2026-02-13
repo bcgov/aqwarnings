@@ -22,7 +22,7 @@ listing:
 
 - Subscribe to the [Air Quality Subscription Service](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality/air-advisories/air-quality-subscription-service)
 - Outside regular business hours, visit [Environment and Climate Change Canada’s Public Weather Alerts for B.C.](https://weather.gc.ca/?province=bc&zoom=5&alertTableFilterProv=BC)
-- For information about air quality warnings within [**Metro Vancouver** and parts of the **Fraser Valley Regional District**](https://gis.metrovancouver.org/maps/Air), visit [Metro Vancouver’s Air Quality Data and Warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories) webpage.
+- Visit [Metro Vancouver’s Air Quality Data and Warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories) for information about **Metro Vancouver** and parts of the **Fraser Valley Regional District** (see [regions in AirMap](https://gis.metrovancouver.org/maps/Air))
 
 {{< callout_end >}}
 
