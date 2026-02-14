@@ -1,0 +1,169 @@
+[
+  {
+    "objectID": "shortcode_demos.html#callouts",
+    "href": "shortcode_demos.html#callouts",
+    "title": "Shortcode Demonstrations ",
+    "section": "Callouts",
+    "text": "Callouts\n\n\n\n\n\n\nNote\n\n\n\nQuarto default callout\n\n\n BCDS callout - sample text, defaults \nTitled Callout BCDS callout - sample text, default variant \n BCDS callout - sample text, blue variant \nTitled, variant BCDS callout - sample text, light blue variant, with title"
+  },
+  {
+    "objectID": "shortcode_demos.html#accordions",
+    "href": "shortcode_demos.html#accordions",
+    "title": "Shortcode Demonstrations ",
+    "section": "Accordions",
+    "text": "Accordions\nExpand AllCollapse All\nAccordion Example - Continuous Monitoring In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S) \n\nAccordion Example - Initially Open In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S) \n\nAccordion Example - Initially Open, Header In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S) \n\nAccordion Example - Header In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)"
+  },
+  {
+    "objectID": "shortcode_demos.html#cards",
+    "href": "shortcode_demos.html#cards",
+    "title": "Shortcode Demonstrations ",
+    "section": "Cards",
+    "text": "Cards\nTitled Card card contents \nRed Card danger card contents \nRed Card danger card contents, icon \nSuccess Card success card contents \nSuccess Card success card contents, icons \nInfo Card info card contents \nInfo Card info card contents, icons enabled \nWarning Card warning card contents \nWarning Card warning card contents, icons enabled \nInfo Image Card info with logo card contents \nInfo Image Card info with logo card contents\nLink Example \nWarning Image Card Warning with logo card contents and icons\nLink Example \n untitled with logo card contents \n untitled danger card with logo card contents \n Wide version of a card, untitled \n Untitled card contents"
+  },
+  {
+    "objectID": "shortcode_demos.html#inline-alerts",
+    "href": "shortcode_demos.html#inline-alerts",
+    "title": "Shortcode Demonstrations ",
+    "section": "Inline Alerts",
+    "text": "Inline Alerts\nTitled Alert Alert contents \n Untitled alert contents \n Untitled alert contents, warning \n Untitled alert contents, warning \n Untitled alert contents, danger \n Untitled alert contents, success \n Untitled alert contents, info (default)"
+  },
+  {
+    "objectID": "warnings.html",
+    "href": "warnings.html",
+    "title": "Historical warnings ",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Warning Type\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nLocation\n\n\n\nWarning Type\n\n\n\nStatus\n\n\n\nDate\n\n\n\n\n\n\n\n\nNortheast B.C.\n\n\nAir Quality Warning - Wildfire Smoke\n\n\nIssue\n\n\nJun 2, 2025\n\n\n\n\n\n\nNortheast B.C.\n\n\nAir Quality Warning - Wildfire Smoke\n\n\nIssue\n\n\nJun 3, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "warnings/2025-06-03_wildfire_smoke_issue.html",
+    "href": "warnings/2025-06-03_wildfire_smoke_issue.html",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 3, 2025 ",
+    "section": "",
+    "text": "The Regions of BC highlighted on the map are being impacted or are likely to be impacted by wildfire smoke over the next 24-48 hours.\nDuring a wildfire, smoke conditions can change quickly over short distances and can vary considerably hour-by-hour.\nMonitor the situation for any wildfires near your area at EmergencyInfoBC. Follow all emergency announcements relevant to your location.\nThe next update will be available on June 04, 2025 and made available on the Province’s Air Quality Warnings webpage."
+  },
+  {
+    "objectID": "warnings/2025-06-03_wildfire_smoke_issue.html#actions-you-can-take",
+    "href": "warnings/2025-06-03_wildfire_smoke_issue.html#actions-you-can-take",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 3, 2025 ",
+    "section": "Actions you can take",
+    "text": "Actions you can take\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\nPeople more likely to be negatively impacted by outdoor air pollution should reduce or reschedule strenuous activities outdoors or seek medical attention if experiencing symptoms. This includes people aged 65 and older, pregnant individuals, infants and young children, people with an existing illness or chronic health condition such as chronic obstructive pulmonary disease (COPD), heart disease and diabetes, and people who work outdoors."
+  },
+  {
+    "objectID": "warnings/2025-06-03_wildfire_smoke_issue.html#during-smoky-conditions",
+    "href": "warnings/2025-06-03_wildfire_smoke_issue.html#during-smoky-conditions",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 3, 2025 ",
+    "section": "During smoky conditions",
+    "text": "During smoky conditions\nExpand AllCollapse All Follow your common sense\n\nStop or reduce your activity level if breathing becomes uncomfortable or you feel unwell.\nStay cool and drink plenty of fluids.\nCarry any rescue medications with you at all times.\nMake sure that children and others who cannot care for themselves follow the same advice.\nIf you have asthma or other chronic illness, carry any rescue (fast-acting) medications with you at all times and activate your personal care plan that has been designed with your family physician.\nMake sure that children and others who cannot care for themselves follow the same advice.\n\n Monitor your symptoms\n\nDifferent people have different responses to smoke.\nMild irritation and discomfort such as eye, nose and throat irritation, headaches or a mild cough are common, and usually disappear when the smoke clears.\nMore serious but less common symptoms include wheezing, chest pains or severe cough.\nPeople with asthma or other chronic illness should follow any personal care plans designed with their family physicians.\nIf you are unsure whether you need medical care, call HealthLink BC at 8-1-1.\nIf you are experiencing difficulty in breathing, chest pain or discomfort, or a severe cough, contact your physician, walk-in clinic, or emergency department. If you are having a medical emergency, call 9-1-1.\n\n Tips to reduce your smoke exposure\n\nSmoke levels may be lower indoors but will still be elevated, so stay aware of your symptoms even when you are indoors.\nWhen indoor, keep windows and doors closed as much as possible.\nWhen there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\nCheck on others who are in your care or live nearby who may be more likely to be impacted by wildfire smoke.\nAlways follow guidance from local authorities."
+  },
+  {
+    "objectID": "warnings/2025-06-03_wildfire_smoke_issue.html#more-information",
+    "href": "warnings/2025-06-03_wildfire_smoke_issue.html#more-information",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 3, 2025 ",
+    "section": "More information",
+    "text": "More information\nFor additional general information about wildfire smoke and air quality:\n\nAir Quality Health Index Provincial summary of latest index and forecast.\nWhat’s the air like today?  Air Quality Map Provincial air quality data refreshed every hour.\nLatest air quality data  Environment and Climate Change Canada FireWork Air quality maps of next 72 hours.\nAir quality forecast maps  FireSmoke Canada BlueSky Canada smoke forecasting system.\nSmoke forecasts  Metro Vancouver Air Quality Advisories and map of air quality and weather data.\nAir quality data and warnings \n\nFor additional general information about wildfire smoke and your health:\n\nBC Centre for Disease Control Fact sheets on wildfire smoke and its health impacts.\nWildfire smoke First Nations Health Authority Information and resources to help you prepare.\nWildfire smoke health information  HealthLink BC Learn and prepare for wildfires. Phone 8-1-1 for 24/7 health advice.\nWildfires and your health  Worksafe BC Info on working outdoors during smoky conditions.\nWildfire FAQ"
+  },
+  {
+    "objectID": "warnings/2025-06-03_wildfire_smoke_issue.html#contact",
+    "href": "warnings/2025-06-03_wildfire_smoke_issue.html#contact",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 3, 2025 ",
+    "section": "Contact",
+    "text": "Contact\nMedia and public inquiries regarding air quality and the Air Quality Warning for wildfire smoke:\n Vickie IrishAir Quality MeteorologistMinistry of Environment and Parks778-584-5719 \nMedia questions regarding health implications of wildfires:\n First Nations Health AuthorityEnvironmental Public Health Services or Main FNHA Line: 604-693-6500 After Hours: 1-844-666-0711Email: Ephs.afterhours@fnha.caMedia line: 604-831-4898\nNorthern Health AuthorityMedia Line: 1-877-961-7724"
+  },
+  {
+    "objectID": "warnings/2025-06-03_wildfire_smoke_issue.html#regions-included-under-this-air-quality-warning",
+    "href": "warnings/2025-06-03_wildfire_smoke_issue.html#regions-included-under-this-air-quality-warning",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 3, 2025 ",
+    "section": "Regions included under this Air Quality Warning",
+    "text": "Regions included under this Air Quality Warning\n\nB.C. North Peace River: includes the City of Fort St John and all communities along Hwy 97 extending from Farmington to Pink Mountain; Hwy 29 including Moberly Lake, Hudson’s Hope; also includes Rolla, Clayhurst and Goodlow.\nB.C. South Peace River: includes Chetwynd, Dawson Creek, Pouce Coupe, and Tumbler Ridge.\nFort Nelson: includes Fort Nelson, Muskwa, Prophet River, Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon border.\nMuncho Lake Park - Stone Mountain Park: includes Muncho Lake, Toad River and Stone Mountain Provincial Park."
+  },
+  {
+    "objectID": "warnings/2025-06-02_wildfire_smoke_issue.html",
+    "href": "warnings/2025-06-02_wildfire_smoke_issue.html",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 2, 2025 ",
+    "section": "",
+    "text": "The Regions of BC highlighted on the map are being impacted or are likely to be impacted by wildfire smoke over the next 24-48 hours.\nDuring a wildfire, smoke conditions can change quickly over short distances and can vary considerably hour-by-hour.\nMonitor the situation for any wildfires near your area at EmergencyInfoBC. Follow all emergency announcements relevant to your location.\nThe next update will be available on June 03, 2025 and made available on the Province’s Air Quality Warnings webpage."
+  },
+  {
+    "objectID": "warnings/2025-06-02_wildfire_smoke_issue.html#actions-you-can-take",
+    "href": "warnings/2025-06-02_wildfire_smoke_issue.html#actions-you-can-take",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 2, 2025 ",
+    "section": "Actions you can take",
+    "text": "Actions you can take\nAs smoke levels increase, health risks increase. Limit time outdoors. Consider reducing or rescheduling outdoor sports, activities and events.\nPeople more likely to be negatively impacted by outdoor air pollution should reduce or reschedule strenuous activities outdoors or seek medical attention if experiencing symptoms. This includes people aged 65 and older, pregnant individuals, infants and young children, people with an existing illness or chronic health condition such as chronic obstructive pulmonary disease (COPD), heart disease and diabetes, and people who work outdoors."
+  },
+  {
+    "objectID": "warnings/2025-06-02_wildfire_smoke_issue.html#during-smoky-conditions",
+    "href": "warnings/2025-06-02_wildfire_smoke_issue.html#during-smoky-conditions",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 2, 2025 ",
+    "section": "During smoky conditions",
+    "text": "During smoky conditions\nExpand AllCollapse All Follow your common sense\n\nStop or reduce your activity level if breathing becomes uncomfortable or you feel unwell.\nStay cool and drink plenty of fluids.\nCarry any rescue medications with you at all times.\nMake sure that children and others who cannot care for themselves follow the same advice.\nIf you have asthma or other chronic illness, carry any rescue (fast-acting) medications with you at all times and activate your personal care plan that has been designed with your family physician.\nMake sure that children and others who cannot care for themselves follow the same advice.\n\n Monitor your symptoms\n\nDifferent people have different responses to smoke.\nMild irritation and discomfort such as eye, nose and throat irritation, headaches or a mild cough are common, and usually disappear when the smoke clears.\nMore serious but less common symptoms include wheezing, chest pains or severe cough.\nPeople with asthma or other chronic illness should follow any personal care plans designed with their family physicians.\nIf you are unsure whether you need medical care, call HealthLink BC at 8-1-1.\nIf you are experiencing difficulty in breathing, chest pain or discomfort, or a severe cough, contact your physician, walk-in clinic, or emergency department. If you are having a medical emergency, call 9-1-1.\n\n Tips to reduce your smoke exposure\n\nSmoke levels may be lower indoors but will still be elevated, so stay aware of your symptoms even when you are indoors.\nWhen indoor, keep windows and doors closed as much as possible.\nWhen there is an extreme heat event occurring with poor air quality, prioritize keeping cool.\nProtect your indoor air from wildfire smoke. Actions can include using a clean, good quality air filter in your ventilation system and/or a certified portable air cleaner that can filter fine particles.\nIf you must spend time outdoors, a well-constructed, well-fitting and properly worn respirator type mask (such as a NIOSH-certified N95 or equivalent respirator) can reduce your exposure to the fine particles in the smoke. Even though exposure may be reduced, there can still be risks to health.\nCheck on others who are in your care or live nearby who may be more likely to be impacted by wildfire smoke.\nAlways follow guidance from local authorities."
+  },
+  {
+    "objectID": "warnings/2025-06-02_wildfire_smoke_issue.html#more-information",
+    "href": "warnings/2025-06-02_wildfire_smoke_issue.html#more-information",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 2, 2025 ",
+    "section": "More information",
+    "text": "More information\nFor additional general information about wildfire smoke and air quality:\n\nAir Quality Health Index Provincial summary of latest index and forecast.\nWhat’s the air like today?  Air Quality Map Provincial air quality data refreshed every hour.\nLatest air quality data  Environment and Climate Change Canada FireWork Air quality maps of next 72 hours.\nAir quality forecast maps  FireSmoke Canada BlueSky Canada smoke forecasting system.\nSmoke forecasts  Metro Vancouver Air Quality Advisories and map of air quality and weather data.\nAir quality data and warnings \n\nFor additional general information about wildfire smoke and your health:\n\nBC Centre for Disease Control Fact sheets on wildfire smoke and its health impacts.\nWildfire smoke First Nations Health Authority Information and resources to help you prepare.\nWildfire smoke health information  HealthLink BC Learn and prepare for wildfires. Phone 8-1-1 for 24/7 health advice.\nWildfires and your health  Worksafe BC Info on working outdoors during smoky conditions.\nWildfire FAQ"
+  },
+  {
+    "objectID": "warnings/2025-06-02_wildfire_smoke_issue.html#contact",
+    "href": "warnings/2025-06-02_wildfire_smoke_issue.html#contact",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 2, 2025 ",
+    "section": "Contact",
+    "text": "Contact\nMedia and public inquiries regarding air quality and the Air Quality Warning for wildfire smoke:\n Vickie IrishAir Quality MeteorologistMinistry of Environment and Parks778-584-5719 \nMedia questions regarding health implications of wildfires:\n First Nations Health AuthorityEnvironmental Public Health Services or Main FNHA Line: 604-693-6500 After Hours: 1-844-666-0711Email: Ephs.afterhours@fnha.caMedia line: 604-831-4898\nNorthern Health AuthorityMedia Line: 1-877-961-7724"
+  },
+  {
+    "objectID": "warnings/2025-06-02_wildfire_smoke_issue.html#regions-included-under-this-air-quality-warning",
+    "href": "warnings/2025-06-02_wildfire_smoke_issue.html#regions-included-under-this-air-quality-warning",
+    "title": "Air Quality Warning - Wildfire Smoke  - June 2, 2025 ",
+    "section": "Regions included under this Air Quality Warning",
+    "text": "Regions included under this Air Quality Warning\n\nFort Nelson: includes Fort Nelson, Muskwa, Prophet River, Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon border.\nMuncho Lake Park - Stone Mountain Park: includes Muncho Lake, Toad River and Stone Mountain Provincial Park."
+  },
+  {
+    "objectID": "index.html#issued-warnings",
+    "href": "index.html#issued-warnings",
+    "title": "Air quality warnings ",
+    "section": "Issued warnings",
+    "text": "Issued warnings\n\n\n\n\nLocation\nWarning Type\nStatus\nDate\n\n\n\n\nNortheast B.C.\nAir Quality Warning - Wildfire Smoke\nIssue\nJun 3, 2025\n\n\n\nNo matching items",
+    "crumbs": [
+      "Issued warnings",
+      "Air Quality Data",
+      "Air Quality Warnings"
+    ]
+  },
+  {
+    "objectID": "index.html#latest-updates",
+    "href": "index.html#latest-updates",
+    "title": "Air quality warnings ",
+    "section": "Latest updates",
+    "text": "Latest updates\n\nFor the latest updates:\n\nSubscribe to the Air Quality Subscription Service\nOutside regular business hours, visit Environment and Climate Change Canada’s Public Weather Alerts for B.C.\nFor Metro Vancouver and the Fraser Valley Regional District, see Metro Vancouver’s Air Quality Data and Warnings and AirMap.ca. For subscription to air quality advisories and bulletins, use Metro Vancouver’s Air Quality and Climate Change Mailing List",
+    "crumbs": [
+      "Issued warnings",
+      "Air Quality Data",
+      "Air Quality Warnings"
+    ]
+  },
+  {
+    "objectID": "index.html#about-air-quality-warnings",
+    "href": "index.html#about-air-quality-warnings",
+    "title": "Air quality warnings ",
+    "section": "About air quality warnings",
+    "text": "About air quality warnings\nAn air quality warning is issued when pollutant concentrations approach or exceed predetermined limits, or when degraded-air-quality episodes are expected to continue or worsen.\nWarnings are issued in order to:\n\ninform about degraded air quality\nhelp people make informed choices about reducing their exposure to elevated concentrations of air pollutants\naffect emission reduction actions (such as a limit on industrial emissions or wood stove use)\nprovide vulnerable individuals and the general public with health advice developed by BC health agencies",
+    "crumbs": [
+      "Issued warnings",
+      "Air Quality Data",
+      "Air Quality Warnings"
+    ]
+  },
+  {
+    "objectID": "index.html#about-wildfire-smoke-air-quality-warnings",
+    "href": "index.html#about-wildfire-smoke-air-quality-warnings",
+    "title": "Air quality warnings ",
+    "section": "About wildfire smoke air quality warnings",
+    "text": "About wildfire smoke air quality warnings\nThe wildfire smoke warning is a special type of public advisory to communicate the rapidly changing nature of wildfire smoke. It is issued when areas of the province are being impacted or have reasonable potential to be impacted by wildfire smoke within 24 to 48 hours. These warnings are based on available pollutant concentrations information, satellite information, smoke forecast models and visual observations, and are not intended to manage local emission sources.",
+    "crumbs": [
+      "Issued warnings",
+      "Air Quality Data",
+      "Air Quality Warnings"
+    ]
+  }
+]
