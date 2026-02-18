@@ -4,10 +4,10 @@ author:
 authors:
 - Gail Roth
 burnRestrictions: 0
-bylaw: true
+bylaw: false
 date: 2026-02-18
 ice: Issue
-location: Prince George
+location: Penticton
 params:
   aqMet: Sakshi Jain
   burnRestrictionEndDate: 2025-09-28
@@ -20,7 +20,7 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
 pollutant: PM25
-title: Air quality warning in effect for Prince George
+title: Air quality warning in effect for Penticton
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -40,13 +40,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
-The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Prince George due
-to elevated fine particulate matter.
+The Ministry of Environment and Parks in collaboration with the Interior
+Health Authority has issued an Air Quality Warning for Penticton due to
+elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
 infants, older adults, individuals with chronic conditions (such as
@@ -147,13 +147,6 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
--   The City of Prince George's Clean Air Bylaw prohibits all open
-    burning, including backyard burning, and land clearing burning.
-    During air quality advisories, this bylaw also prohibits
-    recreational fires, use of wood-burning appliances (except for sole
-    wood-burning heat users), and street sweeping activities (unless
-    approved by an Authorized Person).
-
 {{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
@@ -180,14 +173,14 @@ traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Prince George and nearest
-monitored communities at 1:00 PM local time today:
+concentrations are summarized below for Penticton and nearest monitored
+communities at local time today:
 
 ::: {.table-responsive}
 
-  Community                 Prince George   Burns Lake   Vanderhoof
-  ------------------------- --------------- ------------ ------------
-  24-hr average (μg/m^3^)   2.0             8.6          7.0
+  Community                 Grand Forks   Kelowna   Vernon
+  ------------------------- ------------- --------- --------
+  24-hr average (μg/m^3^)   11.3          1.6       2.4
 
 :::
 
@@ -214,8 +207,4 @@ Warnings and a map of air quality and weather data.
 [Air quality data and
 warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories)
 {{< card_end >}}
-{{< card_start title="Local Resources" variant="info" logo="/assets/icon_air.svg" >}}
-
-[Prince George Air Improvement
-Roundtable](https://www.pgairquality.com/) {{< card_end >}}
 :::
