@@ -123,12 +123,14 @@ hr {
   width: 3rem;
 }
 
+/* BCDS Header */
 
 #quarto-header {
   .navbar {
     margin-left: auto;
     margin-right: auto;
     padding: 0 0 0 0;
+    border-bottom: 1px solid $theme-gray-50;
 
     width: 100%;
 
@@ -197,6 +199,12 @@ hr {
   }
 }
 
+/* BCDS Sidebar */
+
+#quarto-sidebar {
+  border-right: 1px solid $theme-gray-50;
+}
+
 /* The BCDS footer component is pre-styled. Resetting the default Quarto CSS to give it space to apply its styles */
 .nav-footer {
   display: block;
@@ -234,6 +242,44 @@ hr {
     border-left: $layout-border-width-large solid $theme-blue-90;
     font-weight: $typography-font-weights-bold;
   }
+}
+
+/* Styling listing table to match Figma specs */
+
+.quarto-listing-table {
+    border: 1px solid $surface-color-border-default;
+    border-radius: $layout-border-radius-medium;
+    border-spacing: 0;
+    border-collapse: separate;
+  }
+
+.quarto-listing-table>tr:last-child td {
+  border-bottom: none;
+}
+
+/* Styling listing form controls to match Figma specs */
+
+.input-group>.form-control, .input-group>.form-select, .input-group>.form-floating {
+  border-radius: 0 $layout-border-radius-medium $layout-border-radius-medium 0;
+  border-color: $surface-color-border-default;
+}
+
+.input-group-text {
+  border-radius: $layout-border-radius-medium 0 0 $layout-border-radius-medium;
+  border-color: $surface-color-border-default;
+}
+
+/* Styling pagination to match Figma specs */
+
+ul.pagination {
+  float: left;
+  padding-left: 0;
+  padding-right: $layout-padding-small;
+}
+
+.page-link {
+  border-radius: $layout-border-radius-medium;
+  border-color: transparent;
 }
 
 /*
