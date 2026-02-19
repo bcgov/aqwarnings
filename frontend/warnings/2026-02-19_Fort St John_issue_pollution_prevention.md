@@ -61,7 +61,8 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
-This is a TEST.
+Current conditions are expected to persist until weather conditions
+change and/or local emissions are reduced.
 
 The next update will be on February 20, 2026 and posted to the
 province's [Air Quality Warnings
@@ -182,13 +183,13 @@ traffic.
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
 concentrations are summarized below for and nearest monitored
-communities at 9:00 AM local time today:
+communities at 10:00 AM local time today:
 
 ::: {.table-responsive}
 
   Community                 Fort St John   Prince George
   ------------------------- -------------- ---------------
-  24-hr average (μg/m^3^)   2.7            2.3
+  24-hr average (μg/m^3^)   2.8            2.4
 
 :::
 
@@ -215,10 +216,8 @@ Warnings and a map of air quality and weather data.
 [Air quality data and
 warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories)
 {{< card_end >}}
-{{< card_start title="Local Resources" variant="info" logo="/assets/icon_air.svg" >}}
 
-[Prince George Air Improvement
-Roundtable](https://www.pgairquality.com/) {{< card_end >}} :::
+:::
 
 ## Contact
 
