@@ -294,7 +294,9 @@ def process_warning_entries(warnings: List[Dict[str, Any]]) -> List[Dict[str, An
         processed_warning['type'] = warning['type']
         processed_warning['path'] = warning['path']
         processed_warning['location'] = warning['location']
-        processed_warning['level'] = warning['level'] if 'level' in warning else "N/A" # Yellow, Orange, Red, a combination, or N/A
+        processed_warning['level'] = (
+            warning['level'] if 'level' in warning else 'N/A'
+        )  # Yellow, Orange, Red, a combination, or N/A
         processed_warning['status'] = warning['ice']  # ICE - Issue, Continue, End.
         processed_warning['date'] = warning['date']
 
