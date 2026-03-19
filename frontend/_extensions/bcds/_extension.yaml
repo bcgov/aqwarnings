@@ -76,7 +76,7 @@ contributes:
             href: https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality
             contents:
               - text: Air Quality Warnings
-                href: index.qmd                
+                href: index.qmd
           - text: Air Quality Subscription Service
             href: https://www2.gov.bc.ca/gov/content?id=2F89F266A1BE40EC8926C45A05E28BCD
           - text: "Air Quality Health Index"
@@ -115,5 +115,6 @@ contributes:
         - bcds-inline-alert.scss
         - bcds-cards.scss
         - bcds-accordion.scss
+        - air-quality-alerts.scss
       template-partials:
         - partials/title-block.html

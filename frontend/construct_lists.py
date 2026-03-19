@@ -20,6 +20,7 @@ The necessary format of the YAML header in the markdown file, or the YAML file i
 date: REQUIRED ISO8601 date
 ice: REQUIRED string - "Issue" or "Continue" or "End"
 location: REQUIRED string
+level: OPTIONAL string "Yellow", "Orange", or "Red", or /-separated combination of these levels
 type: REQUIRED - "redirect" or "wildfire_smoke" or "local_emissions"
 path: OPTIONAL - the URL for the redirect link. Only used if type is "redirect"
 title: OPTIONAL string
@@ -125,6 +126,7 @@ def extract_header_from_file(file_path: str) -> Optional[Dict[str, Any]]:
             'title': parsed_header.get('title', 'No Title'),
             'type': parsed_header.get('type', 'N/A'),
             'ice': parsed_header.get('ice', 'N/A'),
+            'level': parsed_header.get('level', 'N/A'),
             'date': parsed_header.get('date'),
             'location': parsed_header.get('location'),
             'pollutant': parsed_header.get('pollutant', 'N/A'),
@@ -292,6 +294,7 @@ def process_warning_entries(warnings: List[Dict[str, Any]]) -> List[Dict[str, An
         processed_warning['type'] = warning['type']
         processed_warning['path'] = warning['path']
         processed_warning['location'] = warning['location']
+        processed_warning['level'] = warning['level']
         processed_warning['status'] = warning['ice']  # ICE - Issue, Continue, End.
         processed_warning['date'] = warning['date']
 
