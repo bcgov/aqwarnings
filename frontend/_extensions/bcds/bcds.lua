@@ -211,5 +211,55 @@ return {
     else
       return pandoc.Null()
     end
-  end,
+    end,
+
+  ["banner_alert_start"] = function(args, kwargs, meta)
+      local title = pandoc.utils.stringify(kwargs["title"])
+      local variant = pandoc.utils.stringify(kwargs["variant"])
+
+
+      if (variant == "") then
+        variant = "yellow"
+      end
+
+      local icon_variant_map = {
+        ['yellow'] = 'exclamation-circle-fill',
+        ['orange'] = 'exclamation-diamond-fill',
+        ['red'] = 'exclamation-triangle-fill'
+      }
+
+      local selected_icon = nil
+
+
+      if quarto.doc.is_format("html:js") then
+        local markup = "<div class='Banner-Alert " .. variant .. "'>"
+        if (variant ~= nil) then
+          selected_icon = icon_variant_map[variant]
+          if selected_icon ~= nil then
+            markup = markup .. '<i class="Banner-Alert--icon bi bi-' .. selected_icon .. ' ' .. variant .. '"></i>'
+          end
+        end
+
+        markup = markup .. "<div class='Banner-Alert--container'>"
+
+        if (title ~= nil) then
+          markup = markup .. "<span class='title'>"
+          markup = markup .. title
+          markup = markup .. "</span>"
+        end
+
+        return pandoc.RawInline("html", markup)
+      else
+        return pandoc.Null()
+      end
+    end,
+
+    ["banner_alert_end"] = function(args, kwargs, meta)
+      if quarto.doc.is_format("html:js") then
+        local markup = "</div></div>"
+        return pandoc.RawInline("html", markup)
+      else
+        return pandoc.Null()
+      end
+    end
 }
