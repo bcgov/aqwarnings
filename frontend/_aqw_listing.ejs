@@ -5,7 +5,6 @@
         <tr>
             <td>Location</td>
             <td>Warning Type</td>
-            <td>Level</td>
             <td>Mandatory Action</td>
             <td>Status</td>
             <td>Date</td>
@@ -25,21 +24,18 @@
                             <%= item.title %>
                         </a>
                     <% } %>
-                </td>
-                <td>
-                    <%= item.level %>
-                    <% if (item.level.includes('Yellow')) { %>
+                    <% if (item.level.includes('yellow')) { %>
                         <svg
                                 xmlns='http://www.w3.org/2000/svg'
                                 width='16'
                                 height='16'
                                 viewBox='0 0 16 16'
                         >
-                            <circle fill='yellow' cx="8" cy="8" r="8"/>
+                            <circle fill='#ffff00' cx="8" cy="8" r="8"/>
                             <path d='M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z'/>
                         </svg>
                     <% } %>
-                    <% if (item.level.includes('Orange')) { %>
+                    <% if (item.level.includes('orange')) { %>
 
                         <svg
                                 xmlns='http://www.w3.org/2000/svg'
@@ -48,7 +44,7 @@
                                 viewBox='0 0 16 16'
                         >
                             <path
-                                    fill='red'
+                                    fill='#ff9500'
                                     fill-rule="evenodd"
                                     d="M7.022 1.566a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767z"
                             />
@@ -58,7 +54,7 @@
                             />
                         </svg>
                     <% } %>
-                    <% if (item.level.includes('Red')) { %>
+                    <% if (item.level.includes('red')) { %>
                         <svg
                                 xmlns='http://www.w3.org/2000/svg'
                                 width='16'
@@ -66,7 +62,7 @@
                                 viewBox='0 0 16 16'
                         >
                             <path
-                                    fill='orange'
+                                    fill='#d10000'
                                     fill-rule="evenodd"
                                     d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"
                             />

@@ -20,7 +20,7 @@ The necessary format of the YAML header in the markdown file, or the YAML file i
 date: REQUIRED ISO8601 date
 ice: REQUIRED string - "Issue" or "Continue" or "End"
 location: REQUIRED string
-level: OPTIONAL string "Yellow", "Orange", or "Red", or /-separated combination of these levels
+level: OPTIONAL string "yellow", "orange", or "red", or /-separated combination of these levels
 type: REQUIRED - "redirect" or "wildfire_smoke" or "local_emissions"
 path: OPTIONAL - the URL for the redirect link. Only used if type is "redirect"
 title: OPTIONAL string
@@ -296,7 +296,7 @@ def process_warning_entries(warnings: List[Dict[str, Any]]) -> List[Dict[str, An
         processed_warning['location'] = warning['location']
         processed_warning['level'] = (
             warning['level'] if 'level' in warning else 'N/A'
-        )  # Yellow, Orange, Red, a combination, or N/A
+        )  # yellow, orange, red, a combination, or N/A
         processed_warning['status'] = warning['ice']  # ICE - Issue, Continue, End.
         processed_warning['date'] = warning['date']
 
