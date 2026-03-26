@@ -4,11 +4,11 @@ author:
 authors:
 - Gail Roth
 burnRestrictions: 0
-bylaw: false
+bylaw: true
 date: 2026-03-26
 ice: Issue
-level: orange
-location: Fort St John
+level: yellow
+location: Smithers
 parametersAsRendered:
   aqMet: Gail Roth
   burnRestrictionArea: "`<location>`{=html}"
@@ -18,11 +18,11 @@ parametersAsRendered:
   customMessage: TEST
   ice: Issue
   issuedate: 20537
-  location: Fort St John
+  location: Smithers
   nextUpdate: 20539
   outputFormat: markdown
-  pollutant: PM25 & PM10
-  warningLevel: orange
+  pollutant: PM25
+  warningLevel: yellow
 params:
   aqMet: Sakshi Jain
   burnRestrictionEndDate: 2025-09-28
@@ -35,8 +35,8 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   warningLevel: yellow
-pollutant: PM25 & PM10
-title: Air quality warning in effect for Fort St John
+pollutant: PM25
+title: Air quality warning in effect for Smithers
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -60,23 +60,22 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 :::
 
-{{< banner_alert_start title='Orange Warning - Air Quality' variant='orange'>}}
+{{< banner_alert_start title='Yellow Warning - Air Quality' variant='yellow'>}}
 {{< banner_alert_end >}}
 
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority has issued an Air Quality Warning for Fort St John due
-to elevated fine particulate matter and coarse particulate matter.
+Health Authority has issued an Air Quality Warning for Smithers due to
+elevated fine particulate matter.
 
-Exposure to fine particulate matter and coarse particulate matter is
-particularly a concern for infants, older adults, individuals with
-chronic conditions (such as asthma, COPD, heart disease, and diabetes)
-or respiratory infections, and those who are pregnant. Persons with
-chronic underlying medical conditions or acute infections should
-postpone or reduce strenuous exercise until the warning is ended. Anyone
-experiencing symptoms such as continuing eye or throat irritation, chest
-discomfort, shortness of breath, cough or wheezing, should follow the
-advice of their health care provider. Staying indoors helps to reduce
-exposure.
+Exposure to fine particulate matter is particularly a concern for
+infants, older adults, individuals with chronic conditions (such as
+asthma, COPD, heart disease, and diabetes) or respiratory infections,
+and those who are pregnant. Persons with chronic underlying medical
+conditions or acute infections should postpone or reduce strenuous
+exercise until the warning is ended. Anyone experiencing symptoms such
+as continuing eye or throat irritation, chest discomfort, shortness of
+breath, cough or wheezing, should follow the advice of their health care
+provider. Staying indoors helps to reduce exposure.
 
 TEST
 
@@ -165,6 +164,18 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
+-   Smithers bylaw 1520 restricts the use of wood burning appliances
+    during air quality advisories:
+
+    -   **6a**: No person shall use a wood-burning appliance at any time
+        when an air quality advisory is in effect, except to heat
+        premises that are equipped with no heating appliance or
+        facilities other than the wood burning appliance.
+
+    -   Contact the Smithers municipal office at
+        [250-847-1600](tel:2508471600) for more information on woodstove
+        restrictions.
+
 {{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
@@ -172,11 +183,6 @@ people who work outdoors.
     source. If wood burning is the sole heating source, burn dry,
     seasoned wood and ensure an adequate supply of combustion air.
 -   Reduce vehicle use where possible and avoid idling vehicles.
--   Avoid driving on the road shoulder or other areas where road
-    traction material has accumulated.
--   When cleaning driveways and parking lots, lightly wet the area
-    before sweeping. Avoid using leaf blowers to clean up dirt during
-    spring clean up.
 
 {{< accordion_end >}}
 
@@ -196,40 +202,18 @@ traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Fort St John and nearest
-monitored communities at 10:00 AM local time today:
+concentrations are summarized below for Smithers and nearest monitored
+communities at local time today:
 
 ::: {.table-responsive}
 
-  Community                 Fort St John   Prince George
-  ------------------------- -------------- ---------------
-  24-hr average (μg/m^3^)   3.2            5.5
+  --------------------------------------------------------------------------------
+  Community              Burns Lake Houston   Prince George Terrace   Vanderhoof
+  ---------------------- ---------- --------- ------------- --------- ------------
+  24-hr average          5.1        3.9       5.8           3.3       13.0
+  (μg/m^3^)                                                           
 
-:::
-
-Coarse particulate matter refers to airborne solid or liquid droplets
-with diameters between 2.5 and 10 micrometers (μm). Together with fine
-particulate matter (airborne solid or liquid droplets with diameters of
-2.5 μm or less), these particles are referred to as PM~10~. Sources of
-PM~10~ contributing to this air quality episode include road dust from
-the emission of winter traction material along busy and dry road
-surfaces. PM~10~ can easily penetrate indoors because of their small
-size.
-
-The current dusty conditions are caused by road traffic stirring up
-winter traction materials that have accumulated on roadways over the
-past winter.
-
-The provincial air quality objective for PM~10~ is 50 micrograms per
-cubic metre (μg/m^3^), averaged over 24 hours. 24-hour average PM~10~
-concentrations are summarized below for Fort St John and nearest
-monitored communities at 10:00 AM local time today:
-
-::: {.table-responsive}
-
-  Community                 Fort St John   Prince George
-  ------------------------- -------------- ---------------
-  24-hr average (μg/m^3^)   8.6            7.9
+  --------------------------------------------------------------------------------
 
 :::
 
