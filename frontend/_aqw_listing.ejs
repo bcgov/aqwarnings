@@ -24,6 +24,15 @@
                             <%= item.title %>
                         </a>
                     <% } %>
+                     <% if (item.level.includes('yellow')) { %>
+                        <img src="assets/icon_warning_yellow.svg" alt="Yellow Warning Icon" width="16" height="16"/>
+                     <% } %>
+                     <% if (item.level.includes('orange')) { %>
+                        <img src="assets/icon_warning_orange.svg" alt="Orange Warning Icon" width="16" height="16"/>
+                     <% } %>
+                     <% if (item.level.includes('red')) { %>
+                        <img src="assets/icon_warning_red.svg" alt="Red Warning Icon" width="16" height="16"/>
+                     <% } %>
                 </td>
                 <td><%= item.mandatoryAction %></td>
                 <td><%= item.status %></td>

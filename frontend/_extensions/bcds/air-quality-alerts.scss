@@ -1,0 +1,69 @@
+/*-- scss:rules --*/
+
+@import "variables.scss";
+
+.Banner-Alert {
+  box-shadow: none;
+  border-radius: $layout-border-radius-medium;
+
+
+  &.yellow {
+    background-color: #ffff00;
+    .title, .description, .Banner-Alert--icon {
+      color: $typography-color-primary;
+    }
+    color: $typography-color-primary;
+  }
+
+  &.orange {
+    background-color: #ff9500;
+    .title, .description, .Banner-Alert--icon {
+      color: $typography-color-primary;
+    }
+    color: $typography-color-primary;
+
+  }
+
+  &.red {
+    background-color: #d10000;
+    .title, .description, .Banner-Alert--icon {
+      color: $typography-color-primary-invert;
+    }
+    color: $typography-color-primary-invert;
+  }
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  gap: $layout-margin-small;
+  padding: $layout-padding-medium $layout-padding-large;
+  margin: $layout-margin-medium $layout-margin-none;
+}
+
+.Banner-Alert--container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  .title {
+    font: $typography-bold-body;
+  }
+
+  .description {
+    font: $typography-regular-body;
+  }
+}
+
+.Banner-Alert--icon {
+  display: inline-flex;
+  align-self: flex-start;
+  padding-top: $layout-padding-xsmall;
+
+  svg {
+
+    min-width: $icons-size-medium;
+    height: $icons-size-medium;
+
+  }
+}
