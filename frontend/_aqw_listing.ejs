@@ -24,51 +24,15 @@
                             <%= item.title %>
                         </a>
                     <% } %>
-                    <% if (item.level.includes('yellow')) { %>
-                        <svg
-                                xmlns='http://www.w3.org/2000/svg'
-                                width='16'
-                                height='16'
-                                viewBox='0 0 16 16'
-                        >
-                            <circle fill='#ffff00' cx="8" cy="8" r="8"/>
-                            <path d='M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z'/>
-                        </svg>
-                    <% } %>
-                    <% if (item.level.includes('orange')) { %>
-
-                        <svg
-                                xmlns='http://www.w3.org/2000/svg'
-                                width='16'
-                                height='16'
-                                viewBox='0 0 16 16'
-                        >
-                            <path
-                                    fill='#ff9500'
-                                    fill-rule="evenodd"
-                                    d="M7.022 1.566a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767z"
-                            />
-                            <path
-                                    fill='white'
-                                    d='M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z'
-                            />
-                        </svg>
-                    <% } %>
-                    <% if (item.level.includes('red')) { %>
-                        <svg
-                                xmlns='http://www.w3.org/2000/svg'
-                                width='16'
-                                height='16'
-                                viewBox='0 0 16 16'
-                        >
-                            <path
-                                    fill='#d10000'
-                                    fill-rule="evenodd"
-                                    d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"
-                            />
-                            <path d='M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z'/>
-                        </svg>
-                    <% } %>
+                     <% if (item.level.includes('yellow')) { %>
+                        <img src="assets/icon_warning_yellow.svg" alt="Yellow Warning Icon" width="16" height="16"/>
+                     <% } %>
+                     <% if (item.level.includes('orange')) { %>
+                        <img src="assets/icon_warning_orange.svg" alt="Orange Warning Icon" width="16" height="16"/>
+                     <% } %>
+                     <% if (item.level.includes('red')) { %>
+                        <img src="assets/icon_warning_red.svg" alt="Red Warning Icon" width="16" height="16"/>
+                     <% } %>
                 </td>
                 <td><%= item.mandatoryAction %></td>
                 <td><%= item.status %></td>
