@@ -3,23 +3,23 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
-date: 2026-03-31
+date: 2026-04-01
 ice: Issue
 level: yellow / orange
-location: Cariboo
+location: Northeast B.C.
 parametersAsRendered:
   aqMet: Gail Roth
   customMessage: TEST
-  location: Cariboo
-  nextUpdate: 2026-04-01
+  location: Northeast B.C.
+  nextUpdate: 2026-04-02
   outputFormat: markdown
   smokeDuration: 24-48 hours
   warningLevel:
     all:
-    - Cariboo - north including Quesnel
-    - Cariboo - south including Williams Lake
-    orange: Cariboo - south including Williams Lake
-    yellow: Cariboo - north including Quesnel
+    - B.C. North Peace River
+    - Fort Nelson
+    orange: Fort Nelson
+    yellow: B.C. North Peace River
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -56,13 +56,11 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- the trailing slash means the text in square brackets is alt text -->
 <!-- note: logos and title for PDF output handled in src/header.txt -->
 
-::: {layout-ncol= 4 layout-valign="bottom"}
+::: {layout-ncol= 3 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
-
-![Interior Health Authority logo](/assets/logo_IH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -85,7 +83,7 @@ Monitor the situation for any wildfires near your area at
 [EmergencyInfoBC](https://www.emergencyinfobc.gov.bc.ca/). Follow all
 emergency announcements relevant to your location.
 
-The next update will be available on April 01, 2026 and made available
+The next update will be available on April 02, 2026 and made available
 on the Province's [Air Quality Warnings
 webpage](https://aqwarnings.gov.bc.ca/).
 
@@ -93,7 +91,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-03-31_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for March 31, 2026: Cariboo (North), Cariboo (South)."
+Vancouver.](2026-04-01_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for April 01, 2026: B.C. North Peace River, Fort Nelson."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -221,11 +219,6 @@ Fact sheets on wildfire smoke and its health impacts.
 
 [Wildfire
 smoke](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke)
-{{< card_end >}}{{< card_start title="Interior Health Authority" logo="/assets/logo_IH_horizontal.png" >}}
-Steps to prepare and manage wildfire-related issues.
-
-[Wildfire public
-information](https://www.interiorhealth.ca/health-and-wellness/natural-disasters-and-emergencies/wildfires)
 {{< card_end >}}{{< card_start title="First Nations Health Authority" logo="/assets/logo_FNHA_horizontal.png" >}}
 Information and resources to help you prepare.
 
@@ -267,15 +260,20 @@ Services or Main FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
 604-831-4898`<br />`{=html}
 
-Interior Health Authority`<br />`{=html}Media line:
-1-844-469-7077`<br />`{=html}Email:
-media@interiorhealth.ca`<br />`{=html}
-
 Northern Health Authority`<br />`{=html}Media Line:
 1-877-961-7724`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
--   **Cariboo (South):** includes Williams Lake, Northern and Central
-    sections of Wells Gray Park.
+-   **B.C. North Peace River:** includes the City of Fort St John and
+    all communities along Hwy 97 extending from Farmington to Pink
+    Mountain; Hwy 29 including Moberly Lake, Hudson's Hope; also
+    includes Rolla, Clayhurst and Goodlow.; includes Fort Nelson,
+    Muskwa, Prophet River, Buckinghorse River, Sikanni Chief, and Hwy 77
+    north to the Yukon border.
+-   **Fort Nelson:** includes the City of Fort St John and all
+    communities along Hwy 97 extending from Farmington to Pink Mountain;
+    Hwy 29 including Moberly Lake, Hudson's Hope; also includes Rolla,
+    Clayhurst and Goodlow.; includes Fort Nelson, Muskwa, Prophet River,
+    Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon
+    border.

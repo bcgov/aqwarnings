@@ -3,26 +3,26 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
-burnRestrictions: 1
-bylaw: true
-date: 2026-03-31
-ice: Continue
-level: orange
-location: Houston
+burnRestrictions: 0
+bylaw: false
+date: 2026-04-01
+ice: Issue
+level: yellow
+location: Vernon
 parametersAsRendered:
   aqMet: Gail Roth
-  burnRestrictionArea: TEST
-  burnRestrictionEndDate: 20544
-  burnRestrictionEndTime: TEST
-  burnRestrictions: 1
+  burnRestrictionArea: "`<location>`{=html}"
+  burnRestrictionEndDate: 20545
+  burnRestrictionEndTime: "HH:00 PM"
+  burnRestrictions: 0
   customMessage: TEST
-  ice: Continue
-  issuedate: 20540
-  location: Houston
+  ice: Issue
+  issuedate: 20543
+  location: Vernon
   nextUpdate: 20545
   outputFormat: markdown
-  pollutant: PM25
-  warningLevel: orange
+  pollutant: PM25 & PM10
+  warningLevel: yellow
 params:
   aqMet: Sakshi Jain
   burnRestrictionEndDate: 2025-09-28
@@ -35,9 +35,8 @@ params:
   outputFormat: markdown
   pollutant: PM25 & PM10
   warningLevel: yellow
-pollutant: PM25
-title: Air quality warning and open burning restrictions in effect for
-  Houston
+pollutant: PM25 & PM10
+title: Air quality warning in effect for Vernon
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -57,32 +56,27 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
-{{< banner_alert_start title='Orange Warning - Air Quality' variant='orange'>}}
+{{< banner_alert_start title='Yellow Warning - Air Quality' variant='yellow'>}}
 {{< banner_alert_end >}}
 
-The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority issued an Air Quality Warning for Houston on March 28,
-2026. The warning remains in effect due to elevated fine particulate
-matter.
+The Ministry of Environment and Parks in collaboration with the Interior
+Health Authority has issued an Air Quality Warning for Vernon due to
+elevated fine particulate matter and coarse particulate matter.
 
-Exposure to fine particulate matter is particularly a concern for
-infants, older adults, individuals with chronic conditions (such as
-asthma, COPD, heart disease, and diabetes) or respiratory infections,
-and those who are pregnant. Persons with chronic underlying medical
-conditions or acute infections should postpone or reduce strenuous
-exercise until the warning is ended. Anyone experiencing symptoms such
-as continuing eye or throat irritation, chest discomfort, shortness of
-breath, cough or wheezing, should follow the advice of their health care
-provider. Staying indoors helps to reduce exposure.
-
-Open burning restrictions are now in effect within TEST. No new fires
-may be initiated, and no additional material may be added to existing
-fires. For more information on burning restrictions, refer to the
-Mandatory Emission Reduction Actions section below.
+Exposure to fine particulate matter and coarse particulate matter is
+particularly a concern for infants, older adults, individuals with
+chronic conditions (such as asthma, COPD, heart disease, and diabetes)
+or respiratory infections, and those who are pregnant. Persons with
+chronic underlying medical conditions or acute infections should
+postpone or reduce strenuous exercise until the warning is ended. Anyone
+experiencing symptoms such as continuing eye or throat irritation, chest
+discomfort, shortness of breath, cough or wheezing, should follow the
+advice of their health care provider. Staying indoors helps to reduce
+exposure.
 
 TEST
 
@@ -171,39 +165,6 @@ people who work outdoors.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
--   Houston bylaw 947 restricts the use of wood burning appliances and
-    open burning during air quality advisories:
-
--   **2.1.1**: No person shall use a wood burning appliance at any time
-    when an air quality advisory is in effect, except to heat premises
-    that are equipped with no heating appliance or facilities other than
-    the wood burning appliance.
-
--   **3.2**: No person shall conduct open burning or ignite or maintain
-    any recreational fire if an air quality advisory has been issued.
-
--   **3.3**: If an air quality advisory is issued while a person is
-    conducting open burning or maintaining a recreational fire, that
-    person shall take all reasonable steps to cease the open burning or
-    extinguish the recreational fire as soon as possible.
-
--   Contact the Houston municipal office at
-    [250-845-2238](tel:2508452238) for more information on woodstove and
-    open burning restrictions.
-
--   NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
-
-> As pollution is occurring or is likely to occur from open burning,
-> pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
-> Regulation, the Director has prohibited open burning within TEST until
-> April 01, 2026 TEST local time. No vegetative debris may be ignited or
-> added to ignited piles. Contravention of these provisions may be
-> subject to a fine under the Regulation.
-
-   Date issued: March 31, 2026`<br />`{=html}   Benjamin
-Weinstein`<br />`{=html}   For Director, Environmental Management
-Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
-
 {{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
@@ -211,6 +172,11 @@ Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
     source. If wood burning is the sole heating source, burn dry,
     seasoned wood and ensure an adequate supply of combustion air.
 -   Reduce vehicle use where possible and avoid idling vehicles.
+-   Avoid driving on the road shoulder or other areas where road
+    traction material has accumulated.
+-   When cleaning driveways and parking lots, lightly wet the area
+    before sweeping. Avoid using leaf blowers to clean up dirt during
+    spring clean up.
 
 {{< accordion_end >}}
 
@@ -230,17 +196,40 @@ traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Houston and nearest monitored
-communities at 3:00 PM local time today:
+concentrations are summarized below for Vernon and nearest monitored
+communities at 8:00 AM local time today:
 
 ::: {.table-responsive}
 
-  ---------------------------------------------------------------------------
-  Community                 Houston   Burns Lake  Prince George  Vanderhoof
-  ------------------------- --------- ----------- -------------- ------------
-  24-hr average (μg/m^3^)   8.3       10.4        8.5            16.9
+  Community                 Vernon   Grand Forks   Kamloops   Kelowna
+  ------------------------- -------- ------------- ---------- ---------
+  24-hr average (μg/m^3^)   7.2      11.1          5.2        4.5
 
-  ---------------------------------------------------------------------------
+:::
+
+Coarse particulate matter refers to airborne solid or liquid droplets
+with diameters between 2.5 and 10 micrometers (μm). Together with fine
+particulate matter (airborne solid or liquid droplets with diameters of
+2.5 μm or less), these particles are referred to as PM~10~. Sources of
+PM~10~ contributing to this air quality episode include road dust from
+the emission of winter traction material along busy and dry road
+surfaces. PM~10~ can easily penetrate indoors because of their small
+size.
+
+The current dusty conditions are caused by road traffic stirring up
+winter traction materials that have accumulated on roadways over the
+past winter.
+
+The provincial air quality objective for PM~10~ is 50 micrograms per
+cubic metre (μg/m^3^), averaged over 24 hours. 24-hour average PM~10~
+concentrations are summarized below for Vernon and nearest monitored
+communities at 8:00 AM local time today:
+
+::: {.table-responsive}
+
+  Community                 Vernon   Kelowna
+  ------------------------- -------- ---------
+  24-hr average (μg/m^3^)   35.5     17.2
 
 :::
 
@@ -283,7 +272,8 @@ Parks`<br />`{=html}250-645-9358
 **Media questions regarding health implications when air quality is
 degraded:** {{< card_start width="wide" >}}
 
-Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}
+Interior Health Authority`<br />`{=html}Media line:
+1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}
 
 {{< card_end >}}

@@ -4,23 +4,42 @@ author:
 authors:
 - Gail Roth
 burnRestrictions: 1
-date: 2026-03-31
+bylaw: true
+date: 2026-04-01
 ice: Issue
-location: Cranbrook
+level: yellow
+location: Burns Lake
+parametersAsRendered:
+  aqMet: Gail Roth
+  burnRestrictionArea: TEST
+  burnRestrictionEndDate: 20545
+  burnRestrictionEndTime: TEST
+  burnRestrictions: 1
+  customMessage: TEST
+  ice: Issue
+  issuedate: 20543
+  location: Burns Lake
+  nextUpdate: 20545
+  outputFormat: markdown
+  pollutant: PM25
+  warningLevel: yellow
 params:
   aqMet: Sakshi Jain
   burnRestrictionEndDate: 2025-09-28
   burnRestrictionEndTime: "12:00 PM"
-  burnRestrictions: 1
+  burnRestrictions: 0
   ice: Issue
   issuedate: 2025-07-20
-  nearestMonitor: Prince George
+  location: Prince George
   nextUpdate: 2025-09-28
   outputFormat: markdown
-title: Pollution Prevention Notice and open burning restrictions are in
-  effect within TEST
+  pollutant: PM25 & PM10
+  warningLevel: yellow
+pollutant: PM25
+title: Air quality warning and open burning restrictions in effect for
+  Burns Lake
 toc-title: Table of contents
-type: pollution_prevention
+type: local_emissions
 ---
 
 <!--
@@ -38,18 +57,16 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Interior Health Authority logo](/assets/logo_IH.png)\
+![Northern Health Authority logo](/assets/logo_NH.png)\
 
 :::
 
-The Ministry of Environment and Parks in collaboration with the Interior
-Health Authority has issued a Pollution Prevention Notice within TEST
-due to elevated fine particulate matter.
+{{< banner_alert_start title='Yellow Warning - Air Quality' variant='yellow'>}}
+{{< banner_alert_end >}}
 
-Open burning restrictions are now in effect within TEST. No new fires
-may be initiated, and no additional material may be added to existing
-fires. For more information on burning restrictions, refer to the
-Mandatory Emission Reduction Actions section below.
+The Ministry of Environment and Parks in collaboration with the Northern
+Health Authority has issued an Air Quality Warning for Burns Lake due to
+elevated fine particulate matter.
 
 Exposure to fine particulate matter is particularly a concern for
 infants, older adults, individuals with chronic conditions (such as
@@ -61,9 +78,14 @@ as continuing eye or throat irritation, chest discomfort, shortness of
 breath, cough or wheezing, should follow the advice of their health care
 provider. Staying indoors helps to reduce exposure.
 
+Open burning restrictions are now in effect within TEST. No new fires
+may be initiated, and no additional material may be added to existing
+fires. For more information on burning restrictions, refer to the
+Mandatory Emission Reduction Actions section below.
+
 TEST
 
-The next update will be on April 01, 2026 and posted to the province's
+The next update will be on April 02, 2026 and posted to the province's
 [Air Quality Warnings webpage](https://www.gov.bc.ca/airquality).
 
 Visit the provincial [air quality data
@@ -135,31 +157,50 @@ people who work outdoors.
     particulate matter. Even though exposure may be reduced, there can
     still be risks to health.
 
+-   Avoid roads with heavy vehicle traffic and areas with wood smoke.
+
 {{< accordion_end >}}
 
 ## Emission reduction actions
 
-{{< accordion_start title="Mandatory actions" initiallyOpen="true" >}} -
-NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
+{{< accordion_start title="Mandatory actions" initiallyOpen="true" >}}
+
+-   Facilities with air discharge authorizations under the Environmental
+    Management Act are required to follow trigger actions within their
+    permit related to Air Quality Warnings and are encouraged to reduce
+    any other emissions where possible.
+
+-   Burns Lake bylaw 871 restricts the use of wood burning appliances
+    during air quality advisories:
+
+-   **6a**: No person shall use a Wood Burning Appliance at any time
+    when an air quality advisory is in effect, except to heat the
+    premises that are equipped with no heating appliance or facilities
+    other than the Wood Burning Appliance.
+
+-   Contact the Burns Lake municipal office at
+    [250-692-7587](tel:2506927587) for more information on woodstove
+    restrictions.
+
+-   NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
 
 > As pollution is occurring or is likely to occur from open burning,
 > pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
 > Regulation, the Director has prohibited open burning within TEST until
-> April 01, 2026 TEST local time. No vegetative debris may be ignited or
+> April 02, 2026 TEST local time. No vegetative debris may be ignited or
 > added to ignited piles. Contravention of these provisions may be
 > subject to a fine under the Regulation.
 
-   Date issued: March 31, 2026`<br />`{=html}   Benjamin
+   Date issued: April 01, 2026`<br />`{=html}   Benjamin
 Weinstein`<br />`{=html}   For Director, Environmental Management
 Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
-{{< accordion_end >}}
 
+{{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
 -   Avoid using wood stoves and fireplaces unless it is the sole heating
     source. If wood burning is the sole heating source, burn dry,
     seasoned wood and ensure an adequate supply of combustion air.
--   Avoid backyard burning.
 -   Reduce vehicle use where possible and avoid idling vehicles.
 
 {{< accordion_end >}}
@@ -173,24 +214,24 @@ diameters of 2.5 micrometers (μm) or less. PM~2.5~ levels tend to be
 highest around busy roads, industrial operations and neighbourhoods with
 residential wood burning. PM~2.5~ can easily penetrate indoors because
 of their small size. Common sources of PM~2.5~ that contribute to
-episodes of poor air quality vary seasonally but can include wood smoke
+episodes of poor air quality vary seasonally but can includef wood smoke
 (from wood stoves and/or open burning) as well as emissions from
 industry and transportation sources such as automobiles, trucks and rail
 traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Cranbrook and nearest monitored
-communities at 5:00 PM local time today:
+concentrations are summarized below for Burns Lake and nearest monitored
+communities at 8:00 AM local time today:
 
 ::: {.table-responsive}
 
-  -------------------------------------------------------------------------------
-  Community                 Cranbrook   Castlegar   Elkford   Golden   Sparwood
-  ------------------------- ----------- ----------- --------- -------- ----------
-  24-hr average (μg/m^3^)   3.1         4.4         3.4       5.6      4.1
+  ---------------------------------------------------------------------------
+  Community                 Burns Lake  Houston   Prince George  Vanderhoof
+  ------------------------- ----------- --------- -------------- ------------
+  24-hr average (μg/m^3^)   10.3        3.3       4.5            12.5
 
-  -------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
 
 :::
 
@@ -221,7 +262,7 @@ warnings](https://metrovancouver.org/services/air-quality-climate-action/air-qua
 
 ## Contact
 
-**Media questions regarding this Pollution Prevention Notice:**
+**Media questions regarding this Air Quality Warning:**
 {{< card_start width="wide" >}}
 
 Gail Roth`<br />`{=html}Senior Air Quality
@@ -233,8 +274,7 @@ Parks`<br />`{=html}250-645-9358
 **Media questions regarding health implications when air quality is
 degraded:** {{< card_start width="wide" >}}
 
-Interior Health Authority`<br />`{=html}Media line:
-1-844-469-7077`<br />`{=html}Email:
-media@interiorhealth.ca`<br />`{=html}
+Northern Health Authority`<br />`{=html}Media Line:
+1-877-961-7724`<br />`{=html}
 
 {{< card_end >}}

@@ -5,9 +5,9 @@ authors:
 - Gail Roth
 burnRestrictions: 0
 customMessage: TEST
-date: 2026-03-31
+date: 2026-04-01
 ice: End
-location: Smithers
+location: Golden
 params:
   aqMet: Sakshi Jain
   burnRestrictionEndDate: 2025-09-28
@@ -18,8 +18,8 @@ params:
   location: Whistler
   outputFormat: markdown
   pollutant: PM25 & PM10
-pollutant: PM10
-title: Air quality warning ended for Smithers
+pollutant: PM25
+title: Air quality warning ended for Golden
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -39,13 +39,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
-The Ministry of Environment and Parks in collaboration with the Northern
+The Ministry of Environment and Parks in collaboration with the Interior
 Health Authority has ended the Air Quality Warning that was issued on
-March 30, 2026 for Smithers due to elevated levels of coarse particulate
+March 31, 2026 for Golden due to elevated levels of fine particulate
 matter.
 
 TEST
@@ -54,19 +54,19 @@ TEST
 
 {{< accordion_start title="Current conditions" initiallyOpen="true" >}}
 
-The provincial air quality objective for PM~10~ is 50 micrograms per
-cubic metre (μg/m^3^), averaged over 24 hours. 24-hour average PM~10~
-concentrations are summarized below for Smithers and nearest monitored
-communities at local time today:
+The provincial air quality objective for PM~2.5~ is 25 micrograms per
+cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
+concentrations are summarized below for Golden and nearest monitored
+communities at 10:00 AM local time today:
 
 ::: {.table-responsive}
 
-  ---------------------------------------------------------------------------
-  Community                 Burns Lake  Houston   Prince George  Vanderhoof
-  ------------------------- ----------- --------- -------------- ------------
-  24-hr average (μg/m^3^)   32.7        29.3      32.0           36.8
+  -------------------------------------------------------------------------------
+  Community                 Golden   Castlegar   Cranbrook   Elkford   Sparwood
+  ------------------------- -------- ----------- ----------- --------- ----------
+  24-hr average (μg/m^3^)   7.4      6.9         10.2        6.4       4.3
 
-  ---------------------------------------------------------------------------
+  -------------------------------------------------------------------------------
 
 :::
 
@@ -90,7 +90,8 @@ Parks`<br />`{=html}250-645-9358
 **Media questions regarding health implications when air quality is
 degraded:** {{< card_start  width="wide" >}}
 
-Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}
+Interior Health Authority`<br />`{=html}Media line:
+1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}
 
 {{< card_end >}}

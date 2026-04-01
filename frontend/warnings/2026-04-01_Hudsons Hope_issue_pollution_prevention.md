@@ -3,42 +3,24 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
-burnRestrictions: 0
-bylaw: true
-date: 2026-03-31
-ice: Continue
-level: orange
-location: Prince George
-parametersAsRendered:
-  aqMet: Gail Roth
-  burnRestrictionArea: TEST
-  burnRestrictionEndDate: 20544
-  burnRestrictionEndTime: TEST
-  burnRestrictions: 0
-  customMessage: TEST
-  ice: Continue
-  issuedate: 20540
-  location: Prince George
-  nextUpdate: 20545
-  outputFormat: markdown
-  pollutant: PM25
-  warningLevel: orange
+burnRestrictions: 1
+date: 2026-04-01
+ice: Issue
+location: Hudsons Hope
 params:
   aqMet: Sakshi Jain
   burnRestrictionEndDate: 2025-09-28
   burnRestrictionEndTime: "12:00 PM"
-  burnRestrictions: 0
+  burnRestrictions: 1
   ice: Issue
   issuedate: 2025-07-20
-  location: Prince George
+  nearestMonitor: Prince George
   nextUpdate: 2025-09-28
   outputFormat: markdown
-  pollutant: PM25 & PM10
-  warningLevel: yellow
-pollutant: PM25
-title: Air quality warning in effect for Prince George
+title: Pollution Prevention Notice and open burning restrictions are in
+  effect within test
 toc-title: Table of contents
-type: local_emissions
+type: pollution_prevention
 ---
 
 <!--
@@ -60,25 +42,26 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 :::
 
-{{< banner_alert_start title='Orange Warning - Air Quality' variant='orange'>}}
-{{< banner_alert_end >}}
-
 The Ministry of Environment and Parks in collaboration with the Northern
-Health Authority issued an Air Quality Warning for Prince George on
-March 28, 2026. The warning remains in effect due to elevated fine
-particulate matter.
+Health Authority has issued a Pollution Prevention Notice within test
+due to elevated .
 
-Exposure to fine particulate matter is particularly a concern for
-infants, older adults, individuals with chronic conditions (such as
-asthma, COPD, heart disease, and diabetes) or respiratory infections,
-and those who are pregnant. Persons with chronic underlying medical
-conditions or acute infections should postpone or reduce strenuous
-exercise until the warning is ended. Anyone experiencing symptoms such
-as continuing eye or throat irritation, chest discomfort, shortness of
-breath, cough or wheezing, should follow the advice of their health care
-provider. Staying indoors helps to reduce exposure.
+Open burning restrictions are now in effect within test. No new fires
+may be initiated, and no additional material may be added to existing
+fires. For more information on burning restrictions, refer to the
+Mandatory Emission Reduction Actions section below.
 
-TEST
+Exposure to is particularly a concern for infants, older adults,
+individuals with chronic conditions (such as asthma, COPD, heart
+disease, and diabetes) or respiratory infections, and those who are
+pregnant. Persons with chronic underlying medical conditions or acute
+infections should postpone or reduce strenuous exercise until the
+warning is ended. Anyone experiencing symptoms such as continuing eye or
+throat irritation, chest discomfort, shortness of breath, cough or
+wheezing, should follow the advice of their health care provider.
+Staying indoors helps to reduce exposure.
+
+test
 
 The next update will be on April 02, 2026 and posted to the province's
 [Air Quality Warnings webpage](https://www.gov.bc.ca/airquality).
@@ -152,32 +135,31 @@ people who work outdoors.
     particulate matter. Even though exposure may be reduced, there can
     still be risks to health.
 
--   Avoid roads with heavy vehicle traffic and areas with wood smoke.
-
 {{< accordion_end >}}
 
 ## Emission reduction actions
 
-{{< accordion_start title="Mandatory actions" initiallyOpen="true" >}}
+{{< accordion_start title="Mandatory actions" initiallyOpen="true" >}} -
+NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
 
--   Facilities with air discharge authorizations under the Environmental
-    Management Act are required to follow trigger actions within their
-    permit related to Air Quality Warnings and are encouraged to reduce
-    any other emissions where possible.
+> As pollution is occurring or is likely to occur from open burning,
+> pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
+> Regulation, the Director has prohibited open burning within test until
+> April 02, 2026 test local time. No vegetative debris may be ignited or
+> added to ignited piles. Contravention of these provisions may be
+> subject to a fine under the Regulation.
 
--   The City of Prince George's Clean Air Bylaw prohibits all open
-    burning, including backyard burning, and land clearing burning.
-    During air quality advisories, this bylaw also prohibits
-    recreational fires, use of wood-burning appliances (except for sole
-    wood-burning heat users), and street sweeping activities (unless
-    approved by an Authorized Person).
-
+   Date issued: April 01, 2026`<br />`{=html}   Benjamin
+Weinstein`<br />`{=html}   For Director, Environmental Management
+Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
 {{< accordion_end >}}
+
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
 -   Avoid using wood stoves and fireplaces unless it is the sole heating
     source. If wood burning is the sole heating source, burn dry,
     seasoned wood and ensure an adequate supply of combustion air.
+-   Avoid backyard burning.
 -   Reduce vehicle use where possible and avoid idling vehicles.
 
 {{< accordion_end >}}
@@ -191,21 +173,21 @@ diameters of 2.5 micrometers (μm) or less. PM~2.5~ levels tend to be
 highest around busy roads, industrial operations and neighbourhoods with
 residential wood burning. PM~2.5~ can easily penetrate indoors because
 of their small size. Common sources of PM~2.5~ that contribute to
-episodes of poor air quality vary seasonally but can includef wood smoke
+episodes of poor air quality vary seasonally but can include wood smoke
 (from wood stoves and/or open burning) as well as emissions from
 industry and transportation sources such as automobiles, trucks and rail
 traffic.
 
 The provincial air quality objective for PM~2.5~ is 25 micrograms per
 cubic metre (μg/m^3^) averaged over 24 hours. 24-hour average PM~2.5~
-concentrations are summarized below for Prince George and nearest
-monitored communities at 4:00 PM local time today:
+concentrations are summarized below for Hudsons Hope and nearest
+monitored communities at 9:00 AM local time today:
 
 ::: {.table-responsive}
 
-  Community                 Prince George   Burns Lake   Vanderhoof
-  ------------------------- --------------- ------------ ------------
-  24-hr average (μg/m^3^)   8.5             10.4         16.9
+  Community                 Hudsons Hope   Fort St John
+  ------------------------- -------------- --------------
+  24-hr average (μg/m^3^)   2.3            3.8
 
 :::
 
@@ -232,15 +214,11 @@ Warnings and a map of air quality and weather data.
 [Air quality data and
 warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories)
 {{< card_end >}}
-{{< card_start title="Local Resources" variant="info" logo="/assets/icon_air.svg" >}}
-
-[Prince George Air Improvement
-Roundtable](https://www.pgairquality.com/) {{< card_end >}}
 :::
 
 ## Contact
 
-**Media questions regarding this Air Quality Warning:**
+**Media questions regarding this Pollution Prevention Notice:**
 {{< card_start width="wide" >}}
 
 Gail Roth`<br />`{=html}Senior Air Quality
