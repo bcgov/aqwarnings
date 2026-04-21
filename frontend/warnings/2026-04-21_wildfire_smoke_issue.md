@@ -111,8 +111,8 @@ an existing illness or chronic health condition such as chronic
 obstructive pulmonary disease (COPD), heart disease and diabetes, and
 people who work outdoors.
 
-{{< accordion_end >}} {{< accordion_controls >}}
-{{< accordion_start title="For regions under Orange warnings" initiallyOpen="true" >}}
+{{< accordion_end >}}
+{{< accordion_start title="For regions under ORANGE warnings" initiallyOpen="true" >}}
 
 Dangerous smoke levels pose threat to your health regardless of age or
 health status. Limit time outdoors. Reschedule or cancel outdoor sports,
