@@ -3,21 +3,24 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
-date: 2026-04-21
+date: 2026-04-22
 ice: Issue
 level: yellow / orange
-location: Cariboo
+location: Multiple regions in B.C.
 parametersAsRendered:
   aqMet: Gail Roth
-  location: Cariboo
-  nextUpdate: 2026-04-22
+  location: Multiple regions in B.C.
+  nextUpdate: 2026-04-23
   outputFormat: markdown
   smokeDuration: 24-48 hours
   warningLevel:
     all:
     - Cariboo - north including Quesnel
     - Cariboo - south including Williams Lake
-    orange: Cariboo - south including Williams Lake
+    - Fort Nelson
+    orange:
+    - Cariboo - south including Williams Lake
+    - Fort Nelson
     yellow: Cariboo - north including Quesnel
 params:
   aqMet: Sakshi Jain
@@ -84,7 +87,7 @@ Monitor the situation for any wildfires near your area at
 [EmergencyInfoBC](https://www.emergencyinfobc.gov.bc.ca/). Follow all
 emergency announcements relevant to your location.
 
-The next update will be available on April 22, 2026 and made available
+The next update will be available on April 23, 2026 and made available
 on the Province's [Air Quality Warnings
 webpage](https://aqwarnings.gov.bc.ca/).
 
@@ -92,39 +95,34 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-04-21_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for April 21, 2026: Cariboo (North), Cariboo (South)."
+Vancouver.](2026-04-22_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for April 22, 2026: Cariboo (North), Cariboo (South), Fort Nelson."
 width="100%" height="600px"}
 
 ## Actions you can take
 
 {{< accordion_controls >}}
-{{< accordion_start title="For regions under YELLOW warnings" initiallyOpen="true" >}}
+{{< accordion_start title="For regions under yellow warnings" initiallyOpen="true" color="#FFFF00" >}}
 
-As smoke levels increase, health risks increase. Limit time outdoors.
-Consider reducing or rescheduling outdoor sports, activities and events.
+Exposure to smoke can affect your health. Reduce the duration and
+intensity of outdoor actiities. Spend time indoors in a space with
+cleaner air.
 
-People more likely to be negatively impacted by outdoor air pollution
-should reduce or reschedule strenuous activities outdoors or seek
-medical attention if experiencing symptoms. This includes people aged 65
-and older, pregnant individuals, infants and young children, people with
-an existing illness or chronic health condition such as chronic
-obstructive pulmonary disease (COPD), heart disease and diabetes, and
-people who work outdoors.
+Some people are more likely to be negatively impacted by smoke. This
+includes people with lung and heart conditions, pregnant individuals,
+infants and young children, people aged 65 and older, and anyone whose
+health is affected by a chronic condition or acute illness.
 
 {{< accordion_end >}}
-{{< accordion_start title="For regions under ORANGE warnings" initiallyOpen="true" >}}
+{{< accordion_start title="For regions under orange warnings" initiallyOpen="true" color="#FF9500">}}
 
-Dangerous smoke levels pose threat to your health regardless of age or
-health status. Limit time outdoors. Reschedule or cancel outdoor sports,
-activities and events.
+Exposure to high smoke levels can pose threat to your health regardless
+of age of health status. Avoid outdoor activities. Stay indoors in a
+space with cleaner air.
 
-People more likely to be negatively impacted by outdoor air pollution
-should avoid strenuous activities outdoors or seek medical attention if
-experiencing symptoms. This includes people aged 65 and older, pregnant
-individuals, infants and young children, people with an existing illness
-or chronic health condition such as chronic obstructive pulmonary
-disease (COPD), heart disease and diabetes, and people who work
-outdoors.
+Some people are more likely to be negatively impacted by smoke. This
+includes people with lung and heart conditions, pregnant individuals,
+infants and young children, people aged 65 and older, and anyone whose
+health is affected by a chronic condition or acute illness.
 
 {{< accordion_end >}}
 
@@ -149,8 +147,8 @@ outdoors.
 -   Different people have different responses to smoke.
 
 -   Mild irritation and discomfort such as eye, nose and throat
-    irritation, headaches or a mild cough are common, and usually
-    disappear when the smoke clears.
+    irritation, phlegm production, runny nose, headaches or mild cogh
+    are common, and usually disappear when the smoke clears.
 
 -   More serious but less common symptoms include wheezing, chest pains
     or severe cough.
@@ -163,28 +161,32 @@ outdoors.
 
 -   If you are experiencing difficulty in breathing, chest pain or
     discomfort, or a severe cough, contact your physician, walk-in
-    clinic, or emergency department. If you are having a medical
-    emergency, call 9-1-1.
+    clinic, or emergency department. **If you are having a medical
+    emergency, call 9-1-1.**
 
 {{< accordion_end >}}
 {{< accordion_start title="Tips to reduce your smoke exposure" initiallyOpen="true" >}}
 
--   Smoke levels may be lower indoors but will still be elevated, so
-    stay aware of your symptoms even when you are indoors.
+-   Smoke levels may still be elevated indoors, so stay aware of your
+    symptoms even when you are indoors.
 
--   When indoors, keep windows and doors closed as much as possible.
+-   When indoors, keep windows and doors.
 
--   When there is an extreme heat event occurring with poor air quality,
-    prioritize keeping cool.
+-   If it is hot, prioritize keeping cool.
 
--   Protect your indoor air from wildfire smoke. Actions can include
-    using a clean, good quality air filter in your ventilation system
-    and/or a certified portable air cleaner that can filter fine
-    particles.
+-   Protect your indoor air from wildfire smoke. Use a clean, good
+    quality air filter in your ventilation system and/or a certified
+    portable air cleaner that can filter fine particles. Do-it-yourself
+    air cleaners may also be used if other options are unavailable. For
+    more details, see the BC Centre of Disease Control [fact
+    sheet](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke).
 
--   If you must spend time outdoors, a well-constructed, well-fitting
-    and properly worn respirator type mask (such as a NIOSH-certified
-    N95 or equivalent respirator) can reduce your exposure to the fine
+-   If your home is smoky or hot, spend time in places with cleaner, air
+    conditioned air such as community centres, libraries, or malls.
+
+-   If you must be outside, a well-constructed, well-fitting and
+    properly worn respirator type mask (such as a NIOSH-certified N95 or
+    equivalent respirator) can reduce your exposure to the fine
     particles in the smoke. Even though exposure may be reduced, there
     can still be risks to health.
 
@@ -298,3 +300,6 @@ Northern Health Authority`<br />`{=html}Media Line:
 -   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
 -   **Cariboo (South):** includes Williams Lake, Northern and Central
     sections of Wells Gray Park.
+-   **Fort Nelson:** includes Fort Nelson, Muskwa, Prophet River,
+    Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon
+    border.
