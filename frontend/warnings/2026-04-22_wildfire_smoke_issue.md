@@ -15,13 +15,16 @@ parametersAsRendered:
   smokeDuration: 24-48 hours
   warningLevel:
     all:
-    - Cariboo - north including Quesnel
-    - Cariboo - south including Williams Lake
+    - B.C. North Peace River
+    - B.C. South Peace River
     - Fort Nelson
+    - Chilcotin
     orange:
-    - Cariboo - south including Williams Lake
     - Fort Nelson
-    yellow: Cariboo - north including Quesnel
+    - Chilcotin
+    yellow:
+    - B.C. North Peace River
+    - B.C. South Peace River
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -60,13 +63,15 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- the trailing slash means the text in square brackets is alt text -->
 <!-- note: logos and title for PDF output handled in src/header.txt -->
 
-::: {layout-ncol= 4 layout-valign="bottom"}
+::: {layout-ncol= 5 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
+
+![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -95,13 +100,13 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-04-22_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for April 22, 2026: Cariboo (North), Cariboo (South), Fort Nelson."
+Vancouver.](2026-04-22_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for April 22, 2026: B.C. North Peace River, B.C. South Peace River, Chilcotin, Fort Nelson."
 width="100%" height="600px"}
 
 ## Actions you can take
 
 {{< accordion_controls >}}
-{{< accordion_start title="For regions under yellow warnings" initiallyOpen="true" color="#FFFF00" >}}
+{{< accordion_start title="For regions under yellow warnings" initiallyOpen="true" style="background-color:#FFFF00" >}}
 
 Exposure to smoke can affect your health. Reduce the duration and
 intensity of outdoor actiities. Spend time indoors in a space with
@@ -113,7 +118,7 @@ infants and young children, people aged 65 and older, and anyone whose
 health is affected by a chronic condition or acute illness.
 
 {{< accordion_end >}}
-{{< accordion_start title="For regions under orange warnings" initiallyOpen="true" color="#FF9500">}}
+{{< accordion_start title="For regions under orange warnings" initiallyOpen="true" style="background-color:#FF9500">}}
 
 Exposure to high smoke levels can pose threat to your health regardless
 of age of health status. Avoid outdoor activities. Stay indoors in a
@@ -293,13 +298,23 @@ Interior Health Authority`<br />`{=html}Media line:
 media@interiorhealth.ca`<br />`{=html}
 
 Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+1-877-961-7724`<br />`{=html}
+
+Vancouver Coastal Health Authority`<br />`{=html}Email:
+media@vch.ca`<br />`{=html}After-hours media line:
+604-202-2012`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
--   **Cariboo (South):** includes Williams Lake, Northern and Central
-    sections of Wells Gray Park.
+-   **B.C. North Peace River:** includes the City of Fort St John and
+    all communities along Hwy 97 extending from Farmington to Pink
+    Mountain; Hwy 29 including Moberly Lake, Hudson's Hope; also
+    includes Rolla, Clayhurst and Goodlow.
+-   **B.C. South Peace River:** includes Chetwynd, Dawson Creek, Pouce
+    Coupe, and Tumbler Ridge.
+-   **Chilcotin:** includes Hansville, Alexis Creek, Chilanko Forks,
+    Tatla Lake, Nimpo Lake, Anahim Lake, and the southern half of
+    Tweedsmuir Park.
 -   **Fort Nelson:** includes Fort Nelson, Muskwa, Prophet River,
     Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon
     border.
