@@ -106,11 +106,11 @@ width="100%" height="600px"}
 ## Actions you can take
 
 {{< accordion_controls >}}
-{{< accordion_start title="For regions under yellow warnings" initiallyOpen="true" style="background-color:#FFFF00" >}}
+{{< accordion_start title="For regions under yellow warnings" initiallyOpen="true" >}}
 
-Exposure to smoke can affect your health. Reduce the duration and
-intensity of outdoor actiities. Spend time indoors in a space with
-cleaner air.
+Exposure to smoke can affect your health. Postpone or reduce strenuous
+outdoor activities until the warning has ended. Spend time indoors in a
+space with cleaner air.
 
 Some people are more likely to be negatively impacted by smoke. This
 includes people with lung and heart conditions, pregnant individuals,
@@ -118,11 +118,11 @@ infants and young children, people aged 65 and older, and anyone whose
 health is affected by a chronic condition or acute illness.
 
 {{< accordion_end >}}
-{{< accordion_start title="For regions under orange warnings" initiallyOpen="true" style="background-color:#FF9500">}}
+{{< accordion_start title="For regions under orange warnings" initiallyOpen="true" >}}
 
 Exposure to high smoke levels can pose threat to your health regardless
-of age of health status. Avoid outdoor activities. Stay indoors in a
-space with cleaner air.
+of age of health status. Avoid strenuous outdoor activities until the
+warning has ended. Stay indoors in a space with cleaner air.
 
 Some people are more likely to be negatively impacted by smoke. This
 includes people with lung and heart conditions, pregnant individuals,
@@ -175,16 +175,17 @@ health is affected by a chronic condition or acute illness.
 -   Smoke levels may still be elevated indoors, so stay aware of your
     symptoms even when you are indoors.
 
--   When indoors, keep windows and doors.
-
--   If it is hot, prioritize keeping cool.
+-   When indoors, keep windows and doors closed. If it is hot,
+    prioritize keeping cool.
 
 -   Protect your indoor air from wildfire smoke. Use a clean, good
     quality air filter in your ventilation system and/or a certified
     portable air cleaner that can filter fine particles. Do-it-yourself
     air cleaners may also be used if other options are unavailable. For
-    more details, see the BC Centre of Disease Control [fact
-    sheet](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke).
+    more details, see the BC Centre of Disease Control [Do-it Yourself
+    Air
+    Cleaners](https://www.bccdc.ca/resource-gallery/Documents/Guidelines%20and%20Forms/Guidelines%20and%20Manuals/Health-Environment/BCCDC_WildFire_FactSheet_BoxFanAirFilters.pdf)
+    fact sheet.
 
 -   If your home is smoky or hot, spend time in places with cleaner, air
     conditioned air such as community centres, libraries, or malls.
@@ -194,6 +195,9 @@ health is affected by a chronic condition or acute illness.
     equivalent respirator) can reduce your exposure to the fine
     particles in the smoke. Even though exposure may be reduced, there
     can still be risks to health.
+
+-   When in a vehicle, keep windows closed with the air flow (or air
+    conditioning) set to recirculate.
 
 -   Check on others who are in your care or live nearby who may be more
     likely to be impacted by wildfire smoke.
