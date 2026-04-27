@@ -67,3 +67,24 @@
 
   }
 }
+
+/* Accordian warning level styling */
+
+details.bcds-disclosure {
+  summary {
+    &.yellow {
+      background-color: #ffff00;
+      color: $typography-color-primary;
+    }
+
+    &.orange {
+      background-color: #ff9500;
+      color: $typography-color-primary;
+    }
+
+    &.red {
+      background-color: #d10000;
+      color: $typography-color-primary-invert;
+    }
+  }
+}
