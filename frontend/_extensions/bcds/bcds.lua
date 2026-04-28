@@ -65,6 +65,7 @@ return {
     local title = pandoc.utils.stringify(kwargs["title"])
     local headerClass = pandoc.utils.stringify(kwargs["headerClass"])
     local initiallyOpen = pandoc.utils.stringify(kwargs["initiallyOpen"])
+    local variant = pandoc.utils.stringify(kwargs["variant"])
 
     if (title == nil or title == "") then
       title = "Summary"
@@ -83,7 +84,7 @@ return {
     if quarto.doc.is_format("html:js") then
       local markup = "<details class='bcds-disclosure' " .. openAttribute .. ">"
 
-      markup = markup .. "<summary class='" .. headerClass .. "'>"
+      markup = markup .. "<summary class='" .. headerClass .. " " .. variant .. "'>"
       markup = markup .. title
       markup = markup .. "</summary>"
 

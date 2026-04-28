@@ -115,6 +115,6 @@ contributes:
         - bcds-inline-alert.scss
         - bcds-cards.scss
         - bcds-accordion.scss
-        - air-quality-alerts.scss
+        - bcds-warning-levels.scss
       template-partials:
         - partials/title-block.html
