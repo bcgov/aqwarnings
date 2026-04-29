@@ -147,6 +147,7 @@
 > p
 > a:hover {
   text-decoration: underline;
+  color: $theme-gray-90;
 }
 
 .bcds-footer
@@ -271,7 +272,7 @@
 
 p.bcds-footer--copyright {
   color: $typography-color-secondary;
-  font: $typography-regular-body;
+  font: $typography-regular-small-body;
   margin: $layout-margin-none;
 }
 
