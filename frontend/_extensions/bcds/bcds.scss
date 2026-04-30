@@ -15,15 +15,11 @@ $min-contrast-ratio: 2.6 !default;
 $enable-rounded: false;
 $enable-transitions: false;
 
-$max-width: 1100px;
-
 $font-size: $typography-font-size-body;
 $fontcolor: $typography-color-primary;
 $linkcolor: $typography-color-link;
 $linestretch: $typography-line-heights-regular;
 $backgroundcolor: $surface-color-background-white;
-
-$grid-body-width: 1100px;
 
 $font-family-sans-serif: $typography-font-families-bc-sans, sans-serif;
 $headings-font-weight: $typography-font-weights-bold;
@@ -36,6 +32,20 @@ $progress-height: .5rem !default;
 
 $bs-card-spacer-y: 0;
 $bs-card-spacer-x: 0;
+
+$max-width: 1140px;
+
+// Page layout https://quarto.org/docs/output-formats/page-layout.html#grid-customization
+$grid-column-gutter-width: $layout-margin-large !default;
+
+.navbar-container {
+  max-width: $max-width;
+}
+
+.quarto-container {
+  max-width: $max-width;
+  margin: 0 auto;
+}
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -230,17 +240,31 @@ hr {
 
   .sidebar-item {
     padding: 0;
+    line-height: $typography-line-heights-xdense;
     margin: 0;
   }
 
   .sidebar-link {
     padding: $layout-padding-small;
   }
+  
+  .sidebar-menu-container {
+    padding-right: 0; 
+  }
+
+  .sidebar-item-container  {
+    padding: 0 $layout-padding-medium 0 0; /* top right bottom left */
+  }
 
   .sidebar-item-container .sidebar-link.active {
     background: $surface-color-background-light-blue;
     border-left: $layout-border-width-large solid $theme-blue-90;
     font-weight: $typography-font-weights-bold;
+    colour: $typography-color-link;
+
+    :hover {
+      text-decoration: underline;
+    }
   }
 }
 
