@@ -29,12 +29,14 @@ listing:
 
 ## About air quality warnings
 
-An air quality warning is issued when pollutant concentrations approach or exceed predetermined limits, or when degraded-air-quality episodes are expected to continue or worsen.
+Air quality warnings are issued when pollution levels in the air have reached, or are expected to reach, levels that may pose health risks.
 
 Warnings are issued to:
 
-- inform about degraded air quality
-- help people make informed choices about reducing their exposure to elevated concentrations of air pollutants
+- inform the public when air quality is degraded
+- help people make informed choices to reduce their exposure to elevated air pollution levels
 - provide vulnerable individuals and the general public with health advice developed by BC health agencies
 
-Warnings, other than those driven by wildfire smoke, serve as a trigger for emission reduction actions (such as industrial emissions or wood stove use) when specified by provincial waste discharge authorizations and local government bylaws.
+Warnings are colour‑coded according to the level of health risk. Yellow warnings indicate conditions where impacts are expected to be moderate, localized, or short‑term. Orange warnings are less frequent and indicate conditions where impacts may be major or widespread. The information and health advice are tailored to each warning level.
+
+Warnings, other than those driven by wildfire smoke, may also trigger emission reduction actions (such as industrial emissions or wood stove use) when specified by provincial waste discharge authorizations and local government bylaws.
