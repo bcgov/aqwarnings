@@ -6,7 +6,6 @@
 @import "variables.scss";
 
 .bcds-footer {
-  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -123,6 +122,7 @@
 > .bcds-footer--logo-links
 > .bcds-footer--logo
 > p {
+  color: $typography-color-secondary;
   font: $typography-regular-small-body;
   margin: $layout-margin-none;
 }
@@ -146,7 +146,8 @@
 > .bcds-footer--logo
 > p
 > a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: $theme-gray-80;
 }
 
 .bcds-footer
@@ -177,6 +178,7 @@
 > .bcds-footer--links-title {
   display: block;
   font: $typography-bold-small-body;
+  color: $typography-color-primary;
   margin-bottom: $layout-padding-medium;
   text-transform: uppercase;
 }
@@ -229,7 +231,7 @@
 > li
 > a {
   color: $typography-color-primary;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
@@ -258,6 +260,7 @@
 > li
 > a:hover {
   text-decoration: underline;
+  color: $theme-gray-80;
 }
 
 .bcds-footer > .bcds-footer--container > .bcds-footer--container-content > hr {
@@ -270,7 +273,7 @@
 
 p.bcds-footer--copyright {
   color: $typography-color-secondary;
-  font: $typography-regular-body;
+  font: $typography-regular-small-body;
   margin: $layout-margin-none;
 }
 

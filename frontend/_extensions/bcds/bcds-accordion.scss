@@ -12,6 +12,7 @@ details.bcds-disclosure {
     font-weight: $typography-font-weights-bold;
     padding: $layout-padding-medium $layout-padding-large;
     color: $typography-color-primary;
+    border-radius: $layout-border-radius-medium $layout-border-radius-medium $layout-border-radius-small $layout-border-radius-small;
 
     position: relative;
   }
@@ -54,7 +55,7 @@ details.bcds-disclosure {
   padding: 0;
   box-sizing: border-box;
   border: $layout-border-width-small solid $surface-color-border-default;
-  border-radius: $layout-border-radius-medium $layout-border-radius-none $layout-border-radius-none $layout-border-radius-medium;
+  border-radius: $layout-border-radius-medium $layout-border-radius-medium $layout-border-radius-medium $layout-border-radius-medium;
 }
 
 .accordian-btn {

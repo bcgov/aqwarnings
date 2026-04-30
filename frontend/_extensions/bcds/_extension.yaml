@@ -30,7 +30,7 @@ contributes:
           <div class='bcds-footer--container-content'>
           <div class='bcds-footer--logo-links horizontal'>
           <div class='bcds-footer--logo'>
-          <img class='navbar-brand-logo' src='/_extensions/bcds/assets/BCID_H_rgb_pos.svg'/>
+          <img class='navbar-brand-logo' src='/_extensions/bcds/assets/BCID_H_rgb_pos.svg' alt='Government of B.C.' />
           <p>We can help in over 220 languages and through other accessible options.<!-- -->
           <a href='https://www2.gov.bc.ca/gov/content?id=6A77C17D0CCB48F897F8598CCC019111'>Call, email or text
           us</a>, or<!-- --> <a
@@ -40,19 +40,17 @@ contributes:
           <figcaption class='bcds-footer--links-title'>More Info</figcaption>
           <ul>
           <li><a href='https://www2.gov.bc.ca/gov/content/home'>Home</a></li>
-          <li><a href='https://www2.gov.bc.ca/gov/content?id=3C4F47288DFB454987435AB5EFEFBB7F'>About gov.bc.ca</a>
-          </li>
-          <li><a href='https://www2.gov.bc.ca/gov/content?id=79F93E018712422FBC8E674A67A70535'>Disclaimer</a></li>
-          <li><a href='https://www2.gov.bc.ca/gov/content?id=9E890E16955E4FF4BF3B0E07B4722932'>Privacy</a></li>
-          <li><a href='https://www2.gov.bc.ca/gov/content?id=E08E79740F9C41B9B0C484685CC5E412'>Accessibility</a>
-          </li>
+          <li><a href='https://www2.gov.bc.ca/gov/content?id=E08E79740F9C41B9B0C484685CC5E412'>Accessibility</a></li>
+          <li><a href='https://www2.gov.bc.ca/gov/content?id=3C4F47288DFB454987435AB5EFEFBB7F'>About gov.bc.ca</a></li>
           <li><a href='https://www2.gov.bc.ca/gov/content?id=1AAACC9C65754E4D89A118B875E0FBDA'>Copyright</a></li>
+          <li><a href='https://www2.gov.bc.ca/gov/content?id=79F93E018712422FBC8E674A67A70535'>Disclaimer</a></li>
           <li><a href='https://www2.gov.bc.ca/gov/content?id=6A77C17D0CCB48F897F8598CCC019111'>Contact us</a></li>
+          <li><a href='https://www2.gov.bc.ca/gov/content?id=9E890E16955E4FF4BF3B0E07B4722932'>Privacy</a></li>
           </ul>
           </figure>
           </div>
           <hr/>
-          <p class='bcds-footer--copyright'>© 2025 Government of British Columbia.</p></div>
+          <p class='bcds-footer--copyright'>© 2026 Government of British Columbia</p></div>
           </div>
           </footer>
       resources:
