@@ -20,7 +20,7 @@
    content will be available on the public [Github pages](https://bcgov.github.io/aqwarnings/) site
    immediately.
 
-<img src="Contribution Flow.png" alt='Contribution Workflow'/>
+<img src="contribution_flow.png" alt='Contribution Workflow'/>
 
 ### Pull Request Details
 
