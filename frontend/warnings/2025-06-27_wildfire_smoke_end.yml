@@ -1,0 +1,24 @@
+author:
+- Sakshi Jain
+authors:
+- Sakshi Jain
+customMessage: Wildfire smoke concentrations have reduced over the past
+  24 hours.
+date: 2025-06-27
+ice: End
+lastWarning: 20265
+location: Northeast B.C.
+params:
+  customMessage: "`Custom message.`"
+  ice: End
+  lastWarning: 2025-02-10
+  location: Multiple locations in B.C.
+  sel_aqMet: Sakshi Jain
+  sel_healthAuth:
+  - First Nations Health Authority
+  - Northern Health
+sel_healthAuth: Northern Health Authority
+title: Air Quality Warning - Wildfire Smoke
+toc-title: Table of contents
+type: wildfire_smoke
+path: warnings/2025-06-27_wildfire_smoke_end.html

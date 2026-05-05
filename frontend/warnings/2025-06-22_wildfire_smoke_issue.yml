@@ -1,0 +1,26 @@
+author:
+- Muntaseer Azkar
+authors:
+- Muntaseer Azkar
+customMessage: Smoke may be visible across the northeast and central
+  regions of the province.
+date: 2025-06-22
+ice: Issue
+location: Multiple regions in B.C.
+params:
+  customMessage: "`Custom message.`"
+  ice: Issue
+  location: Multiple locations in B.C.
+  nextUpdate: 2025-02-10
+  sel_aqMet: Sakshi Jain
+  selRegionsIDs:
+  - Watson Lake
+  - Prince George
+  - Whistler
+  - South Okanagan
+  smokeDuration: "`24-48 hours`"
+smokeDuration: 24-48 hours
+title: Air Quality Warning - Wildfire Smoke
+toc-title: Table of contents
+type: wildfire_smoke
+path: warnings/2025-06-22_wildfire_smoke_issue.html

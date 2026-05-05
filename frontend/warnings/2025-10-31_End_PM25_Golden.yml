@@ -1,0 +1,19 @@
+title: "Air quality warning and open burning restrictions ended for Golden"
+author: "Donna Haga"
+date: 2025-10-31
+output: pdf_document
+location: Golden
+outputFormat: markdown
+params:
+  burnRestrictions: 'Yes'
+  date: "2025-10-31"
+  issuedate: "2025-07-09"
+  location: Whistler
+  outputFormat: markdown
+  pollutant: PM25 & PM10
+  sel_aqMet: Sakshi Jain
+authors: Donna Haga
+toc-title: Table of contents
+type: local_emissions
+ice: End
+path: warnings/2025-10-31_End_PM25_Golden.html

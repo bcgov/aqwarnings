@@ -1,0 +1,25 @@
+author:
+- Muntaseer Azkar
+authors:
+- Muntaseer Azkar
+customMessage: Wildfire smoke concentrations have reduced over the past
+  24 hours.
+date: 2025-08-07
+ice: End
+lastWarning: 20306
+location: Multiple regions in B.C.
+params:
+  customMessage: "`Custom message.`"
+  ice: End
+  lastWarning: 2025-02-10
+  location: Multiple locations in B.C.
+  sel_aqMet: Sakshi Jain
+  sel_healthAuth:
+  - First Nations Health Authority
+  - Northern Health
+sel_healthAuth: Northern Health Authority, Vancouver Island Health
+  Authority
+title: Air Quality Warning - Wildfire Smoke
+toc-title: Table of contents
+type: wildfire_smoke
+path: warnings/2025-08-07_wildfire_smoke_end.html

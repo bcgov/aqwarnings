@@ -7,7 +7,9 @@ listing:
     title: "Warning Type"
     ice: "Status"
     location: "Location"
-  contents: "warnings/**/*.*md"
+  contents:
+    - "warnings/**/*.*md"
+    - "warnings/**.yml"    
   sort: "date desc"
 ---
 

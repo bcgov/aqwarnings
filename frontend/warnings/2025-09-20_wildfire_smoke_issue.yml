@@ -1,0 +1,27 @@
+author:
+- Donna Haga
+authors:
+- Donna Haga
+customMessage: Central Interior fires are impacting the Prince George
+  and North Cariboo regions. In the South, fires across the US border
+  are impacting the Boundary, West Kootenay, Slocan and Arrow Lakes.
+date: 2025-09-20
+ice: Issue
+location: Parts of the Central and Southern Interior
+params:
+  customMessage: "`Custom message.`"
+  ice: Issue
+  location: Multiple locations in B.C.
+  nextUpdate: 2025-02-10
+  sel_aqMet: Sakshi Jain
+  selRegionsIDs:
+  - Watson Lake
+  - Prince George
+  - Whistler
+  - South Okanagan
+  smokeDuration: "`24-48 hours`"
+smokeDuration: 24-48 hours
+title: Air Quality Warning - Wildfire Smoke
+toc-title: Table of contents
+type: wildfire_smoke
+path: warnings/2025-09-20_wildfire_smoke_issue.html

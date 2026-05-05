@@ -1,5 +1,9 @@
 project:
   type: bcds
+  resources:
+    - "*.html"
+    - "*.pdf"
+    - /assets
   pre-render:
     - construct_lists.py
     - strip_logo_whitespace.py

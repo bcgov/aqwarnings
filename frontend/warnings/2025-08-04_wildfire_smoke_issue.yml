@@ -1,0 +1,24 @@
+author:
+- Sakshi Jain
+authors:
+- Sakshi Jain
+date: 2025-08-04
+ice: Issue
+location: Multiple regions in B.C.
+params:
+  customMessage: "`Custom message.`"
+  ice: Issue
+  location: Multiple locations in B.C.
+  nextUpdate: 2025-02-10
+  sel_aqMet: Sakshi Jain
+  selRegionsIDs:
+  - Watson Lake
+  - Prince George
+  - Whistler
+  - South Okanagan
+  smokeDuration: "`24-48 hours`"
+smokeDuration: 24-48 hours
+title: Air Quality Warning - Wildfire Smoke
+toc-title: Table of contents
+type: wildfire_smoke
+path: warnings/2025-08-04_wildfire_smoke_issue.html
