@@ -1,7 +1,7 @@
 [![Apache 2.0 License](https://img.shields.io/github/license/bcgov/nr-epd-aq-statements.svg)](/LICENSE)
 [![Creative Commons BY 4.0 License](https://img.shields.io/badge/license-CC--BY--4.0-green.svg
 )](/LICENSE-docs)
-[![Lifecycle](https://img.shields.io/badge/Lifecycle-Experimental-339999)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
+[![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
 
 # aqwarnings
 
@@ -36,6 +36,20 @@ Instructions are geared toward the following tools:
     Run `quarto render` in the Terminal or select "Render" from RStudio's Source Pane
 
 *Note: we rely on pre-render scripts to generate the front page and process the logo header section of the site, these may not render as expected locally and are better tested via the [PR Preview Action](https://github.com/rossjrw/pr-preview-action) that runs on all PRs in this repo.*
+
+### Updating the website theme and design tokens
+
+The website look and feel is determined by a custom theme, **bcds**, available in this repo under the [`_extensions/bcds`](./frontend/_extensions/bcds) folder. The theme is based on the [B.C. Design System](https://github.com/bcgov/design-system/) to match other BC Government web properties and uses its design tokens package. 
+
+Some notes:
+- custom shortcodes what are used can be seen at `./frontend/shortcode_demos.qmd` and are defined in [`bcds.lua`](./frontend/_extensions/bcds/bcds.lua)
+- the theme styles can be adjusted or defined in `.scss` files and placed within that repo, any new files will have to be added under `theme` in the [`_extension.yaml`](./frontend/_extensions/bcds/_extension.yaml)
+- adjustments to the global navigation, left sidebar, and footer are also made in the [`_extension.yaml`](./frontend/_extensions/bcds/_extension.yaml)
+
+If updates to the B.C. Design System need to be incorporated, the process is to overwrite the [`variables.scss`](./frontend/_extensions/bcds/variables.scss) with a new one. You can either grap it from the [`@bcgov/design-tokens`](https://www.npmjs.com/package/@bcgov/design-tokens) package or get the [latest Design System release](https://github.com/bcgov/design-system/releases) and built it yourself.
+
+*Note: Major updates to the B.C. Design System will require manual effort to reconcile with the custom theme and should not be undertaken without a plan for testing and review.*
+
 
 ### Deploying
 
