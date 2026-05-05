@@ -43,8 +43,8 @@ The website look and feel is determined by a custom theme, **bcds**, available i
 
 Some notes:
 - custom shortcodes what are used can be seen at `./frontend/shortcode_demos.qmd` and are defined in [`bcds.lua`](./frontend/_extensions/bcds/bcds.lua)
-- the theme styles can be adjusted or defined in `.scss` files and placed within that repo, any new files will have to be added under `theme` in the [`_extension.yaml`](frontend\_extensions\bcds\_extension.yaml)
-- adjustments to the global navigation, left sidebar, and footer are also made in the [`_extension.yaml`](frontend\_extensions\bcds\_extension.yaml)
+- the theme styles can be adjusted or defined in `.scss` files and placed within that repo, any new files will have to be added under `theme` in the [`_extension.yaml`](./frontend/_extensions/bcds/_extension.yaml)
+- adjustments to the global navigation, left sidebar, and footer are also made in the [`_extension.yaml`](./frontend/_extensions/bcds/_extension.yaml)
 
 If updates to the B.C. Design System need to be incorporated, the process is to overwrite the [`variables.scss`](./frontend/_extensions/bcds/variables.scss) with a new one. You can either grap it from the [`@bcgov/design-tokens`](https://www.npmjs.com/package/@bcgov/design-tokens) package or get the [latest Design System release](https://github.com/bcgov/design-system/releases) and built it yourself.
 
