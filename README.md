@@ -1,7 +1,7 @@
 [![Apache 2.0 License](https://img.shields.io/github/license/bcgov/nr-epd-aq-statements.svg)](/LICENSE)
 [![Creative Commons BY 4.0 License](https://img.shields.io/badge/license-CC--BY--4.0-green.svg
 )](/LICENSE-docs)
-[![Lifecycle](https://img.shields.io/badge/Lifecycle-Experimental-339999)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
+[![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
 
 # aqwarnings
 
