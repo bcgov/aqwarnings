@@ -65,7 +65,7 @@ change and/or local emissions are reduced.
 
 The next update will be on February 13, 2026 and posted to the
 province's [Air Quality Warnings
-webpage](https://www.gov.bc.ca/airquality).
+webpage](https://aqwarnings.gov.bc.ca/).
 
 Visit the provincial [air quality data
 webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)

@@ -70,7 +70,7 @@ levels have been rising in recent hours. These conditions are expected
 to persist until the weather changes or local emissions decrease.
 
 The next update will be on January 21, 2026 and posted to the province's
-[Air Quality Warnings webpage](https://www.gov.bc.ca/airquality).
+[Air Quality Warnings webpage](https://aqwarnings.gov.bc.ca/).
 
 Visit the provincial [air quality data
 webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)

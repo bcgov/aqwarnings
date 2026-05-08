@@ -79,7 +79,7 @@ Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
 
 The next update will be on October 31, 2025 and posted to the province's
-[Air Quality Warnings webpage](https://www.gov.bc.ca/airquality).
+[Air Quality Warnings webpage](https://aqwarnings.gov.bc.ca/).
 
 # Actions you can take
 

@@ -81,7 +81,7 @@ Conditions may improve later in the day as meteorological conditions
 change.
 
 The next update will be on May 09, 2026 and posted to the province's
-[Air Quality Warnings webpage](https://www.gov.bc.ca/airquality).
+[Air Quality Warnings webpage](https://aqwarnings.gov.bc.ca/).
 
 Visit the provincial [air quality data
 webpage](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality)
