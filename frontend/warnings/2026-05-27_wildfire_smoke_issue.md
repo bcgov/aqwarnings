@@ -207,15 +207,12 @@ Provincial summary of latest index and forecast.
 [What's the air like
 today?](https://www.env.gov.bc.ca/epd/bcairquality/data/aqhi-table.html)
 {{< card_end >}}
-{{< card_start title="Air Quality Maps" variant="info" logo="/assets/icon_air.svg" >}}
+{{< card_start title="Provincial Air Quality Map" variant="info" logo="/assets/icon_air.svg" >}}
 Provincial air quality data refreshed every hour.
 
 [Latest air quality
 data](https://www.env.gov.bc.ca/epd/bcairquality/readings/find-stations-map.html)
-
-Low cost sensor data
-
-[Low cost sensor map](https://aqmap.ca/aqmap/) {{< card_end >}}
+{{< card_end >}}
 {{< card_start title="Environment and Climate Change Canada FireWork" variant="danger" logo="/assets/icon_smoke.svg" >}}
 Air quality maps of next 72 hours.
 
@@ -226,6 +223,10 @@ BlueSky Canada smoke forecasting system.
 
 [Smoke forecast map](https://firesmoke.ca/forecasts/current/)
 {{< card_end >}}
+{{< card_start title="Low Cost Sensor Map" variant="info" logo="/assets/icon_air.svg" >}}
+Crowdsourced low cost sensor data.
+
+[Low cost sensor map](https://aqmap.ca/aqmap/) {{< card_end >}}
 {{< card_start title="Metro Vancouver Air Quality" variant="success" logo="/assets/icon_chart.svg" >}}
 Warnings and map of air quality and weather data.
 
