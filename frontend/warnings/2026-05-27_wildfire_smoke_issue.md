@@ -1,15 +1,15 @@
 ---
 author:
-- Gail Roth
+- Donna Haga
 authors:
-- Gail Roth
+- Donna Haga
 date: 2026-05-27
 ice: Issue
 level: yellow
 location: Northeast B.C.
 parametersAsRendered:
-  aqMet: Gail Roth
-  customMessage: TEST
+  aqMet: Donna Haga
+  customMessage: This is a TEST.
   location: Northeast B.C.
   nextUpdate: 2026-05-28
   outputFormat: markdown
@@ -71,7 +71,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-TEST
+This is a TEST.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -207,13 +207,15 @@ Provincial summary of latest index and forecast.
 [What's the air like
 today?](https://www.env.gov.bc.ca/epd/bcairquality/data/aqhi-table.html)
 {{< card_end >}}
-{{< card_start title="Air Quality Map" variant="info" logo="/assets/icon_air.svg" >}}
+{{< card_start title="Air Quality Maps" variant="info" logo="/assets/icon_air.svg" >}}
 Provincial air quality data refreshed every hour.
 
 [Latest air quality
 data](https://www.env.gov.bc.ca/epd/bcairquality/readings/find-stations-map.html)
-Low cost sensor data [Low cost sensor map](https://aqmap.ca/aqmap/)
-{{< card_end >}}
+
+Low cost sensor data
+
+[Low cost sensor map](https://aqmap.ca/aqmap/) {{< card_end >}}
 {{< card_start title="Environment and Climate Change Canada FireWork" variant="danger" logo="/assets/icon_smoke.svg" >}}
 Air quality maps of next 72 hours.
 
@@ -266,9 +268,9 @@ FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wi
 **Media questions regarding air quality conditions related to this Air
 Quality Warning:** {{< card_start width="wide" >}}
 
-Gail Roth`<br />`{=html}Senior Air Quality
+Donna Haga`<br />`{=html}Senior Air Quality
 Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-645-9358
+Parks`<br />`{=html}250-420-6320
 
 {{< card_end >}}
 
