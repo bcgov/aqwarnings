@@ -6,18 +6,17 @@ customMessage: Wildfire smoke concentrations have reduced over the past
   24 hours.
 date: 2025-08-19
 ice: End
-lastWarning: 20318
+lastWarning: 2025-08-18
 location: Inland Vancouver Island (near Port Alberni)
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Wildfire smoke concentrations have reduced over the past 24 hours."
   ice: End
-  lastWarning: 2025-02-10
-  location: Multiple locations in B.C.
-  sel_aqMet: Sakshi Jain
-  sel_healthAuth:
-  - First Nations Health Authority
-  - Northern Health
-sel_healthAuth: Vancouver Island Health Authority
+  lastWarning: 2025-08-18
+  location: Inland Vancouver Island (near Port Alberni)
+  aqMet: Gail Roth
+  healthAuth:
+  - Vancouver Island Health Authority
+healthAuth: Vancouver Island Health Authority
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
 type: wildfire_smoke

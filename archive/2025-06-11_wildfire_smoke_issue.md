@@ -7,17 +7,26 @@ date: 2025-06-11
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: ""
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-06-12
+  aqMet: James Hindson
+  regions:
+  - B.C. South Peace River
+  - B.C. North Peace River
+  - Elk Valley
+  - Fort Nelson
+  - Grayling River Hotsprings Ecological Reserve
+  - Howe Sound
+  - McGregor
+  - Muncho Lake Park - Stone Mountain Park
   - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - Stikine River and Spatsizi Plateau Wilderness Provincial Parks
+  - Stuart - Nechako
+  - Watson Lake
+  - Williston
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
