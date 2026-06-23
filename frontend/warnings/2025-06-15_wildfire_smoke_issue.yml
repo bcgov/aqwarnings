@@ -8,17 +8,19 @@ date: 2025-06-15
 ice: Issue
 location: Northern B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke may also be visible in Atlin, Haines Road, and locally, near any active fires."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
+  location: Northern B.C.
+  nextUpdate: 2025-06-16
+  aqMet: Gail Roth
+  regions:
+  - Cassiar Mountains
+  - Fort Nelson
+  - Grayling River Hotsprings Ecological Reserve
+  - Muncho Lake Park - Stone Mountain Park
+  - Teslin
   - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
