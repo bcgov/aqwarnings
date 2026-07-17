@@ -3,28 +3,38 @@ author:
 - Gavin King
 authors:
 - Gavin King
-date: 2026-07-16
+date: 2026-07-17
 ice: Issue
 level: yellow
-location: Southern interior
+location: Central Interior
 parametersAsRendered:
   aqMet: Gavin King
-  customMessage: Smoke will be highly variable across the landscape as
-    winds change though the day and into the overnight period.
-  location: Southern interior
-  nextUpdate: 2026-07-17
+  customMessage: Smoke will vary though the day. Smoke in the Okanagan
+    Valley is expected to increase though the day into the overnight.
+  location: Central Interior
+  nextUpdate: 2026-07-18
   outputFormat: markdown
   smokeDuration: 24-48 hours
   twoLevels: false
   warningLevel:
     all:
     - Fraser Canyon - south including Lytton
+    - Fraser Canyon - north including Lillooet
     - South Thompson
-    - Nicola
+    - 100 Mile
+    - South Okanagan
+    - Central Okanagan - including Kelowna
+    - Boundary
+    - North Okanagan
     yellow:
     - Fraser Canyon - south including Lytton
+    - Fraser Canyon - north including Lillooet
     - South Thompson
-    - Nicola
+    - 100 Mile
+    - South Okanagan
+    - Central Okanagan - including Kelowna
+    - Boundary
+    - North Okanagan
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -80,8 +90,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-Smoke will be highly variable across the landscape as winds change
-though the day and into the overnight period.
+Smoke will vary though the day. Smoke in the Okanagan Valley is expected
+to increase though the day into the overnight.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -90,7 +100,7 @@ Monitor the situation for any wildfires near your area at
 [EmergencyInfoBC](https://www.emergencyinfobc.gov.bc.ca/). Follow all
 emergency announcements relevant to your location.
 
-The next update will be available on July 17, 2026 and made available on
+The next update will be available on July 18, 2026 and made available on
 the Province's [Air Quality Warnings
 webpage](https://aqwarnings.gov.bc.ca/).
 
@@ -98,7 +108,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-07-16_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 16, 2026: Fraser Canyon (South), Nicola, South Thompson."
+Vancouver.](2026-07-17_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 17, 2026: 100 Mile, Boundary, Central Okanagan, Fraser Canyon (North), Fraser Canyon (South), North Okanagan, South Okanagan , South Thompson."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -106,24 +116,6 @@ width="100%" height="600px"}
 Exposure to smoke can affect your health. Postpone or reduce strenuous
 outdoor activities until the warning has ended. Spend time indoors in a
 space with cleaner air.
-
-Some people are more likely to be negatively impacted by smoke. This
-includes people with lung and heart conditions, pregnant individuals,
-infants and young children, people aged 65 and older, and anyone whose
-health is affected by a chronic condition or acute illness.
-
-Exposure to smoke can affect your health. Postpone or reduce strenuous
-outdoor activities until the warning has ended. Spend time indoors in a
-space with cleaner air.
-
-Some people are more likely to be negatively impacted by smoke. This
-includes people with lung and heart conditions, pregnant individuals,
-infants and young children, people aged 65 and older, and anyone whose
-health is affected by a chronic condition or acute illness.
-
-Exposure to high smoke levels can pose threat to your health regardless
-of age of health status. Avoid strenuous outdoor activities until the
-warning has ended. Stay indoors in a space with cleaner air.
 
 Some people are more likely to be negatively impacted by smoke. This
 includes people with lung and heart conditions, pregnant individuals,
@@ -309,9 +301,17 @@ media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
+-   **100 Mile:** includes Hwy 97 from 108 Mile House to Clinton, Bridge
+    Lake and Canim Lake.
+-   **Boundary:** includes Grand Forks, Midway and Greenwood.
+-   **Central Okanagan:** includes Kelowna, Lake Country, West Kelowna
+    and Peachland.
+-   **Fraser Canyon (North):** includes Lillooet and Andersen Lake.
 -   **Fraser Canyon (South):** Trans Canada Hwy 1 from Lytton to Dogwood
     Valley.
--   **Nicola:** includes Merritt, Stump Lake, Pennask Lake, and
-    Brookmere.
+-   **North Okanagan:** includes Vernon, Armstrong, Enderby, Lavington
+    and Lumby.
+-   **South Okanagan :** includes Penticton, Summerland, Naramata,
+    Keremeos, Oliver and Osoyoos.
 -   **South Thompson:** Includes Kamloops, Rayleigh, Monte Creek, Cache
     Creek, Spences Bridge and Logan Lake.

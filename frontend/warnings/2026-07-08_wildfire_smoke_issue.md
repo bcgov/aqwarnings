@@ -131,7 +131,7 @@ health is affected by a chronic condition or acute illness.
 {{< accordion_start title="For regions under orange warnings" initiallyOpen="true" variant="orange">}}
 
 Exposure to high smoke levels can pose threat to your health regardless
-of age of health status. Avoid strenuous outdoor activities until the
+of age or health status. Avoid strenuous outdoor activities until the
 warning has ended. Stay indoors in a space with cleaner air.
 
 Some people are more likely to be negatively impacted by smoke. This
