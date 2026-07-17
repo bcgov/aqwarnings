@@ -1,38 +1,30 @@
 ---
 author:
-- Muntaseer Azkar
+- Gavin King
 authors:
-- Muntaseer Azkar
-date: 2026-06-30
+- Gavin King
+date: 2026-07-16
 ice: Issue
 level: yellow
-location: Multiple regions in B.C.
+location: Southern interior
 parametersAsRendered:
-  aqMet: Muntaseer Azkar
-  customMessage: Wildfire smoke from northern Alberta continues to drift
-    westward into northeastern British Columbia, affecting the Fort
-    Nelson area. Elevated PM2.5 concentrations persist across the region
-    and may remain elevated as smoke continues to be transported into
-    the area. Also, smoke from Alberta continues to drift westward into
-    southeastern British Columbia, affecting the East Columbia and Elk
-    Valley area. PM2.5 concentrations remain elevated due to ongoing
-    cross-border smoke transport. Air quality is expected to improve
-    gradually as smoke disperses. However, elevated particulate levels
-    may persist for some time before returning to normal.
-  location: Multiple regions in B.C.
-  nextUpdate: 2026-07-01
+  aqMet: Gavin King
+  customMessage: Smoke will be highly variable across the landscape as
+    winds change though the day and into the overnight period.
+  location: Southern interior
+  nextUpdate: 2026-07-17
   outputFormat: markdown
   smokeDuration: 24-48 hours
   twoLevels: false
   warningLevel:
     all:
-    - Elk Valley
-    - East Columbia
-    - Fort Nelson
+    - Fraser Canyon - south including Lytton
+    - South Thompson
+    - Nicola
     yellow:
-    - Elk Valley
-    - East Columbia
-    - Fort Nelson
+    - Fraser Canyon - south including Lytton
+    - South Thompson
+    - Nicola
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -78,7 +70,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
 
-![Northern Health Authority logo](/assets/logo_NH.png)\
+![Fraser Health Authority logo](/assets/logo_FH.png)\
 
 :::
 
@@ -88,15 +80,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-Wildfire smoke from northern Alberta continues to drift westward into
-northeastern British Columbia, affecting the Fort Nelson area. Elevated
-PM2.5 concentrations persist across the region and may remain elevated
-as smoke continues to be transported into the area. Also, smoke from
-Alberta continues to drift westward into southeastern British Columbia,
-affecting the East Columbia and Elk Valley area. PM2.5 concentrations
-remain elevated due to ongoing cross-border smoke transport. Air quality
-is expected to improve gradually as smoke disperses. However, elevated
-particulate levels may persist for some time before returning to normal.
+Smoke will be highly variable across the landscape as winds change
+though the day and into the overnight period.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -105,7 +90,7 @@ Monitor the situation for any wildfires near your area at
 [EmergencyInfoBC](https://www.emergencyinfobc.gov.bc.ca/). Follow all
 emergency announcements relevant to your location.
 
-The next update will be available on July 01, 2026 and made available on
+The next update will be available on July 17, 2026 and made available on
 the Province's [Air Quality Warnings
 webpage](https://aqwarnings.gov.bc.ca/).
 
@@ -113,7 +98,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-06-30_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for June 30, 2026: East Columbia, Elk Valley, Fort Nelson."
+Vancouver.](2026-07-16_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 16, 2026: Fraser Canyon (South), Nicola, South Thompson."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -121,24 +106,6 @@ width="100%" height="600px"}
 Exposure to smoke can affect your health. Postpone or reduce strenuous
 outdoor activities until the warning has ended. Spend time indoors in a
 space with cleaner air.
-
-Some people are more likely to be negatively impacted by smoke. This
-includes people with lung and heart conditions, pregnant individuals,
-infants and young children, people aged 65 and older, and anyone whose
-health is affected by a chronic condition or acute illness.
-
-Exposure to smoke can affect your health. Postpone or reduce strenuous
-outdoor activities until the warning has ended. Spend time indoors in a
-space with cleaner air.
-
-Some people are more likely to be negatively impacted by smoke. This
-includes people with lung and heart conditions, pregnant individuals,
-infants and young children, people aged 65 and older, and anyone whose
-health is affected by a chronic condition or acute illness.
-
-Exposure to high smoke levels can pose threat to your health regardless
-of age of health status. Avoid strenuous outdoor activities until the
-warning has ended. Stay indoors in a space with cleaner air.
 
 Some people are more likely to be negatively impacted by smoke. This
 includes people with lung and heart conditions, pregnant individuals,
@@ -299,9 +266,9 @@ FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wi
 **Media questions regarding air quality conditions related to this Air
 Quality Warning:** {{< card_start width="wide" >}}
 
-Muntaseer Azkar`<br />`{=html}Air Quality
+Gavin King`<br />`{=html}Senior Air Quality
 Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}604-558-9508
+Parks`<br />`{=html}250-312-6798
 
 {{< card_end >}}
 
@@ -315,17 +282,18 @@ Services or Main FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
 604-831-4898`<br />`{=html}
 
+Fraser Health Authority`<br />`{=html}Media Line:
+604-613-0794`<br />`{=html}Email: media@fraserhealth.ca`<br />`{=html}
+
 Interior Health Authority`<br />`{=html}Media line:
 1-844-469-7077`<br />`{=html}Email:
-media@interiorhealth.ca`<br />`{=html}
-
-Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}{{< card_end >}}
+media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   **East Columbia:** includes Golden.
--   **Elk Valley:** includes Elko, Fernie, Sparwood and Elkford.
--   **Fort Nelson:** includes Fort Nelson, Muskwa, Prophet River,
-    Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon
-    border.
+-   **Fraser Canyon (South):** Trans Canada Hwy 1 from Lytton to Dogwood
+    Valley.
+-   **Nicola:** includes Merritt, Stump Lake, Pennask Lake, and
+    Brookmere.
+-   **South Thompson:** Includes Kamloops, Rayleigh, Monte Creek, Cache
+    Creek, Spences Bridge and Logan Lake.
