@@ -1,0 +1,391 @@
+---
+author:
+- Gail Roth
+authors:
+- Gail Roth
+date: 2026-07-23
+ice: Issue
+level: yellow
+location: Multiple regions in B.C.
+parametersAsRendered:
+  aqMet: Gail Roth
+  customMessage: Smoke may also be visible in the Similkameen, Southern
+    Okanagan and along Hwy 16 , Smithers through Terrace.
+  location: Multiple regions in B.C.
+  nextUpdate: 2026-07-24
+  outputFormat: markdown
+  smokeDuration: 24-48 hours
+  twoLevels: false
+  warningLevel:
+    all:
+    - Chilcotin
+    - Cariboo - north including Quesnel
+    - Cariboo - south including Williams Lake
+    - Yellowhead
+    - Kinbasket
+    - North Columbia
+    - Yoho Park - Kootenay Park
+    - East Columbia
+    - West Columbia
+    - North Thompson
+    - 100 Mile
+    - South Thompson
+    - Shuswap
+    - North Okanagan
+    - Central Okanagan - including Kelowna
+    - Nicola
+    - Manning - Skagit Valley
+    - Fraser Canyon - south including Lytton
+    - Fraser Canyon - north including Lillooet
+    - Boundary
+    - Arrow Lakes - Slocan Lake
+    - West Kootenay
+    - Kootenay Lake
+    - East Kootenay - north including Invermere
+    - East Kootenay - south including Cranbrook
+    - Elk Valley
+    yellow:
+    - Chilcotin
+    - Cariboo - north including Quesnel
+    - Cariboo - south including Williams Lake
+    - Yellowhead
+    - Kinbasket
+    - North Columbia
+    - Yoho Park - Kootenay Park
+    - East Columbia
+    - West Columbia
+    - North Thompson
+    - 100 Mile
+    - South Thompson
+    - Shuswap
+    - North Okanagan
+    - Central Okanagan - including Kelowna
+    - Nicola
+    - Manning - Skagit Valley
+    - Fraser Canyon - south including Lytton
+    - Fraser Canyon - north including Lillooet
+    - Boundary
+    - Arrow Lakes - Slocan Lake
+    - West Kootenay
+    - Kootenay Lake
+    - East Kootenay - north including Invermere
+    - East Kootenay - south including Cranbrook
+    - Elk Valley
+params:
+  aqMet: Sakshi Jain
+  customMessage: "`Custom message.`"
+  location: Multiple locations in B.C.
+  nextUpdate: 2025-02-10
+  outputFormat: markdown
+  smokeDuration: "`24-48 hours`"
+  twoLevels: false
+  warningLevel:
+    value:
+      all:
+      - Watson Lake
+      - Prince George
+      - Whistler
+      - South Okanagan
+      orange:
+      - Whistler
+      red:
+      - South Okanagan
+      yellow:
+      - Watson Lake
+      - Prince George
+title: Air quality warning in effect for wildfire smoke
+toc-title: Table of contents
+type: wildfire_smoke
+---
+
+<!--
+Copyright 2025 Province of British Columbia
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+-->
+<!-- Logo header for markdown output, the layout-col should be set based on number of logos including FHNA and BCGov -->
+<!-- the trailing slash means the text in square brackets is alt text -->
+<!-- note: logos and title for PDF output handled in src/header.txt -->
+
+::: {layout-ncol= 6 layout-valign="bottom"}
+
+![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
+
+![First Nations Health Authority logo](/assets/logo_FNHA.png)\
+
+![Interior Health Authority logo](/assets/logo_IH.png)\
+
+![Fraser Health Authority logo](/assets/logo_FH.png)\
+
+![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
+
+![Northern Health Authority logo](/assets/logo_NH.png)\
+
+:::
+
+{{< banner_alert_start title='Yellow Warning - Air Quality' variant='yellow'>}}
+{{< banner_alert_end >}}
+
+The Regions of BC highlighted on the map are being impacted or are
+likely to be impacted by wildfire smoke over the next 24-48 hours.
+
+Smoke may also be visible in the Similkameen, Southern Okanagan and
+along Hwy 16 , Smithers through Terrace.
+
+During a wildfire, smoke conditions can change quickly over short
+distances and can vary considerably hour-by-hour.
+
+Monitor the situation for any wildfires near your area at
+[EmergencyInfoBC](https://www.emergencyinfobc.gov.bc.ca/). Follow all
+emergency announcements relevant to your location.
+
+The next update will be available on July 24, 2026 and made available on
+the Province's [Air Quality Warnings
+webpage](https://aqwarnings.gov.bc.ca/).
+
+![Descriptions of affected region(s) are provided at the end of this
+page. This Air Quality Warning excludes the area managed by Metro
+Vancouver. Refer to the More Information section for a link to air
+quality notifications issued by Metro
+Vancouver.](2026-07-23_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 23, 2026: 100 Mile, Arrow Lakes - Slocan Lake, Boundary, Cariboo (North), Cariboo (South), Central Okanagan, Chilcotin, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Fraser Canyon (North), Fraser Canyon (South), Kinbasket, Kootenay Lake, Manning - Skagit Valley, Nicola, North Columbia, North Okanagan, North Thompson, Shuswap, South Thompson, West Columbia, West Kootenay, Yellowhead, Yoho - Kootenay Park."
+width="100%" height="600px"}
+
+## Actions you can take
+
+Exposure to smoke can affect your health. Postpone or reduce strenuous
+outdoor activities until the warning has ended. Spend time indoors in a
+space with cleaner air.
+
+Some people are more likely to be negatively impacted by smoke. This
+includes people with lung and heart conditions, pregnant individuals,
+infants and young children, people aged 65 and older, and anyone whose
+health is affected by a chronic condition or acute illness.
+
+## During smoky conditions
+
+{{< accordion_controls >}}
+{{< accordion_start title="Follow your common sense" initiallyOpen="true" >}}
+
+-   Stop or reduce your activity level if breathing becomes
+    uncomfortable or you feel unwell.
+
+-   Stay cool and drink plenty of fluids.
+
+-   Carry any rescue medications with you at all times.
+
+-   Make sure that children and others who cannot care for themselves
+    follow the same advice.
+
+{{< accordion_end >}}
+{{< accordion_start title="Monitor your symptoms" initiallyOpen="true" >}}
+
+-   Different people have different responses to smoke.
+
+-   Mild irritation and discomfort such as eye, nose and throat
+    irritation, phlegm production, runny nose, headaches or mild cough
+    are common, and usually disappear when the smoke clears.
+
+-   More serious but less common symptoms include wheezing, chest pains
+    or severe cough.
+
+-   People with asthma or other chronic illness should follow any
+    personal care plans designed with their family physicians.
+
+-   If you are unsure whether you need medical care, call HealthLink BC
+    at 8-1-1.
+
+-   If you are experiencing difficulty in breathing, chest pain or
+    discomfort, or a severe cough, contact your physician, walk-in
+    clinic, or emergency department. **If you are having a medical
+    emergency, call 9-1-1.**
+
+{{< accordion_end >}}
+{{< accordion_start title="Tips to reduce your smoke exposure" initiallyOpen="true" >}}
+
+-   Smoke levels may still be elevated indoors, so stay aware of your
+    symptoms even when you are indoors.
+
+-   When indoors, keep windows and doors closed. If it is hot,
+    prioritize keeping cool.
+
+-   Protect your indoor air from wildfire smoke. Use a clean, good
+    quality air filter in your ventilation system and/or a certified
+    portable air cleaner that can filter fine particles. Do-it-yourself
+    air cleaners may also be used if other options are unavailable. For
+    more details, see the BC Centre for Disease Control [Do-it Yourself
+    Air
+    Cleaners](https://www.bccdc.ca/resource-gallery/Documents/Guidelines%20and%20Forms/Guidelines%20and%20Manuals/Health-Environment/BCCDC_WildFire_FactSheet_BoxFanAirFilters.pdf)
+    fact sheet.
+
+-   If your home is smoky or hot, spend time in places with cleaner, air
+    conditioned air such as community centres, libraries, or malls.
+
+-   If you must be outside, a well-constructed, well-fitting and
+    properly worn respirator type mask (such as a NIOSH-certified N95 or
+    equivalent respirator) can reduce your exposure to the fine
+    particles in the smoke. Even though exposure may be reduced, there
+    can still be risks to health.
+
+-   When in a vehicle, keep windows closed with the air flow (or air
+    conditioning) set to recirculate.
+
+-   Check on others who are in your care or live nearby who may be more
+    likely to be impacted by wildfire smoke.
+
+-   Always follow guidance from local authorities.
+
+{{< accordion_end >}}
+
+## More information
+
+**For additional general information about wildfire smoke and air
+quality:**
+
+::: bcds-card-wrapper
+{{< card_start title="Air Quality Health Index" variant="info" logo="/assets/icon_air.svg" >}}
+Provincial summary of latest index and forecast.
+
+[What's the air like
+today?](https://www.env.gov.bc.ca/epd/bcairquality/data/aqhi-table.html)
+{{< card_end >}}
+{{< card_start title="Provincial Air Quality Map" variant="info" logo="/assets/icon_air.svg" >}}
+Provincial air quality data refreshed every hour.
+
+[Latest air quality
+data](https://www.env.gov.bc.ca/epd/bcairquality/readings/find-stations-map.html)
+{{< card_end >}}
+{{< card_start title="Environment and Climate Change Canada FireWork" variant="danger" logo="/assets/icon_smoke.svg" >}}
+Air quality maps of next 72 hours.
+
+[Smoke forecast maps](https://weather.gc.ca/firework/index_e.html)
+{{< card_end >}}
+{{< card_start title="FireSmoke Canada" variant="danger" logo="/assets/icon_smoke.svg" >}}
+BlueSky Canada smoke forecasting system.
+
+[Smoke forecast map](https://firesmoke.ca/forecasts/current/)
+{{< card_end >}}
+{{< card_start title="Low Cost Sensor Map" variant="info" logo="/assets/icon_air.svg" >}}
+Crowdsourced low cost sensor data.
+
+[Low cost sensor map](https://aqmap.ca/aqmap/) {{< card_end >}}
+{{< card_start title="Metro Vancouver Air Quality" variant="success" logo="/assets/icon_chart.svg" >}}
+Warnings and map of air quality and weather data.
+
+[Air quality data and
+warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories)
+{{< card_end >}}
+:::
+
+**For additional general information about wildfire smoke and your
+health:**
+
+::: bcds-card-wrapper
+{{< card_start title="BC Centre for Disease Control" logo="/assets/logo_BCCDC.png" >}}
+Fact sheets on wildfire smoke and its health impacts.
+
+[Wildfire
+smoke](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke)
+{{< card_end >}}{{< card_start title="Interior Health Authority" logo="/assets/logo_IH_horizontal.png" >}}
+Steps to prepare and manage wildfire-related issues.
+
+[Wildfire public
+information](https://www.interiorhealth.ca/health-and-wellness/natural-disasters-and-emergencies/wildfires)
+{{< card_end >}}{{< card_start title="First Nations Health Authority" logo="/assets/logo_FNHA_horizontal.png" >}}
+Information and resources to help you prepare.
+
+[Wildfire smoke health
+information](https://www.fnha.ca/about/news-and-events/news/wildfire-smoke-health-information)
+{{< card_end >}}
+{{< card_start title="HealthLink BC" logo="/assets/logo_BCID_HealthLinkBC_RGB_pos.png" >}}
+Learn and prepare for wildfires. Phone 8-1-1 for 24/7 health advice.
+
+[Wildfires and your
+health](https://www.healthlinkbc.ca/health-library/health-features/wildfires-and-your-health)
+{{< card_end >}}
+{{< card_start title="Worksafe BC" logo="/assets/logo_worksafebc.jpg" >}}
+Info on working outdoors during smoky conditions.
+
+[Wildfire
+FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wildfire-smoke-frequently-asked-questions-faq)
+{{< card_end >}}
+:::
+
+## Contact
+
+**Media questions regarding air quality conditions related to this Air
+Quality Warning:** {{< card_start width="wide" >}}
+
+Gail Roth`<br />`{=html}Senior Air Quality
+Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-645-9358
+
+{{< card_end >}}
+
+**Media questions regarding health implications of wildfire smoke:**
+
+{{< card_start  width="wide" >}}
+
+First Nations Health Authority`<br />`{=html}Environmental Public Health
+Services or Main FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
+1-844-666-0711`<br />`{=html}Email:
+Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
+604-831-4898`<br />`{=html}
+
+Fraser Health Authority`<br />`{=html}Media Line:
+604-613-0794`<br />`{=html}Email: media@fraserhealth.ca`<br />`{=html}
+
+Interior Health Authority`<br />`{=html}Media line:
+1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}
+
+Northern Health Authority`<br />`{=html}Media Line:
+1-877-961-7724`<br />`{=html}
+
+Vancouver Coastal Health Authority`<br />`{=html}Email:
+media@vch.ca`<br />`{=html}After-hours media line:
+604-202-2012`<br />`{=html}{{< card_end >}}
+
+## Regions included under this Air Quality Warning
+
+-   **100 Mile:** includes Hwy 97 from 108 Mile House to Clinton, Bridge
+    Lake and Canim Lake.
+-   **Arrow Lakes - Slocan Lake:** includes Slocan, New Denver, Nakusp,
+    and Fauquier.
+-   **Boundary:** includes Grand Forks, Midway and Greenwood.
+-   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
+-   **Cariboo (South):** includes Williams Lake, Northern and Central
+    sections of Wells Gray Park.
+-   **Central Okanagan:** includes Kelowna, Lake Country, West Kelowna
+    and Peachland.
+-   **Chilcotin:** includes Hansville, Alexis Creek, Chilanko Forks,
+    Tatla Lake, Nimpo Lake, Anahim Lake, and the southern half of
+    Tweedsmuir Park.
+-   **East Columbia:** includes Golden.
+-   **East Kootenay (North):** includes Edgewater, Invermere, Canal
+    Flats and Skookumchuck.
+-   **East Kootenay (South):** includes Kimberley, Cranbrook, Yahk,
+    Moyie, Wasa Lake Provincial Park, Jaffray, Grasmere and Roosville.
+-   **Elk Valley:** includes Elko, Fernie, Sparwood and Elkford.
+-   **Fraser Canyon (North):** includes Lillooet and Andersen Lake.
+-   **Fraser Canyon (South):** Trans Canada Hwy 1 from Lytton to Dogwood
+    Valley.
+-   **Kinbasket:** includes Kinbasket reservoir south of Valemount.
+-   **Kootenay Lake:** includes Creston and Kaslo.
+-   **Manning - Skagit Valley:** includes Sunshine Valley, Manning Park,
+    and Eastgate.
+-   **Nicola:** includes Merritt, Stump Lake, Pennask Lake, and
+    Brookmere.
+-   **North Columbia:** includes Blue River and McMurphy.
+-   **North Okanagan:** includes Vernon, Armstrong, Enderby, Lavington
+    and Lumby.
+-   **North Thompson:** includes Barriere, Clearwater and Vavenby.
+-   **Shuswap:** includes Salmon Arm, Sicamous, and Chase.
+-   **South Thompson:** Includes Kamloops, Rayleigh, Monte Creek, Cache
+    Creek, Spences Bridge and Logan Lake.
+-   **West Columbia:** includes Revelstoke.
+-   **West Kootenay:** includes Nelson, Castlegar, Trail, Rossland.
+-   **Yellowhead:** includes McBride and Valemount and all communities
+    within the southern half of the Robson Valley extending from Urling
+    to Valemount and the northern half of Mount Robson Park.
+-   **Yoho - Kootenay Park:** includes Yoho and Kootenay National Parks.
