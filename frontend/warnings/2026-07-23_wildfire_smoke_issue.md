@@ -5,7 +5,7 @@ authors:
 - Gail Roth
 date: 2026-07-23
 ice: Issue
-level: yellow
+level: yellow / orange
 location: Multiple regions in B.C.
 parametersAsRendered:
   aqMet: Gail Roth
@@ -15,14 +15,12 @@ parametersAsRendered:
   nextUpdate: 2026-07-24
   outputFormat: markdown
   smokeDuration: 24-48 hours
-  twoLevels: false
+  twoLevels: true
   warningLevel:
     all:
     - Manning - Skagit Valley
     - Similkameen
-    - Nicola
     - South Thompson
-    - Fraser Canyon - south including Lytton
     - Fraser Canyon - north including Lillooet
     - Chilcotin
     - Cariboo - north including Quesnel
@@ -33,7 +31,6 @@ parametersAsRendered:
     - North Thompson
     - 100 Mile
     - North Okanagan
-    - Central Okanagan - including Kelowna
     - Shuswap
     - South Okanagan
     - Boundary
@@ -47,12 +44,17 @@ parametersAsRendered:
     - East Kootenay - south including Cranbrook
     - Kootenay Lake
     - West Kootenay
+    - Nicola
+    - Fraser Canyon - south including Lytton
+    - Central Okanagan - including Kelowna
+    orange:
+    - Nicola
+    - Fraser Canyon - south including Lytton
+    - Central Okanagan - including Kelowna
     yellow:
     - Manning - Skagit Valley
     - Similkameen
-    - Nicola
     - South Thompson
-    - Fraser Canyon - south including Lytton
     - Fraser Canyon - north including Lillooet
     - Chilcotin
     - Cariboo - north including Quesnel
@@ -63,7 +65,6 @@ parametersAsRendered:
     - North Thompson
     - 100 Mile
     - North Okanagan
-    - Central Okanagan - including Kelowna
     - Shuswap
     - South Okanagan
     - Boundary
@@ -132,6 +133,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 {{< banner_alert_start title='Yellow Warning - Air Quality' variant='yellow'>}}
 {{< banner_alert_end >}}
+{{< banner_alert_start title='Orange Warning - Air Quality' variant='orange'>}}
+{{< banner_alert_end >}}
 
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
@@ -159,6 +162,9 @@ width="100%" height="600px"}
 
 ## Actions you can take
 
+{{< accordion_controls >}}
+{{< accordion_start title="For regions under yellow warnings" initiallyOpen="true" variant="yellow">}}
+
 Exposure to smoke can affect your health. Postpone or reduce strenuous
 outdoor activities until the warning has ended. Spend time indoors in a
 space with cleaner air.
@@ -167,6 +173,20 @@ Some people are more likely to be negatively impacted by smoke. This
 includes people with lung and heart conditions, pregnant individuals,
 infants and young children, people aged 65 and older, and anyone whose
 health is affected by a chronic condition or acute illness.
+
+{{< accordion_end >}}
+{{< accordion_start title="For regions under orange warnings" initiallyOpen="true" variant="orange">}}
+
+Exposure to high smoke levels can pose threat to your health regardless
+of age or health status. Avoid strenuous outdoor activities until the
+warning has ended. Stay indoors in a space with cleaner air.
+
+Some people are more likely to be negatively impacted by smoke. This
+includes people with lung and heart conditions, pregnant individuals,
+infants and young children, people aged 65 and older, and anyone whose
+health is affected by a chronic condition or acute illness.
+
+{{< accordion_end >}}
 
 ## During smoky conditions
 
