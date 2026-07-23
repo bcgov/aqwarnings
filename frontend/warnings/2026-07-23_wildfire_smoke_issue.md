@@ -10,7 +10,7 @@ location: Multiple regions in B.C.
 parametersAsRendered:
   aqMet: Gail Roth
   customMessage: Smoke may also be visible in the Similkameen, Southern
-    Okanagan and along Hwy 16 , Smithers through Terrace.
+    Okanagan and along Hwy 16, Smithers through Terrace.
   location: Multiple regions in B.C.
   nextUpdate: 2026-07-24
   outputFormat: markdown
