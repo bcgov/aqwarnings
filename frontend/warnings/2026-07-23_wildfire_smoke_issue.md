@@ -18,59 +18,65 @@ parametersAsRendered:
   twoLevels: false
   warningLevel:
     all:
+    - Manning - Skagit Valley
+    - Similkameen
+    - Nicola
+    - South Thompson
+    - Fraser Canyon - south including Lytton
+    - Fraser Canyon - north including Lillooet
     - Chilcotin
     - Cariboo - north including Quesnel
     - Cariboo - south including Williams Lake
     - Yellowhead
     - Kinbasket
     - North Columbia
-    - Yoho Park - Kootenay Park
-    - East Columbia
-    - West Columbia
     - North Thompson
     - 100 Mile
-    - South Thompson
-    - Shuswap
     - North Okanagan
     - Central Okanagan - including Kelowna
-    - Nicola
-    - Manning - Skagit Valley
-    - Fraser Canyon - south including Lytton
-    - Fraser Canyon - north including Lillooet
+    - Shuswap
+    - South Okanagan
     - Boundary
     - Arrow Lakes - Slocan Lake
-    - West Kootenay
-    - Kootenay Lake
+    - West Columbia
+    - East Columbia
+    - background
+    - Yoho Park - Kootenay Park
+    - Elk Valley
     - East Kootenay - north including Invermere
     - East Kootenay - south including Cranbrook
-    - Elk Valley
+    - Kootenay Lake
+    - West Kootenay
     yellow:
+    - Manning - Skagit Valley
+    - Similkameen
+    - Nicola
+    - South Thompson
+    - Fraser Canyon - south including Lytton
+    - Fraser Canyon - north including Lillooet
     - Chilcotin
     - Cariboo - north including Quesnel
     - Cariboo - south including Williams Lake
     - Yellowhead
     - Kinbasket
     - North Columbia
-    - Yoho Park - Kootenay Park
-    - East Columbia
-    - West Columbia
     - North Thompson
     - 100 Mile
-    - South Thompson
-    - Shuswap
     - North Okanagan
     - Central Okanagan - including Kelowna
-    - Nicola
-    - Manning - Skagit Valley
-    - Fraser Canyon - south including Lytton
-    - Fraser Canyon - north including Lillooet
+    - Shuswap
+    - South Okanagan
     - Boundary
     - Arrow Lakes - Slocan Lake
-    - West Kootenay
-    - Kootenay Lake
+    - West Columbia
+    - East Columbia
+    - background
+    - Yoho Park - Kootenay Park
+    - Elk Valley
     - East Kootenay - north including Invermere
     - East Kootenay - south including Cranbrook
-    - Elk Valley
+    - Kootenay Lake
+    - West Kootenay
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -131,7 +137,7 @@ The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
 Smoke may also be visible in the Similkameen, Southern Okanagan and
-along Hwy 16 , Smithers through Terrace.
+along Hwy 16, Smithers through Terrace.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -148,7 +154,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-07-23_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 23, 2026: 100 Mile, Arrow Lakes - Slocan Lake, Boundary, Cariboo (North), Cariboo (South), Central Okanagan, Chilcotin, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Fraser Canyon (North), Fraser Canyon (South), Kinbasket, Kootenay Lake, Manning - Skagit Valley, Nicola, North Columbia, North Okanagan, North Thompson, Shuswap, South Thompson, West Columbia, West Kootenay, Yellowhead, Yoho - Kootenay Park."
+Vancouver.](2026-07-23_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 23, 2026: 100 Mile, Arrow Lakes - Slocan Lake, Boundary, Cariboo (North), Cariboo (South), Central Okanagan, Chilcotin, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Fraser Canyon (North), Fraser Canyon (South), Kinbasket, Kootenay Lake, Manning - Skagit Valley, Nicola, North Columbia, North Okanagan, North Thompson, Shuswap, Similkameen, South Okanagan , South Thompson, West Columbia, West Kootenay, Yellowhead, Yoho - Kootenay Park."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -381,6 +387,10 @@ media@vch.ca`<br />`{=html}After-hours media line:
     and Lumby.
 -   **North Thompson:** includes Barriere, Clearwater and Vavenby.
 -   **Shuswap:** includes Salmon Arm, Sicamous, and Chase.
+-   **Similkameen:** includes Princeton, Allenby, Copper Mountain, Jura,
+    and Hedley.
+-   **South Okanagan :** includes Penticton, Summerland, Naramata,
+    Keremeos, Oliver and Osoyoos.
 -   **South Thompson:** Includes Kamloops, Rayleigh, Monte Creek, Cache
     Creek, Spences Bridge and Logan Lake.
 -   **West Columbia:** includes Revelstoke.
