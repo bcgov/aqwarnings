@@ -27,6 +27,7 @@ parametersAsRendered:
     - Fraser Canyon - north including Lillooet
     - Arrow Lakes - Slocan Lake
     - West Kootenay
+    - B.C. North Peace River
     - Cariboo - south including Williams Lake
     - Chilcotin
     orange:
@@ -44,6 +45,7 @@ parametersAsRendered:
     - Fraser Canyon - north including Lillooet
     - Arrow Lakes - Slocan Lake
     - West Kootenay
+    - B.C. North Peace River
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -120,7 +122,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-07-26_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 26, 2026: 100 Mile, Arrow Lakes - Slocan Lake, B.C. South Peace River, Boundary, Cariboo (North), Cariboo (South), Chilcotin, Fraser Canyon (North), Fraser Canyon (South), McGregor, Prince George, Similkameen, West Kootenay."
+Vancouver.](2026-07-26_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 26, 2026: 100 Mile, Arrow Lakes - Slocan Lake, B.C. North Peace River, B.C. South Peace River, Boundary, Cariboo (North), Cariboo (South), Chilcotin, Fraser Canyon (North), Fraser Canyon (South), McGregor, Prince George, Similkameen, West Kootenay."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -345,6 +347,10 @@ media@vch.ca`<br />`{=html}After-hours media line:
     Lake and Canim Lake.
 -   **Arrow Lakes - Slocan Lake:** includes Slocan, New Denver, Nakusp,
     and Fauquier.
+-   **B.C. North Peace River:** includes the City of Fort St John and
+    all communities along Hwy 97 extending from Farmington to Pink
+    Mountain; Hwy 29 including Moberly Lake, Hudson's Hope; also
+    includes Rolla, Clayhurst and Goodlow.
 -   **B.C. South Peace River:** includes Chetwynd, Dawson Creek, Pouce
     Coupe, and Tumbler Ridge.
 -   **Boundary:** includes Grand Forks, Midway and Greenwood.
