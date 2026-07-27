@@ -5,37 +5,41 @@ authors:
 - Gail Roth
 date: 2026-07-27
 ice: Issue
-level: yellow
+level: yellow / orange
 location: Multiple regions in B.C.
 parametersAsRendered:
   aqMet: Gail Roth
-  customMessage: The most significant smoke impacts in the South
-    Thompson region are expected along the western boundary, including
-    the areas around Spences Bridge and Cache Creek.
+  customMessage: Smoke impacts within the South Thompson region are
+    expected along the western boundary, including the areas around
+    Spences Bridge and Cache Creek.
   location: Multiple regions in B.C.
   nextUpdate: 2026-07-28
   outputFormat: markdown
   smokeDuration: 24-48 hours
-  twoLevels: false
+  twoLevels: true
   warningLevel:
     all:
+    - 100 Mile
     - Fraser Canyon - south including Lytton
+    - South Thompson
     - Similkameen
     - South Okanagan
     - Boundary
-    - West Kootenay
     - Arrow Lakes - Slocan Lake
+    - West Kootenay
+    - Cariboo - north including Quesnel
     - Cariboo - south including Williams Lake
-    - South Thompson
+    orange: Cariboo - south including Williams Lake
     yellow:
+    - 100 Mile
     - Fraser Canyon - south including Lytton
+    - South Thompson
     - Similkameen
     - South Okanagan
     - Boundary
-    - West Kootenay
     - Arrow Lakes - Slocan Lake
-    - Cariboo - south including Williams Lake
-    - South Thompson
+    - West Kootenay
+    - Cariboo - north including Quesnel
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -73,7 +77,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- the trailing slash means the text in square brackets is alt text -->
 <!-- note: logos and title for PDF output handled in src/header.txt -->
 
-::: {layout-ncol= 4 layout-valign="bottom"}
+::: {layout-ncol= 5 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
@@ -83,17 +87,21 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![Fraser Health Authority logo](/assets/logo_FH.png)\
 
+![Northern Health Authority logo](/assets/logo_NH.png)\
+
 :::
 
 {{< banner_alert_start title='Yellow Warning - Air Quality' variant='yellow'>}}
+{{< banner_alert_end >}}
+{{< banner_alert_start title='Orange Warning - Air Quality' variant='orange'>}}
 {{< banner_alert_end >}}
 
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-The most significant smoke impacts in the South Thompson region are
-expected along the western boundary, including the areas around Spences
-Bridge and Cache Creek.
+Smoke impacts within the South Thompson region are expected along the
+western boundary, including the areas around Spences Bridge and Cache
+Creek.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -110,10 +118,13 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-07-27_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 27, 2026: Arrow Lakes - Slocan Lake, Boundary, Cariboo (South), Fraser Canyon (South), Similkameen, South Okanagan , South Thompson, West Kootenay."
+Vancouver.](2026-07-27_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 27, 2026: 100 Mile, Arrow Lakes - Slocan Lake, Boundary, Cariboo (North), Cariboo (South), Fraser Canyon (South), Similkameen, South Okanagan , South Thompson, West Kootenay."
 width="100%" height="600px"}
 
 ## Actions you can take
+
+{{< accordion_controls >}}
+{{< accordion_start title="For regions under yellow warnings" initiallyOpen="true" variant="yellow">}}
 
 Exposure to smoke can affect your health. Postpone or reduce strenuous
 outdoor activities until the warning has ended. Spend time indoors in a
@@ -123,6 +134,20 @@ Some people are more likely to be negatively impacted by smoke. This
 includes people with lung and heart conditions, pregnant individuals,
 infants and young children, people aged 65 and older, and anyone whose
 health is affected by a chronic condition or acute illness.
+
+{{< accordion_end >}}
+{{< accordion_start title="For regions under orange warnings" initiallyOpen="true" variant="orange">}}
+
+Exposure to high smoke levels can pose threat to your health regardless
+of age or health status. Avoid strenuous outdoor activities until the
+warning has ended. Stay indoors in a space with cleaner air.
+
+Some people are more likely to be negatively impacted by smoke. This
+includes people with lung and heart conditions, pregnant individuals,
+infants and young children, people aged 65 and older, and anyone whose
+health is affected by a chronic condition or acute illness.
+
+{{< accordion_end >}}
 
 ## During smoky conditions
 
@@ -299,13 +324,19 @@ Fraser Health Authority`<br />`{=html}Media Line:
 
 Interior Health Authority`<br />`{=html}Media line:
 1-844-469-7077`<br />`{=html}Email:
-media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
+media@interiorhealth.ca`<br />`{=html}
+
+Northern Health Authority`<br />`{=html}Media Line:
+1-877-961-7724`<br />`{=html}{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
+-   **100 Mile:** includes Hwy 97 from 108 Mile House to Clinton, Bridge
+    Lake and Canim Lake.
 -   **Arrow Lakes - Slocan Lake:** includes Slocan, New Denver, Nakusp,
     and Fauquier.
 -   **Boundary:** includes Grand Forks, Midway and Greenwood.
+-   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
 -   **Cariboo (South):** includes Williams Lake, Northern and Central
     sections of Wells Gray Park.
 -   **Fraser Canyon (South):** Trans Canada Hwy 1 from Lytton to Dogwood
