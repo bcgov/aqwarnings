@@ -9,9 +9,6 @@ level: yellow
 location: Multiple regions in B.C.
 parametersAsRendered:
   aqMet: Gail Roth
-  customMessage: Smoke is lingering over the northern Cariboo, including
-    the Quesnel area, this morning, but air quality is expected to
-    improve as the smoke clears through the day.
   location: Multiple regions in B.C.
   nextUpdate: 2026-07-29
   outputFormat: markdown
@@ -19,35 +16,37 @@ parametersAsRendered:
   twoLevels: false
   warningLevel:
     all:
-    - Kootenay Lake
-    - East Kootenay - south including Cranbrook
-    - East Kootenay - north including Invermere
-    - West Columbia
-    - East Columbia
-    - Arrow Lakes - Slocan Lake
-    - West Kootenay
-    - Boundary
-    - South Okanagan
-    - Fraser Canyon - south including Lytton
+    - Cariboo - north including Quesnel
+    - Cariboo - south including Williams Lake
     - 100 Mile
     - Central Okanagan - including Kelowna
+    - South Okanagan
+    - Boundary
+    - Arrow Lakes - Slocan Lake
+    - West Columbia
+    - East Columbia
+    - East Kootenay - north including Invermere
+    - Kootenay Lake
+    - West Kootenay
+    - East Kootenay - south including Cranbrook
     - Elk Valley
-    - Cariboo - north including Quesnel
+    - Prince George
     yellow:
-    - Kootenay Lake
-    - East Kootenay - south including Cranbrook
-    - East Kootenay - north including Invermere
-    - West Columbia
-    - East Columbia
-    - Arrow Lakes - Slocan Lake
-    - West Kootenay
-    - Boundary
-    - South Okanagan
-    - Fraser Canyon - south including Lytton
+    - Cariboo - north including Quesnel
+    - Cariboo - south including Williams Lake
     - 100 Mile
     - Central Okanagan - including Kelowna
+    - South Okanagan
+    - Boundary
+    - Arrow Lakes - Slocan Lake
+    - West Columbia
+    - East Columbia
+    - East Kootenay - north including Invermere
+    - Kootenay Lake
+    - West Kootenay
+    - East Kootenay - south including Cranbrook
     - Elk Valley
-    - Cariboo - north including Quesnel
+    - Prince George
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -85,15 +84,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- the trailing slash means the text in square brackets is alt text -->
 <!-- note: logos and title for PDF output handled in src/header.txt -->
 
-::: {layout-ncol= 5 layout-valign="bottom"}
+::: {layout-ncol= 4 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
-
-![Fraser Health Authority logo](/assets/logo_FH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -104,10 +101,6 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
-
-Smoke is lingering over the northern Cariboo, including the Quesnel
-area, this morning, but air quality is expected to improve as the smoke
-clears through the day.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -124,7 +117,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-07-28_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 28, 2026: 100 Mile, Arrow Lakes - Slocan Lake, Boundary, Cariboo (North), Central Okanagan, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Fraser Canyon (South), Kootenay Lake, South Okanagan , West Columbia, West Kootenay."
+Vancouver.](2026-07-28_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 28, 2026: 100 Mile, Arrow Lakes - Slocan Lake, Boundary, Cariboo (North), Cariboo (South), Central Okanagan, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Kootenay Lake, Prince George, South Okanagan , West Columbia, West Kootenay."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -251,6 +244,10 @@ Warnings and map of air quality and weather data.
 [Air quality data and
 warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories)
 {{< card_end >}}
+{{< card_start title="Local Resources" variant="info" logo="/assets/icon_air.svg" >}}
+
+[Prince George Air Improvement
+Roundtable](https://www.pgairquality.com/) {{< card_end >}}
 :::
 
 **For additional general information about wildfire smoke and your
@@ -308,9 +305,6 @@ Services or Main FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
 604-831-4898`<br />`{=html}
 
-Fraser Health Authority`<br />`{=html}Media Line:
-604-613-0794`<br />`{=html}Email: media@fraserhealth.ca`<br />`{=html}
-
 Interior Health Authority`<br />`{=html}Media line:
 1-844-469-7077`<br />`{=html}Email:
 media@interiorhealth.ca`<br />`{=html}
@@ -326,6 +320,8 @@ Northern Health Authority`<br />`{=html}Media Line:
     and Fauquier.
 -   **Boundary:** includes Grand Forks, Midway and Greenwood.
 -   **Cariboo (North):** includes Quesnel, Wells and Bowron Lake Park.
+-   **Cariboo (South):** includes Williams Lake, Northern and Central
+    sections of Wells Gray Park.
 -   **Central Okanagan:** includes Kelowna, Lake Country, West Kelowna
     and Peachland.
 -   **East Columbia:** includes Golden.
@@ -334,9 +330,10 @@ Northern Health Authority`<br />`{=html}Media Line:
 -   **East Kootenay (South):** includes Kimberley, Cranbrook, Yahk,
     Moyie, Wasa Lake Provincial Park, Jaffray, Grasmere and Roosville.
 -   **Elk Valley:** includes Elko, Fernie, Sparwood and Elkford.
--   **Fraser Canyon (South):** Trans Canada Hwy 1 from Lytton to Dogwood
-    Valley.
 -   **Kootenay Lake:** includes Creston and Kaslo.
+-   **Prince George:** includes the City of Prince George, Hwy 16
+    Bednesti to Upper Fraser, and Hwy 97 Hixon to the south end of
+    McLeod Lake.
 -   **South Okanagan :** includes Penticton, Summerland, Naramata,
     Keremeos, Oliver and Osoyoos.
 -   **West Columbia:** includes Revelstoke.
