@@ -30,6 +30,7 @@ parametersAsRendered:
     - West Kootenay
     - East Kootenay - south including Cranbrook
     - Elk Valley
+    - Prince George
     yellow:
     - Cariboo - north including Quesnel
     - Cariboo - south including Williams Lake
@@ -45,6 +46,7 @@ parametersAsRendered:
     - West Kootenay
     - East Kootenay - south including Cranbrook
     - Elk Valley
+    - Prince George
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -115,7 +117,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-07-28_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 28, 2026: 100 Mile, Arrow Lakes - Slocan Lake, Boundary, Cariboo (North), Cariboo (South), Central Okanagan, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Kootenay Lake, South Okanagan , West Columbia, West Kootenay."
+Vancouver.](2026-07-28_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for July 28, 2026: 100 Mile, Arrow Lakes - Slocan Lake, Boundary, Cariboo (North), Cariboo (South), Central Okanagan, East Columbia, East Kootenay (North), East Kootenay (South), Elk Valley, Kootenay Lake, Prince George, South Okanagan , West Columbia, West Kootenay."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -242,6 +244,10 @@ Warnings and map of air quality and weather data.
 [Air quality data and
 warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories)
 {{< card_end >}}
+{{< card_start title="Local Resources" variant="info" logo="/assets/icon_air.svg" >}}
+
+[Prince George Air Improvement
+Roundtable](https://www.pgairquality.com/) {{< card_end >}}
 :::
 
 **For additional general information about wildfire smoke and your
@@ -325,6 +331,9 @@ Northern Health Authority`<br />`{=html}Media Line:
     Moyie, Wasa Lake Provincial Park, Jaffray, Grasmere and Roosville.
 -   **Elk Valley:** includes Elko, Fernie, Sparwood and Elkford.
 -   **Kootenay Lake:** includes Creston and Kaslo.
+-   **Prince George:** includes the City of Prince George, Hwy 16
+    Bednesti to Upper Fraser, and Hwy 97 Hixon to the south end of
+    McLeod Lake.
 -   **South Okanagan :** includes Penticton, Summerland, Naramata,
     Keremeos, Oliver and Osoyoos.
 -   **West Columbia:** includes Revelstoke.
