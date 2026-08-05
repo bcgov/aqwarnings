@@ -1,6 +1,6 @@
 title: Air Quality Warning Issued
 type: redirect
-date: 2026-08-04
+date: 2026-08-05
 ice: "Issue" #"Issue", "Continue", or "End"
-location: "Fraser Valley - Eastern"
+location: "Metro Vancouver & Fraser Valley"
 path: "https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories"
