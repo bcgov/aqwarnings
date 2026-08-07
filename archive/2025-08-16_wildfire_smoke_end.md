@@ -8,19 +8,18 @@ customMessage: Wildfire smoke concentrations have reduced over the past
   southeastern BC due to smoke from the Sunset fire in northern Idaho.
 date: 2025-08-16
 ice: End
-lastWarning: 20315
+lastWarning: 2025-08-15
 location: Regions on Vancouver Island - Port Alberni and Comox Valley
   through Nanoose Bay
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Wildfire smoke concentrations have reduced over the past 24 hours. Smoke may continue to be visible near active fires and in southeastern BC due to smoke from the Sunset fire in northern Idaho."
   ice: End
-  lastWarning: 2025-02-10
-  location: Multiple locations in B.C.
-  sel_aqMet: Sakshi Jain
-  sel_healthAuth:
-  - First Nations Health Authority
-  - Northern Health
-sel_healthAuth: Vancouver Island Health Authority
+  lastWarning: 2025-08-15
+  location: Regions on Vancouver Island - Port Alberni and Comox Valley through Nanoose Bay
+  aqMet: Gail Roth
+  healthAuth:
+  - Vancouver Island Health Authority
+healthAuth: Vancouver Island Health Authority
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
 type: wildfire_smoke

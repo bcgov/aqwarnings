@@ -9,17 +9,18 @@ date: 2025-09-19
 ice: Issue
 location: Central Interior and West Columbia
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke from fires in the Chilcotin and Cariboo are impacting many regions in the Interior of the province."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Central Interior and West Columbia
+  nextUpdate: 2025-09-20
+  aqMet: Donna Haga
+  regions:
+  - 100 Mile
+  - Cariboo - south including Williams Lake
+  - Chilcotin
+  - North Thompson
+  - West Columbia
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
