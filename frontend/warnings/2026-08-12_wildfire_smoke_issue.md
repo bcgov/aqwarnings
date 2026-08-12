@@ -12,7 +12,7 @@ parametersAsRendered:
   customMessage: Cooler, wetter, convective conditions have led to
     clearing in many regions and improvements across the Central and
     Southern Interior. Localized impacts will continue today downwind of
-    the Brunswick Creed, Ainslie Creek, and Bald Ridge fires.
+    the Brunswick Creek, Ainslie Creek, and Bald Range fires.
   location: Central and Southern Interior
   nextUpdate: 2026-08-13
   outputFormat: markdown
@@ -20,32 +20,32 @@ parametersAsRendered:
   twoLevels: true
   warningLevel:
     all:
-    - Kootenay Lake
-    - West Kootenay
-    - Arrow Lakes - Slocan Lake
-    - Central Okanagan - including Kelowna
-    - Boundary
-    - Similkameen
-    - Nicola
-    - Manning - Skagit Valley
     - Fraser Canyon - north including Lillooet
     - South Thompson
-    - South Okanagan
+    - Nicola
+    - Manning - Skagit Valley
+    - Similkameen
+    - Central Okanagan - including Kelowna
+    - Arrow Lakes - Slocan Lake
+    - Boundary
+    - West Kootenay
+    - Kootenay Lake
     - Fraser Canyon - south including Lytton
+    - South Okanagan
     orange:
-    - South Okanagan
     - Fraser Canyon - south including Lytton
+    - South Okanagan
     yellow:
-    - Kootenay Lake
-    - West Kootenay
-    - Arrow Lakes - Slocan Lake
-    - Central Okanagan - including Kelowna
-    - Boundary
-    - Similkameen
-    - Nicola
-    - Manning - Skagit Valley
     - Fraser Canyon - north including Lillooet
     - South Thompson
+    - Nicola
+    - Manning - Skagit Valley
+    - Similkameen
+    - Central Okanagan - including Kelowna
+    - Arrow Lakes - Slocan Lake
+    - Boundary
+    - West Kootenay
+    - Kootenay Lake
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -105,8 +105,8 @@ likely to be impacted by wildfire smoke over the next 24-48 hours.
 
 Cooler, wetter, convective conditions have led to clearing in many
 regions and improvements across the Central and Southern Interior.
-Localized impacts will continue today downwind of the Brunswick Creed,
-Ainslie Creek, and Bald Ridge fires.
+Localized impacts will continue today downwind of the Brunswick Creek,
+Ainslie Creek, and Bald Range fires.
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
