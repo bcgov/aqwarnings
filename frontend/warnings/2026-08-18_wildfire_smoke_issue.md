@@ -16,34 +16,35 @@ parametersAsRendered:
   twoLevels: true
   warningLevel:
     all:
-    - Fraser Canyon - south including Lytton
+    - South Thompson
     - Fraser Canyon - north including Lillooet
+    - Fraser Canyon - south including Lytton
+    - Similkameen
     - South Okanagan
     - Central Okanagan - including Kelowna
     - Boundary
+    - Arrow Lakes - Slocan Lake
     - West Kootenay
     - Kootenay Lake
     - East Kootenay - south including Cranbrook
-    - Elk Valley
     - East Kootenay - north including Invermere
-    - Arrow Lakes - Slocan Lake
-    - Similkameen
+    - Elk Valley
     - Nicola
-    orange:
-    - Similkameen
-    - Nicola
+    orange: Nicola
     yellow:
-    - Fraser Canyon - south including Lytton
+    - South Thompson
     - Fraser Canyon - north including Lillooet
+    - Fraser Canyon - south including Lytton
+    - Similkameen
     - South Okanagan
     - Central Okanagan - including Kelowna
     - Boundary
+    - Arrow Lakes - Slocan Lake
     - West Kootenay
     - Kootenay Lake
     - East Kootenay - south including Cranbrook
-    - Elk Valley
     - East Kootenay - north including Invermere
-    - Arrow Lakes - Slocan Lake
+    - Elk Valley
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -116,7 +117,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-08-18_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 18, 2026: Arrow Lakes - Slocan Lake, Boundary, Central Okanagan, East Kootenay (North), East Kootenay (South), Elk Valley, Fraser Canyon (North), Fraser Canyon (South), Kootenay Lake, Nicola, Similkameen, South Okanagan , West Kootenay."
+Vancouver.](2026-08-18_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 18, 2026: Arrow Lakes - Slocan Lake, Boundary, Central Okanagan, East Kootenay (North), East Kootenay (South), Elk Valley, Fraser Canyon (North), Fraser Canyon (South), Kootenay Lake, Nicola, Similkameen, South Okanagan , South Thompson, West Kootenay."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -346,4 +347,6 @@ media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
     and Hedley.
 -   **South Okanagan :** includes Penticton, Summerland, Naramata,
     Keremeos, Oliver and Osoyoos.
+-   **South Thompson:** Includes Kamloops, Rayleigh, Monte Creek, Cache
+    Creek, Spences Bridge and Logan Lake.
 -   **West Kootenay:** includes Nelson, Castlegar, Trail, Rossland.
