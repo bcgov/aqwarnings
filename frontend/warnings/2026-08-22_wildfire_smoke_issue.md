@@ -6,7 +6,7 @@ authors:
 date: 2026-08-22
 ice: Issue
 level: yellow / orange
-location: Cariboo, Chilcotin, Southern Interior, and Southeastern B.C.
+location: Central and Southern B.C.
 parametersAsRendered:
   aqMet: Gail Roth
   customMessage: The highest smoke concentrations are expected west of
