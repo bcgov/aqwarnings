@@ -23,6 +23,7 @@ parametersAsRendered:
     - South Okanagan
     - Shuswap
     - 100 Mile
+    - Manning - Skagit Valley
     yellow:
     - South Thompson
     - Fraser Canyon - south including Lytton
@@ -31,6 +32,7 @@ parametersAsRendered:
     - South Okanagan
     - Shuswap
     - 100 Mile
+    - Manning - Skagit Valley
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -101,7 +103,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-08-23_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 23, 2026: 100 Mile, Fraser Canyon (South), Nicola, North Okanagan, Shuswap, South Okanagan , South Thompson."
+Vancouver.](2026-08-23_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 23, 2026: 100 Mile, Fraser Canyon (South), Manning - Skagit Valley, Nicola, North Okanagan, Shuswap, South Okanagan , South Thompson."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -298,6 +300,8 @@ media@interiorhealth.ca`<br />`{=html}{{< card_end >}}
     Lake and Canim Lake.
 -   **Fraser Canyon (South):** Trans Canada Hwy 1 from Lytton to Dogwood
     Valley.
+-   **Manning - Skagit Valley:** includes Sunshine Valley, Manning Park,
+    and Eastgate.
 -   **Nicola:** includes Merritt, Stump Lake, Pennask Lake, and
     Brookmere.
 -   **North Okanagan:** includes Vernon, Armstrong, Enderby, Lavington
