@@ -22,10 +22,20 @@ parametersAsRendered:
     - Chilcotin
     - South Thompson
     - South Okanagan
+    - Nicola
+    - Fraser Canyon - north including Lillooet
+    - Fraser Canyon - south including Lytton
+    - Similkameen
+    - Manning - Skagit Valley
     yellow:
     - Chilcotin
     - South Thompson
     - South Okanagan
+    - Nicola
+    - Fraser Canyon - north including Lillooet
+    - Fraser Canyon - south including Lytton
+    - Similkameen
+    - Manning - Skagit Valley
 params:
   aqMet: Sakshi Jain
   customMessage: "`Custom message.`"
@@ -63,13 +73,15 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- the trailing slash means the text in square brackets is alt text -->
 <!-- note: logos and title for PDF output handled in src/header.txt -->
 
-::: {layout-ncol= 4 layout-valign="bottom"}
+::: {layout-ncol= 5 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
+
+![Fraser Health Authority logo](/assets/logo_FH.png)\
 
 ![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
 
@@ -99,7 +111,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 page. This Air Quality Warning excludes the area managed by Metro
 Vancouver. Refer to the More Information section for a link to air
 quality notifications issued by Metro
-Vancouver.](2026-08-24_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 24, 2026: Chilcotin, South Okanagan , South Thompson."
+Vancouver.](2026-08-24_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for August 24, 2026: Chilcotin, Fraser Canyon (North), Fraser Canyon (South), Manning - Skagit Valley, Nicola, Similkameen, South Okanagan , South Thompson."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -283,6 +295,9 @@ Services or Main FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
 604-831-4898`<br />`{=html}
 
+Fraser Health Authority`<br />`{=html}Media Line:
+604-613-0794`<br />`{=html}Email: media@fraserhealth.ca`<br />`{=html}
+
 Interior Health Authority`<br />`{=html}Media line:
 1-844-469-7077`<br />`{=html}Email:
 media@interiorhealth.ca`<br />`{=html}
@@ -296,6 +311,15 @@ media@vch.ca`<br />`{=html}After-hours media line:
 -   **Chilcotin:** includes Hansville, Alexis Creek, Chilanko Forks,
     Tatla Lake, Nimpo Lake, Anahim Lake, and the southern half of
     Tweedsmuir Park.
+-   **Fraser Canyon (North):** includes Lillooet and Andersen Lake.
+-   **Fraser Canyon (South):** Trans Canada Hwy 1 from Lytton to Dogwood
+    Valley.
+-   **Manning - Skagit Valley:** includes Sunshine Valley, Manning Park,
+    and Eastgate.
+-   **Nicola:** includes Merritt, Stump Lake, Pennask Lake, and
+    Brookmere.
+-   **Similkameen:** includes Princeton, Allenby, Copper Mountain, Jura,
+    and Hedley.
 -   **South Okanagan :** includes Penticton, Summerland, Naramata,
     Keremeos, Oliver and Osoyoos.
 -   **South Thompson:** Includes Kamloops, Rayleigh, Monte Creek, Cache
