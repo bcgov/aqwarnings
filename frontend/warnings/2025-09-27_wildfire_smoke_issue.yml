@@ -8,17 +8,24 @@ date: 2025-09-27
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke will be highly variable in and around the complex valleys in southern areas of the province"
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-28
+  aqMet: Gavin King
+  regions:
+  - Arrow Lakes - Slocan Lake
+  - Boundary
+  - Central Okanagan - including Kelowna
+  - East Kootenay - north including Invermere
+  - East Kootenay - south including Cranbrook
+  - Elk Valley
+  - Kootenay Lake
+  - North Okanagan
+  - Similkameen
   - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - West Kootenay
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

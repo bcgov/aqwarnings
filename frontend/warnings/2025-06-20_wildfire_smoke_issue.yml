@@ -8,17 +8,18 @@ date: 2025-06-20
 ice: Issue
 location: Northeast B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke may be visible across the northeast region of the province."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
+  location: Northeast B.C.
+  nextUpdate: 2025-06-21
+  aqMet: Muntaseer Azkar
+  regions:
+  - Fort Nelson
+  - Grayling River Hotsprings Ecological Reserve
+  - Muncho Lake Park - Stone Mountain Park
+  - Stikine River and Spatsizi Plateau Wilderness Provincial Parks
   - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

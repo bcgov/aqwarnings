@@ -9,17 +9,22 @@ date: 2025-06-21
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke may be visible across the northeast and central regions of the province."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-06-22
+  aqMet: Muntaseer Azkar
+  regions:
+  - B.C. North Peace River
+  - B.C. South Peace River
+  - Bulkley Valley
+  - Fort Nelson
+  - Lakes District
+  - McGregor
   - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - Stuart - Nechako
+  - Williston
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
