@@ -1,0 +1,26 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/warnings/2025-06-13_wildfire_smoke_issue.html",
+      "/warnings/2025-06-12_wildfire_smoke_issue.html"
+    ]
+  },
+  {
+    "listing": "/warnings.html",
+    "items": [
+      "/warnings/2025-06-13_wildfire_smoke_issue.html",
+      "/warnings/2025-06-12_wildfire_smoke_issue.html",
+      "/warnings/2025-06-11_wildfire_smoke_issue.html",
+      "/warnings/2025-06-10_wildfire_smoke_issue.html",
+      "/warnings/2025-06-09_wildfire_smoke_issue.html",
+      "/warnings/2025-06-08_wildfire_smoke_issue.html",
+      "/warnings/2025-06-07_wildfire_smoke_issue.html",
+      "/warnings/2025-06-06_wildfire_smoke_issue.html",
+      "/warnings/2025-06-05_wildfire_smoke_issue.html",
+      "/warnings/2025-06-04_wildfire_smoke_issue.html",
+      "/warnings/2025-06-03_wildfire_smoke_issue.html",
+      "/warnings/2025-06-02_wildfire_smoke_issue.html"
+    ]
+  }
+]
