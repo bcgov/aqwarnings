@@ -9,17 +9,21 @@ date: 2025-06-13
 ice: Issue
 location: Northern Regions of B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Wildfire smoke may also be visible in the Williston Region and in any areas near local fire activity."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
+  location: Northern Regions of B.C.
+  nextUpdate: 2025-06-14
+  aqMet: Gail Roth
+  regions:
+  - Atlin
+  - B.C. North Peace River
+  - Cassiar Mountains
+  - Fort Nelson
+  - Grayling River Hotsprings Ecological Reserve
+  - Muncho Lake Park - Stone Mountain Park
+  - Teslin
   - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

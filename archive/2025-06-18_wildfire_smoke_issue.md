@@ -10,17 +10,14 @@ date: 2025-06-18
 ice: Issue
 location: Fort Nelson
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke will also be visible in regions along the northern border of the province and parts of the Cariboo (Quesnel and Williams Lake)."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Fort Nelson
+  nextUpdate: 2025-06-19
+  aqMet: Gail Roth
+  regions:
+  - Fort Nelson
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

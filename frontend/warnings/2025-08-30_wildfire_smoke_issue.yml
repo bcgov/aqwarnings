@@ -8,17 +8,16 @@ date: 2025-08-30
 ice: Issue
 location: Central Interior
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "There are new fire starts across the province, expect smoke near to active fires."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
+  location: Central Interior
+  nextUpdate: 2025-08-31
+  aqMet: Gavin King
+  regions:
+  - Cariboo - north including Quesnel
+  - Chilcotin
   - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

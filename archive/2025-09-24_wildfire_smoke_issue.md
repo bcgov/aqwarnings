@@ -9,17 +9,19 @@ date: 2025-09-24
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke concentration is predicted to be highly variable over the next 24 hours as winds change across the region."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-25
+  aqMet: Gavin King
+  regions:
+  - Central Okanagan - including Kelowna
+  - Manning - Skagit Valley
+  - North Okanagan
+  - Shuswap
+  - Similkameen
   - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

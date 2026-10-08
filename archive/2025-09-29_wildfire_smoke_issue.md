@@ -7,17 +7,23 @@ date: 2025-09-29
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: ""
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-30
+  aqMet: Nick Davey
+  regions:
+  - Arrow Lakes - Slocan Lake
+  - Boundary
+  - Central Okanagan - including Kelowna
+  - Kootenay Lake
+  - North Okanagan
+  - North Thompson
+  - Shuswap
   - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - West Columbia
+  - West Kootenay
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
