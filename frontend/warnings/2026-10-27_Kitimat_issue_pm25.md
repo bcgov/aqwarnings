@@ -3,7 +3,7 @@ author:
 - Sakshi Jain
 authors:
 - Sakshi Jain
-burnRestrictions: 0
+burnRestrictions: 1
 bylaw: false
 date: 2026-10-27
 ice: Issue
@@ -11,10 +11,11 @@ level: yellow
 location: Kitimat
 parametersAsRendered:
   aqMet: Sakshi Jain
-  burnRestrictionArea: "`<location>`{=html}"
-  burnRestrictionEndDate: 20754
-  burnRestrictionEndTime: "HH:00 PM"
-  burnRestrictions: 0
+  burnRestrictionArea: Kalum Timber Supply Area south of the Skeena
+    River
+  burnRestrictionEndDate: 20755
+  burnRestrictionEndTime: "4:00 PM"
+  burnRestrictions: 1
   customMessage: Current conditions are expected to persist until
     weather conditions change and/or local emissions are reduced.
   ice: Issue
@@ -37,7 +38,8 @@ params:
   pollutant: PM25 & PM10
   warningLevel: yellow
 pollutant: PM25
-title: Air quality warning in effect for Kitimat
+title: Air quality warning and open burning restrictions in effect for
+  Kitimat
 toc-title: Table of contents
 type: local_emissions
 ---
@@ -76,6 +78,12 @@ and those who are pregnant.
 Postpone or reduce strenuous outdoor activities until the warning has
 ended. Spend time indoors in a space with filtered air. Monitor your
 symptoms and seek prompt medical attention if needed.
+
+Open burning restrictions are now in effect within Kalum Timber Supply
+Area south of the Skeena River. No new fires may be initiated, and no
+additional material may be added to existing fires. For more information
+on burning restrictions, refer to the Mandatory Emission Reduction
+Actions section below.
 
 Current conditions are expected to persist until weather conditions
 change and/or local emissions are reduced.
@@ -166,6 +174,20 @@ illness.
     permit related to Air Quality Warnings and are encouraged to reduce
     any other emissions where possible.
 
+-   NOTICE of DIRECTOR under s.30 Open Burning Smoke Control Regulation:
+
+> As pollution is occurring or is likely to occur from open burning,
+> pursuant to Sections 30(1) and 30(2) of the Open Burning Smoke Control
+> Regulation, the Director has prohibited open burning within Kalum
+> Timber Supply Area south of the Skeena River until October 29, 2026
+> 4:00 PM local time. No vegetative debris may be ignited or added to
+> ignited piles. Contravention of these provisions may be subject to a
+> fine under the Regulation.
+
+   Date issued: October 27, 2026`<br />`{=html}   Benjamin
+Weinstein`<br />`{=html}   For Director, Environmental Management
+Act`<br />`{=html}   Environmental Monitoring and Analysis Branch
+
 {{< accordion_end >}}
 {{< accordion_start title="Voluntary actions" initiallyOpen="true" >}}
 
@@ -203,7 +225,7 @@ communities at local time today:
   Community            Kitimat Haisla  Kitimat    Kitimat     Kitimat    Terrace   
                        Village         Haul Road  Riverlodge  Whitesail                     
   -------------------- --------------- ---------- ----------- ---------- --------- 
-  24-hr average        25.8            39.2        48.7         41         16    
+  24-hr average        25.3            41.9       49.5        38.3       16.1    
   (μg/m^3^)                                                                 
 
   --------------------------------------------------------------------------------
