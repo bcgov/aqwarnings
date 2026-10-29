@@ -11,17 +11,14 @@ date: 2025-08-12
 ice: Issue
 location: Inland Vancouver Island
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke from the Mount Underwood fire (approximately 12 km southeast of Port Alberni) is impacting air quality near Port Alberni and areas to the southeast, such as Lake Cowichan. Areas along the west coast of Vancouver Island (Tofino to Sooke) may also experience periods of smoke, but to a lesser degree."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Inland Vancouver Island
+  nextUpdate: 2025-08-13
+  aqMet: Muntaseer Azkar
+  regions:
+  - Inland Vancouver Island
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

@@ -7,18 +7,19 @@ customMessage: Cooler temperatures province-wide and precipitation in
   the Northeast have improved smoke levels.
 date: 2025-07-04
 ice: End
-lastWarning: 20272
+lastWarning: 2025-07-03
 location: Northeast BC and the Fraser Canyon (Lytton area)
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Cooler temperatures province-wide and precipitation in the Northeast have improved smoke levels."
   ice: End
-  lastWarning: 2025-02-10
-  location: Multiple locations in B.C.
-  sel_aqMet: Sakshi Jain
-  sel_healthAuth:
-  - First Nations Health Authority
-  - Northern Health
-sel_healthAuth: Fraser Health Authority, Interior Health Authority,
+  lastWarning: 2025-07-03
+  location: Northeast B.C. and the Fraser Canyon (Lytton area)
+  aqMet: Donna Haga
+  healthAuth:
+  - Fraser Health Authority
+  - Interior Health Authority
+  - Northern Health Authority
+healthAuth: Fraser Health Authority, Interior Health Authority,
   Northern Health Authority
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

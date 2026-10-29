@@ -6,17 +6,14 @@ date: 2025-07-20
 ice: Issue
 location: Northeast B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: ""
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Northeast B.C.
+  nextUpdate: 2025-07-21
+  aqMet: Gavin King
+  regions:
+  - Fort Nelson
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

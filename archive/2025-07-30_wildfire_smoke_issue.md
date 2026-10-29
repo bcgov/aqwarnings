@@ -9,17 +9,16 @@ date: 2025-07-30
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke in South Thompson region only expected to affect Cache Creek and Ashcroft."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-07-31
+  aqMet: Vickie Irish
+  regions:
+  - Fraser Canyon - north including Lillooet
+  - Fraser Canyon - south including Lytton
+  - South Thompson
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

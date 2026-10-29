@@ -7,17 +7,20 @@ date: 2025-06-10
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: ""
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-06-11
+  aqMet: James Hindson
+  regions:
+  - B.C. South Peace River
+  - B.C. North Peace River
+  - Fort Nelson
+  - Howe Sound
+  - Inland Vancouver Island
+  - Stikine River and Spatsizi Plateau Wilderness Provincial Parks
+  - Williston
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

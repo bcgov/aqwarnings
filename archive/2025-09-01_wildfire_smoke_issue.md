@@ -9,17 +9,22 @@ date: 2025-09-01
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke is expected to pool overnight in interior portions of the province degrading air quality in several regions."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-02
+  aqMet: Gavin King
+  regions:
+  - B.C. North Peace River
+  - B.C. South Peace River
+  - Cariboo - north including Quesnel
+  - Central Coast - inland sections
+  - Chilcotin
+  - Fort Nelson
+  - McGregor
   - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - Stuart - Nechako
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

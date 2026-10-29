@@ -14,17 +14,18 @@ ice: Issue
 location: Northern Sunshine Coast and parts of Vancouver Island (central
   - east)
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Over the next 24 hours, smoke may also be visible in areas adjacent to  the regions currently issued under this warning, including coastal sections north of the Sunshine Coast and northeastern Vancouver Island -- particularly Port McNeill and Port Hardy.  Additionally, light smoke from the Bear Gulch fire in Washington State is expected to reach Harrison Lake overnight, with conditions forecast to improve by midday tomorrow as smoke dissipates."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Northern Sunshine Coast and parts of Vancouver Island (central - east)
+  nextUpdate: 2025-08-15
+  aqMet: Gail Roth
+  regions:
+  - Campbell River
+  - Comox Valley
+  - East Vancouver Island - Nanoose Bay to Fanny Bay
+  - Inland Vancouver Island
+  - Sunshine Coast - Saltery Bay to Powell River
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
