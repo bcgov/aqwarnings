@@ -6,17 +6,48 @@ date: 2025-09-07
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: ""
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-08
+  aqMet: Nick Davey
+  regions:
+  - 100 Mile
+  - Arrow Lakes - Slocan Lake
+  - B.C. North Peace River
+  - B.C. South Peace River
+  - Boundary
+  - Cariboo - north including Quesnel
+  - Cariboo - south including Williams Lake
+  - Central Okanagan - including Kelowna
+  - Chilcotin
+  - East Columbia
+  - East Kootenay - north including Invermere
+  - East Kootenay - south including Cranbrook
+  - Elk Valley
+  - Fort Nelson
+  - Fraser Canyon - north including Lillooet
+  - Fraser Canyon - south including Lytton
+  - Kinbasket
+  - Kootenay Lake
+  - Lakes District
+  - McGregor
+  - Nicola
+  - North Columbia
+  - North Okanagan
+  - North Thompson
   - Prince George
-  - Whistler
+  - Shuswap
+  - Similkameen
   - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - South Thompson
+  - Stuart - Nechako
+  - West Columbia
+  - West Kootenay
+  - Whistler
+  - Williston
+  - Yoho Park - Kootenay Park
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

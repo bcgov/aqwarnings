@@ -7,17 +7,15 @@ date: 2025-08-05
 ice: Issue
 location: Central Interior
 params:
-  customMessage: "`Custom message.`"
+  customMessage: ""
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
+  location: Central Interior
+  nextUpdate: 2025-08-06
+  aqMet: James Hindson
+  regions:
   - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - Stuart - Nechako
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

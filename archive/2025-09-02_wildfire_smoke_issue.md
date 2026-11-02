@@ -8,19 +8,28 @@ customMessage: Expect increasing smoke in the Lakes District and Cariboo
   outside of Air Quality Warning regions may have smoke haze.
 date: 2025-09-02
 ice: Issue
-location: Multiple regions in B.C.
+location: Multiple locations in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Expect increasing smoke in the Lakes District and Cariboo regions. Smoke will be highly variable across all regions and areas outside of Air Quality Warning regions may have smoke haze."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-03
+  aqMet: Gavin King
+  regions:
+  - 100 Mile
+  - B.C. North Peace River
+  - B.C. South Peace River
+  - Cariboo - north including Quesnel
+  - Cariboo - south including Williams Lake
+  - Central Coast - inland sections
+  - Chilcotin
+  - Fort Nelson
+  - Lakes District
+  - McGregor
   - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - Stuart - Nechako
+  - Williston
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

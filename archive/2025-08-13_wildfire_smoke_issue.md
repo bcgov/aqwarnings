@@ -13,17 +13,16 @@ date: 2025-08-13
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "The East Vancouver Island and the Sunshine Coast are expected to be heavily affected. Smoke may not be visible until overnight/tomorrow morning. The heaviest impacts on the Sunshine Coast will be on Texada Island and Powell River, with a lesser impact inland. The smoke may also be visible in areas surrounding the regions issued under the warning areas."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-08-14
+  aqMet: Muntaseer Azkar
+  regions:
+  - East Vancouver Island - Nanoose Bay to Fanny Bay
+  - Inland Vancouver Island
+  - Sunshine Coast - Saltery Bay to Powell River
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

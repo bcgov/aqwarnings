@@ -10,17 +10,17 @@ date: 2025-08-31
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Expect local smoke close new and active fires across the province. Degraded conditions will persist in areas with local emissions."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-01
+  aqMet: Gavin King
+  regions:
+  - B.C. North Peace River
+  - B.C. South Peace River
+  - Chilcotin
+  - Fort Nelson
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

@@ -8,17 +8,18 @@ date: 2025-09-14
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke will remain on the landscape near to and downwind of active fire."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-15
+  aqMet: Gavin King
+  regions:
+  - Arrow Lakes - Slocan Lake
+  - Chilcotin
+  - Kootenay Lake
+  - West Columbia
+  - West Kootenay
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

@@ -7,18 +7,17 @@ date: 2025-06-03
 ice: Issue
 location: Northeast B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: ""
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
-smokeDuration: 24-48 hours
+  location: Northeast B.C.
+  nextUpdate: 2025-06-04
+  aqMet: Vickie Irish
+  regions:
+  - B.C. South Peace River
+  - B.C. North Peace River
+  - Fort Nelson
+  - Muncho Lake Park - Stone Mountain Park
+  smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
 type: wildfire_smoke

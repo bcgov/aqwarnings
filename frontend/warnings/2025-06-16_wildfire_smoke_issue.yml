@@ -8,17 +8,16 @@ date: 2025-06-16
 ice: Issue
 location: Northern BC
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Smoke may be visible across the entire northern border of the province."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
+  location: Northern B.C.
+  nextUpdate: 2025-06-17
+  aqMet: Gail Roth
+  regions:
+  - Fort Nelson
+  - Grayling River Hotsprings Ecological Reserve
   - Watson Lake
-  - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

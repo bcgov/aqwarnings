@@ -9,17 +9,23 @@ date: 2025-09-11
 ice: Issue
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Expect smoke near to active wildfires across the province. As winds change through the expect smoke to be highly variable across the landscape."
   ice: Issue
-  location: Multiple locations in B.C.
-  nextUpdate: 2025-02-10
-  sel_aqMet: Sakshi Jain
-  selRegionsIDs:
-  - Watson Lake
+  location: Multiple regions in B.C.
+  nextUpdate: 2025-09-12
+  aqMet: Gavin King
+  regions:
+  - 100 Mile
+  - B.C. South Peace River
+  - Cariboo - north including Quesnel
+  - Cariboo - south including Williams Lake
+  - Chilcotin
+  - Manning - Skagit Valley
+  - McGregor
   - Prince George
-  - Whistler
-  - South Okanagan
-  smokeDuration: "`24-48 hours`"
+  - South Thompson
+  - Yellowhead
+  smokeDuration: 24-48 hours
 smokeDuration: 24-48 hours
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents

@@ -7,18 +7,18 @@ customMessage: Wildfire smoke concentrations have reduced over the past
   24 hours.
 date: 2025-09-15
 ice: End
-lastWarning: 20345
+lastWarning: 2025-09-14
 location: Multiple regions in B.C.
 params:
-  customMessage: "`Custom message.`"
+  customMessage: "Wildfire smoke concentrations have reduced over the past 24 hours."
   ice: End
-  lastWarning: 2025-02-10
-  location: Multiple locations in B.C.
-  sel_aqMet: Sakshi Jain
-  sel_healthAuth:
-  - First Nations Health Authority
-  - Northern Health
-sel_healthAuth: Interior Health Authority, Vancouver Coastal Health
+  lastWarning: 2025-09-14
+  location: Multiple regions in B.C.
+  aqMet: Gavin King
+  healthAuth:
+  - Interior Health Authority
+  - Vancouver Coastal Health Authority
+healthAuth: Interior Health Authority, Vancouver Coastal Health
   Authority
 title: Air Quality Warning - Wildfire Smoke
 toc-title: Table of contents
