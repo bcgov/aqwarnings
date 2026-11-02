@@ -96,7 +96,7 @@ for real-time observations.
 **Media questions regarding this Air Quality Warning:**
 {{< card_start width="wide" >}}
 
-Psotka`<br />`{=html}Air Quality Meteorologist`<br />`{=html}Ministry of
+Jill Psotka`<br />`{=html}Air Quality Meteorologist`<br />`{=html}Ministry of
 Environment and Parks`<br />`{=html}236-468-3521
 
 {{< card_end >}}
